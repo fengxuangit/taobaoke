@@ -1,0 +1,197 @@
+@charset "utf-8";
+.taeapp * { word-wrap: break-word; outline: none;}
+.taeapp td, .taeapp input, .taeapp textarea, .taeapp select, .taeapp button { color: #555; font: 12px "Lucida Grande", Verdana, Lucida, Helvetica, Arial, 'Simsun', sans-serif; }
+.taeapp ul, .taeapp dl, .taeapp dd, .taeapp p, .taeapp h1, .taeapp form, .taeapp fieldset { margin: 0; padding: 0; }
+.taeapp ul { list-style: none; }
+.taeapp h1, h2, h3, h4, h5, h6 { font-size: 12px; }
+.taeapp a img { border: none; }
+.taeapp em, cite, th { font-style: normal; font-weight: normal; }
+
+.taeapp ul li, .taeapp li { list-style: none; }
+.taeapp .z { float: left; }
+.taeapp .y { float: right; }
+.taeapp .cl:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.taeapp .cl { zoom: 1; }
+.taeapp .vm { vertical-align: middle; }
+.taeapp .vm * { vertical-align: middle; }
+.taeapp .clear { clear: both; height: 0; line-height: 0; font-size: 0; }
+.taeapp a { color: #2366A8;}
+.taeapp a:hover { text-decoration: none; }
+.taeapp .txt{height:auto;}
+
+
+.taeapp table { border-collapse: collapse; }
+.taeapp th { text-align: left; }
+.taeapp label,.taeapp  .pointer { cursor: pointer; }
+
+
+
+
+.taeapp .table_main { padding-left: 8px;  min-height:600px;}
+.taeapp .table_top { padding: 5px; font-weight: 600; margin-top: 5px; line-height: 22px; height: 22px; background: url(assets/admin/images/bg_repx_hc.gif); }
+.taeapp .table_top_l{padding:0 50px 0 15px;float:left;}
+.taeapp .table_top_r{float:left;}
+.taeapp .table_top_r ul li {float:left;margin-right:10px;}
+.taeapp .table_top_r ul li.on a{color:#F00;}
+.taeapp .highlight { color: #C00; font-weight: 700; }
+
+.taeapp .right_bar{float:right;margin-right:30px;}
+.taeapp .right_bar a{color:#900;}
+.taeapp .right_bar ul li {float:left;padding:2px 5px;margin-right:5px;}
+
+/* form */
+.taeapp textarea,.taeapp  input,.taeapp  select,.taeapp  .html { padding: 2px; border: 1px solid; border-color: #666 #ccc #ccc #666; background: #F9F9F9; color: #333; }
+.taeapp .txt, select, .vmiddle { vertical-align: middle; }
+.taeapp .txt:hover, .txt:focus, textarea:hover, textarea:focus { border-color: #09C; background: #F5F9FD; }
+.taeapp .hover:hover { background: #F5F9FD; }
+.taeapp .hover:hover .addchildboard, .hover:hover .deleterow { color: #F5F9FD; }
+.taeapp .txtnobd { border: 1px solid #FFF; background: #FFF; cursor: pointer; }
+.taeapp .radio, .checkbox, .pr, .pc { border: none; background: none; vertical-align: middle; }
+.taeapp .checkbox { height: 14px; }
+.taeapp .btn,.taeapp .btn2 { margin: 3px 0; padding: 5px 10px; border-color: #ddd #666 #666 #ddd; background: #DDD; color: #000; cursor: pointer; vertical-align: middle; font-weight:600;}
+.taeapp .select_price_btn { margin: 3px 0; padding: 5px 10px; border-color: #ddd #666 #666 #ddd; background: #DDD; color: #000; cursor: pointer; vertical-align: middle; }
+
+.taeapp .infobox { clear:both; margin-bottom:10px; padding:30px; line-height:30px;font-size:14px;text-align:center; border-top:4px solid #DEEFFA; border-bottom:4px solid #DEEEFA; background:#F2F9FD; zoom:1; }
+.taeapp .infobox p{font-weight:100;color:#03C;border-bottom: 1px dotted #CCC;}
+
+/* mainbox */
+
+.taeapp .mainhd { position: relative; overflow: hidden; text-align: left; height: 90px; line-height: 88px; background: url(assets/admin/images/bg_repx.gif) repeat-x; }
+
+.taeapp .menutd { background: #F2F9FD url(assets/admin/images/bg_repx_h.gif) right top no-repeat; }
+.taeapp .menu { width: 160px; }
+.taeapp .menu ul { }
+.taeapp .menu li { margin: 3px 0; *margin: 0;width: 153px; height: auto !important; height: 25px; overflow: hidden; }
+.taeapp .menu li.s { height: auto; }
+.taeapp .menu li.a { margin-top: 0; }
+.taeapp .menu li a { display: block; padding: 4px 0 3px 30px; *padding: 5px 0 3px 30px;background: url(assets/admin/images/bg_repno.gif) no-repeat 15px -43px; color: #666; white-space: nowrap; font-size:12px;}
+.taeapp .menu li a:hover { text-decoration: none; background: #EAF4FB url(assets/admin/images/bg_repno.gif) no-repeat 15px -43px; color: #2366A8; }
+.taeapp .menu li a.tabon, .menu li a.tabon:hover { text-decoration: none; background: #DEEFFA url(assets/admin/images/bg_repno.gif) no-repeat 15px -43px; color: #2366A8; }
+.taeapp .menu li em { position: absolute; cursor: pointer; margin: -1px 0 0 -20px; *margin-top: -2px;width: 16px; height: 16px; visibility: hidden; background: #EAF4FB url(assets/admin/images/newwin.gif) no-repeat; }
+.taeapp .menu li a:hover em, .menu li a.tabon:hover em { visibility: visible; }
+.taeapp .menu li a.tabon:hover em { background-color: #DEEFFA; }
+.taeapp .menu .lsub { cursor: pointer; background: url(assets/admin/images/add.gif) no-repeat 12px 5px; }
+.taeapp .menu .lsub div { padding: 4px 0 3px 30px; font-weight: 700; }
+.taeapp .menu .desc { background: url(assets/admin/images/desc.gif) no-repeat 12px 5px; }
+.taeapp .menu .lsub ol { list-style: none; padding: 0 0 0 30px; margin: 2px 0 0 -30px; }
+.taeapp .mask { background: url(assets/admin/images/bg_repx_hb.gif) repeat-x;}
+.taeapp .team a { float: left; width: 33%; }
+
+
+/* tab */
+.taeapp .tab1 { overflow: hidden; clear: both; margin-bottom: 10px; }
+.taeapp .tab1 li { float: left; margin-right: 3px; text-align: center; font-weight: 700; }
+.taeapp .tab1 a { display: block; line-height: 26px; color: #666; white-space: nowrap; }
+.taeapp .tab1 a span { display: block; padding: 0 7px; }
+.taeapp .tab1 a:hover { text-decoration: none; background: url(assets/admin/images/btn_block_2.gif) no-repeat 0 -52px; color: #09C; }
+.taeapp .tab1 a:hover span { display: block; background: url(assets/admin/images/btn_block_2.gif) no-repeat right -78px; }
+.taeapp .container { padding: 0 5px; text-align: left; }
+.taeapp .itemtitle { clear: both; overflow: hidden; line-height: 20px; padding: 10px 0 10px 10px; background: url(assets/admin/images/bg_repx_hc.gif); }
+.taeapp .itemtitle h3 { float: left; margin-right: 20px; }
+.taeapp .itemtitle ul { float: left; line-height: 18px; }
+.taeapp .itemtitle .tab1 { clear: none; }
+.taeapp .itemtitle .tab1 a { line-height: 20px; }
+.taeapp .itemtitle .tab1 a span { padding: 0 7px; *padding:1px 7px 0;}
+.taeapp .itemtitle .tab1 a:hover { background: #F5F5F5 url(assets/admin/images/btn_block_3.gif) no-repeat 0 -40px; color: #09C; }
+.taeapp .itemtitle .tab1 a:hover span { background: url(assets/admin/images/btn_block_3.gif) no-repeat right -60px; }
+.taeapp .itemtitle .tab1 .hasdropmenu a:hover { color: #666; }
+.taeapp .itemtitle .tab1 .current a { background: url(assets/admin/images/btn_block_3.gif) no-repeat 0 0 !important; }
+.taeapp .itemtitle .tab1 .current a span, .itemtitle .tab1 .current a:hover span { background: url(assets/admin/images/btn_block_3.gif) no-repeat right -20px; color: #FFF; }
+.taeapp .itemtitle .tab1 .dropmenu a { background: none !important; }
+.taeapp .itemtitle .tab1 .dropmenu a:hover, .itemtitle .tab1 .dropmenu a.current { background: #DEEFFA !important; }
+
+
+/* table */
+.taeapp .tb2 .tips { margin-left:15px; color:#999; }
+.taeapp .tb2 .tips2 { line-height:180%; color:#999; word-break:break-all; padding-left:100px;}
+.taeapp .tb2 .tips2:hover{color:#000;}
+.taeapp .tb2 .tb2 .tipsblock { background:none; margin-bottom:-10px; }
+
+.taeapp .tb2 .tipsblock ul { margin-bottom:-11px; }
+.taeapp .tb2 .tipsblock li { margin-bottom:5px; padding:0 0 5px 20px; line-height:160%; background:url(bg_repno.gif) no-repeat -340px 6px; }
+.taeapp .tb2 .tips2 a,.tb2  .tipsblock a { margin:0 3px; text-decoration:underline; color:#666; }
+.taeapp .tb2 .tips2 a:hover,.tb2 .tips2:hover .tb2  .tipsblock a:hover { color:#09C; }
+.taeapp .tb { clear: both; width: 100%; margin-top: 8px; }
+.taeapp .tb th, .tb td { height: 34px; }
+
+
+/* tb */
+.taeapp .tb2 { }
+.taeapp .tb2 tr.hover:hover .tips2 { color: #333; }
+.taeapp .tb2 tr.hover:hover td { background: #C1E2F8; }
+.taeapp .tb2 tr.hl { background: #FFFAF3; }
+.taeapp .tb2 tr.hl td { border-top: 1px #F4E4B4 solid; border-bottom: 1px #F4E4B4 solid }
+.taeapp .tb2.tdhover tr:hover td { background: none; }
+.taeapp .tb2.tdhover tr td:hover { background: #F2F9FD; }
+.taeapp .tb2 td { border-top: 1px dotted #C4DDEE ;}
+
+.taeapp .td25 .txt { width: 40px; }
+.taeapp .nowrap { white-space: nowrap; }
+.taeapp .rowform { width: 400px;  padding:2px;}
+.taeapp .rowform .txt {  width: 300px; }
+.taeapp .rowform .tarea { margin-right: 10px; }
+.taeapp .rowform select { margin-right: 10px; width: 256px; }
+.taeapp .rowform li { overflow: hidden; float: left; margin-right: 10px; white-space: nowrap; cursor: pointer; }
+.taeapp .rowform .clear { clear: both; float: none; margin-bottom: 10px; }
+.taeapp .rowform .nofloat { clear: both; }
+.taeapp .rowform .nofloat li { float: none; margin: 5px 0; overflow: visible; }
+.taeapp .files { padding: 1px 0 1px 50px; background: url(assets/admin/images/bg_repno.gif) no-repeat -260px -150px; }
+.taeapp .del { padding-bottom: 1px; padding-left: 18px; background: url(assets/admin/images/bg_repno.gif) no-repeat 0 -285px; *background:url(assets/admin/images/bg_repno.gif) no-repeat 0 -286px;
+color: #E8594D; background: none!important; border: none!important; }
+.taeapp .node, .board { padding-left: 55px; background: url(assets/admin/images/bg_repno.gif) no-repeat -240px -550px; }
+/* pages */
+
+
+
+.taeapp .pg a, .pg strong, .taeapp .pgb a, .pg label{padding: 5px 8px!important;}
+
+.taeapp .cuspages { margin: 3px 0; line-height: 200%; }
+.taeapp .cuspages .pg { display: inline; clear: none; margin-right: 10px; }
+.taeapp .fixsel select { margin: 3px 5px 3px 0; }
+.taeapp .td_l { width: 150px; }
+
+.taeapp .red { color: #F00;}
+.taeapp .td25{width:60px;}
+.taeapp .w40 { width: 40px!important; }
+.taeapp .w90 { width: 90px!important; }
+.taeapp .w200{ width: 200px!important; }
+.taeapp .line { border-bottom: 1px dotted #ADC3E0;width:90%;margin:0 auto; }
+
+.taeapp .lightlink { color:#666; text-decoration:underline; }
+.taeapp .infotitle3{color:#F00;font-size:14px;}
+.taeapp .copyright{padding:0 15px;}
+.taeapp .copyright p{line-height:18px;font-size:10px;}
+.taeapp .kg_datePicker{width:150px;}
+
+
+.taeapp .uz_system_debug {margin-left:160px;}
+.taeapp .admin_msg{margin: 0 auto;font-size: 20px;color:#F00;font-weight:600;width:800px;padding:5px;}
+.taeapp .menutd_fixed .menutd {position: fixed;top: 0;left: 0;height:100%;z-index:99999;}
+.taeapp .menutd_fixed .admin_msg{padding-left:160px;}
+.taeapp .menutd_fixed .uz_system_debug{margin-left:160px;}
+.taeapp .menutd_fixed .mask{ padding-left:160px;}
+.taeapp .menutd_fixed .itemtitle{position: fixed;top: 0;left: 160px;width:90%;z-index:9999;border-bottom: 3px solid #DDD;}
+
+.taeapp .admin_main{padding-bottom:80px;}
+
+
+
+.taeapp .posd_dp{ z-index:1;background:#fff;width:460px;padding:10px;}
+.taeapp .post_dpm{	z-index:1;left:300px;top:120px;}
+.taeapp .dp_m{margin:4px 0;}
+.taeapp .dp_m .left_title{float:left;width:80px;color:#000;}
+.taeapp .dp_m .right_con{float:left;width:360px;}
+.taeapp .posd_dp .txt{width:270px;height:20px;line-height:20px;}
+
+
+.taeapp .admin_aitao .post_dpm  table td{background:#000;border-top:none;}
+.taeapp .admin_aitao .post_dpm  table td.m_c{background:#fff;border-top:none;}
+
+.taeapp .menu_aitao{position: fixed;left: 0;top: 0;z-index: 99999;border-right: 1px dotted #C4DDEE;}
+.taeapp .admin_aitao{background:#fff;}
+.taeapp .admin_aitao table td ,.taeapp .admin_aitao table th{background:none;padding:0;border:none;border-top: 1px dotted #C4DDEE;}
+.taeapp .admin_aitao .tb2 .tips2{padding-left:0;}
+.taeapp .admin_aitao  .td25{width:auto;}
+.taeapp .admin_aitao table td.menu_aitao{background: #F2F9FD url(assets/admin/images/bg_repx_h.gif) right top no-repeat;}
+.taeapp .location  .menu_aitao{position: inherit;}
+

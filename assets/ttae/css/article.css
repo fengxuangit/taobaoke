@@ -1,0 +1,64 @@
+.taeapp .about { margin: 15px 0; }
+.taeapp .about .xf-main { width: 860px; float: right; }
+.taeapp .about .xf-sub { float: left; width: 200px; }
+.taeapp .about .xf-box { padding: 19px; border: 1px solid #DADADA; background: #FFF; color: #555; }
+.taeapp .about .xf-box h3 { font-size: 20px; font-family: "微软雅黑", "宋体"; height: 42px; line-height: 42px; border-bottom: 1px solid #E8E8E8; background: url(assets/ttae/images/hd_ico2.png) 0 15px no-repeat; padding-left: 22px; color: #333; }
+.taeapp .about .xf-box .art-list { margin: 16px 0; }
+.taeapp .about .xf-box .art-list li { font-size: 14px; background: url(assets/ttae/images/list-ico2.png) 0 9px no-repeat; padding-left: 16px; padding-bottom: 11px; }
+.taeapp .about .xf-box .art-list li a { color: #555; }
+.taeapp .about .xf-box .art-list li a:hover { color: #DF0101; text-decoration: underline; }
+.taeapp .about .xf-box .art-list li.current a { color: #DF0101; }
+.taeapp .about .xf-box .notice { font-size: 14px; padding: 6px; text-align: center; border: #FFE1E6 dashed 1px; background: #FAF2F3; color: #E12040; }
+.taeapp .black { color: #000; }
+.taeapp .xf-form { padding: 20px; position: relative; }
+.taeapp .xf-form em { color: #999; }
+.taeapp .xf-form .f-tips { font-size: 20px; color: #DF0101; padding-left: 60px; font-family: "微软雅黑", "宋体"; }
+.taeapp .xf-form .check-btn { display: block; position: absolute; top: 22px; right: 50px; background: #EEE; height: 30px; width: 180px; text-align: center; line-height: 30px; }
+
+
+
+
+.taeapp .xf-article { margin: 0 30px; padding: 0px 0 50px; }
+.taeapp .xf-article-header { padding: 20px 0; border-bottom: 1px dotted #888; text-align: center; }
+.taeapp .xf-article-header h1 { font: 24px/1.5 arial, 微软雅黑, 宋体; color: #555; }
+.taeapp .xf-article-cnt { overflow: hidden; width: 100%; padding: 25px 0 0; font-size: 12px; line-height: 2; color: #484848; }
+.taeapp .xf-article-cnt img{display:block;}
+.taeapp .article-list { padding: 15px; }
+.taeapp .article-entry { padding: 15px 0 15px; border-bottom: 1px dotted #CCC; }
+.taeapp .article-entry .tit { overflow: hidden; width: 100%; height: 25px; margin-bottom: 5px; white-space: nowrap; text-overflow: ellipsis; font-size: 16px; font-family: arial, 微软雅黑, 宋体; line-height: 25px; }
+.taeapp .article-entry .cnt { margin-bottom: 10px; line-height: 1.5; color: #AAA; }
+.taeapp .article-entry .act { overflow: hidden; zoom: 1; }
+.taeapp .article-entry .act .sns-widget { float: right; }
+
+
+
+
+
+/* apply */
+.taeapp .about .xf-box .notice { font-size: 14px; padding: 6px; text-align: center; border: #FFE1E6 dashed 1px; background: #FAF2F3; color: #E12040; }
+.taeapp .black { color: #000; }
+.taeapp .xf-form em { color: #999; }
+.taeapp .xf-form .f-tips { font-size: 20px; color: #DF0101; padding-left: 60px; font-family: "微软雅黑", "宋体"; }
+.taeapp .f-itm { zoom: 1; padding: 0 0 15px 130px; line-height: 34px; }
+.taeapp .f-itm:after { display: table; clear: both; content: ""; }
+.taeapp .f-itm .f-label { float: left; width: 145px; padding-right: 10px; margin-left: -155px; text-align: right; font-size: 14px; line-height: 34px; color: #6B6B6B; }
+.taeapp .f-itm .f-text { height: 16px; margin-right: 5px; padding: 8px; border: 1px solid #DADADA; background: url(assets/tejia/img/f-text.png) no-repeat; }
+.taeapp .f-itm .f-textarea { border: 1px solid #DADADA; background: #FFF; }
+.taeapp .f-itm .f-btn { overflow: visible; width: auto; _width: 0; height: 30px; border: 0; padding: 0 20px; background: #B61111; color: #FFF; cursor: pointer; }
+.taeapp .f-itm .f-submit { overflow: visible; width: auto; _width: 0; height: 38px; border: 0; padding: 0 50px; background: #B61111; font-size: 14px; color: #FFF; cursor: pointer; }
+.taeapp .f-itm .f-submit:hover, .taeapp .f-itm .f-btn:hover { background: #CF1302; }
+.taeapp .xf-form .none { display: none; }
+.taeapp .f-show { margin: 20px 0; background: #FAFAFA; border: #EEE solid 1px; padding-bottom: 12px; }
+.taeapp .f-show .f-show-info { float: left; width: 450px; text-align: left; }
+.taeapp .f-show .f-show-img { float: right; width: 240px; }
+.taeapp .f-show .f-show-img h5 { padding: 9px 0; }
+.taeapp .f-show .f-show-img a { width: 230px; height: 230px; border: #E8E8E8 solid 1px; display: block; }
+.taeapp .f-show .f-show-img a:hover { border: #DF0101 solid 1px; }
+.taeapp .f-show table { margin: 0 auto; }
+.taeapp .f-show th, .taeapp .f-show td { text-align: left; padding: 9px 0; vertical-align: top; color: #6B6B6B; }
+.taeapp .f-show .res { color: #DF0101; font-size: 14px; }
+.taeapp .xf-article{padding:0;margin:0;}
+.taeapp .f-itm .f-text {height: 16px;margin-right: 5px;padding: 8px;border: 1px solid #DADADA;background: url(assets/ttae/images/f-text.png) no-repeat;}
+.taeapp .dateline{width:180px;}
+.upload_file_btn{border: 1px solid #ccc;}
+

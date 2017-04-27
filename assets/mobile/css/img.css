@@ -1,0 +1,334 @@
+
+body{background:#fff;}
+article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary { display: block; font-size: 15px }
+article { max-width: 960px; margin: 0 auto }
+.hidden { display: none }
+.block { display: block }
+.inline { display: inline }
+.icons, #logo, #icon_nav, nav a i { background-image: url(../images/icons.png); background-repeat: no-repeat; background-size: 56px }
+.icons { display: inline-block; vertical-align: middle }
+.icon_comment { width: 16px; height: 16px; background-position: 0 -248px }
+.icon_back { width: 25px; height: 25px; background-position: 0 -78px }
+.icon_home { width: 25px; height: 25px; background-position: 0 -50px }
+.icon_share { width: 20px; height: 16px; background-position: -18px -260px }
+.icon_arrow_down { width: 9.5px; height: 5.5px; background-position: -27px -250px }
+.icon_series { padding-right: 2px; text-align: center; font-size: 12px; width: 34px; height: 17px; line-height: 17px; background-position: 3px -474px; background-size: 100px }
+.icon_recommendLink { width: 20px; height: 18px; background-position: 0 -290px }
+.icon_price { width: 27px; height: 13px; line-height: 13px; padding-right: 3.5px; text-align: center; background-position: 0 -277px; font-size: 9px }
+.icon_appclose { width: 18px; height: 17px; background-position: -40px -290px; text-indent: -999px; overflow: hidden }
+.icon_applogo { width: 49px; height: 49px; background-position: 0 -987px }
+.icon_applogo_wp { width: 49px; height: 49px; background-position: 0 -1058px }
+#gotop { width: 34px; height: 34px; background-position: 0 -695px; position: fixed; right: 5px; bottom: 50px; text-indent: -999px; overflow: hidden; display: none; background-size: 57px }
+.icon_logo42 { width: 21px; height: 21px; background-position: 0 -1036px }
+.icon_weibo { background-position: 0 -347px }
+.icon_douban { background-position: 0 -403px }
+.icon_renren { background-position: 0 -459px }
+.icon_qzone { background-position: 0 -515px }
+.icon_tqq { background-position: 0 -571px }
+.icon_tsohu { background-position: 0 -627px }
+.icon_tags { width: 39px; height: 38px; position: absolute; z-index: 2; left: 0; top: 0 }
+.icon_tag_cent { background-position: 0 -716px }
+.icon_tag_globalbuy { background-position: 0 -755px }
+.icon_tag_godprice { background-position: 0 -793px }
+.icon_tag_handrush { background-position: 0 -832px }
+.icon_tag_soldout { background-position: 0 -871px }
+.icon_tag_top { background-position: 0 -909px }
+.icon_tag_weried { background-position: 0 -948px }
+.s_icon { position: absolute; width: 25px; height: 14px; font-size: 12px; color: #f35a5c; background: #f5f5f5; bottom: 5px; right: 0; line-height: 14px; text-align: center; z-index: 10; border-radius: 2px; -webkit-border-radius: 2px; -moz-border-radius: 2px; -o-border-radius: 2px; -ms-border-radius: 2px }
+p .img_desc { display: block }
+#app { position: relative; height: 87px; background: #e7e7e7; overflow: hidden }
+#app .icon_appclose { position: absolute; right: 7.5px; top: 3.5px }
+#app .icon_applogo, #app .icon_applogo_wp { float: left; margin: 17.5px 17.5px 0 20px }
+#app dl { float: left; margin-top: 17.5px }
+#app dl dt { color: #6c6c6c; font-size: 1.33em }
+#app dl dd { color: #9b9c9c; font-size: .87em }
+#app dl dd.star { color: #ebc822 }
+#app .btn_app { position: absolute; width: 40px; height: 21px; text-align: center; line-height: 21px; font-size: 13px; color: #fff; right: 27.5px; bottom: 10px; background: #5e91d0; border-radius: 2px }
+.top_banner { width: 100%; height: 154px; background: url(../images/top_banner.png) repeat-x; position: relative }
+.top_banner .close { box-shadow: 1px 4px 4px #7d7d7d; border: 1px solid #7d7d7d; border-radius: 100%; -webkit-border-radius: 100%; -moz-border-radius: 100%; -o-border-radius: 100%; -ms-border-radius: 100%; width: 38px; height: 38px; position: absolute; top: 8px; left: 8px; background: url(../images/icons.png) no-repeat -73px -2262px }
+.top_banner .image_wrap { float: left; width: 10%; min-width: 118px; margin: 20px 0 0 60px }
+.top_banner .image_wrap img { max-width: 118px; width: 100% }
+.top_banner dl { width: 35%; float: left; margin-left: 15px; margin-top: 40px }
+.top_banner dl dt { font-size: .8em; color: #4d4d4d; text-shadow: 0 2px 1px #fff; width: 100%; overflow: hidden; white-space: nowrap; text-overflow: ellipsis }
+.top_banner dl dd { font-size: .6em; color: #757575; text-shadow: 0 2px 1px #fff }
+.top_banner .open { border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; -o-border-radius: 5px; -ms-border-radius: 5px; float: right; margin: 50px 12px 0 0; font-size: .8em; color: #6a6a6a; width: 94px; height: 53px; border: 2px solid #afafaf; line-height: 53px; text-align: center; text-shadow: 1px 2px 1px #fff; box-shadow: 0 2px 1px #fff; background: -webkit-linear-gradient(top, #fff, #d3d3d3); background: -moz-linear-gradient(top, #fff, #d3d3d3); background: -o-linear-gradient(top, #fff, #d3d3d3); background: -ms-linear-gradient(top, #fff, #d3d3d3) }
+header { display: table; width: 100%; height: 2.93333em; font-size: 15px; background: #f04848; text-align: center; line-height: 2.93333em; color: #fff; position: relative; -moz-box-shadow: 0 1px 1px #941615; -webkit-box-shadow: 0 1px 1px #941615; box-shadow: 0 1px 1px #941615; z-index: 99 }
+header h1 { width: 100px; margin: 0 auto }
+#logo { float: left; margin-top: 10px; margin-left: 6px; padding-left: 26px; line-height: 25px; font-family: microsoft yahei; font-weight: 400 }
+#icon_nav { position: absolute; top: 10px; right: 7.5px; width: 25px; height: 25px; overflow: hidden; text-indent: -999px; background-position: 0 -27px }
+#icon_nav.current { background-position: -35px -27px }
+nav { position: absolute; text-align: center; width: 100%; height: auto; top: 44px; left: 0; border-bottom: 1px solid #000; background-color: #333; -moz-box-shadow: 0 2px 2px #941615 inset; -webkit-box-shadow: 0 2px 2px #941615 inset; box-shadow: 0 2px 2px #941615 inset; display: none }
+nav a { text-align: center; display: inline-block; width: 28%; padding-bottom: 10px; margin: 15px 16px 0; font-size: 12px; line-height: 1; color: #fff; opacity: .6 }
+nav a.current { opacity: 1 }
+nav a i { display: inline-block; width: 36px; height: 29px }
+nav a i#icon_nav_preferential { background-position: 0 -100px }
+nav a i#icon_nav_oversea { background-position: 0 -129px }
+nav a i#icon_nav_discovery { background-position: 0 -159px; height: 25px }
+nav a i#icon_nav_show { background-position: 0 -188px }
+nav a i#icon_nav_experience { background-position: 0 -218px }
+nav a i#icon_nav_information { background-position: 6px -1177px }
+header .icon_back, header .icon_home { position: absolute; top: 10px; left: 12.5px; overflow: hidden; text-indent: -999px }
+.foot_banner { font-size: 15px; height: 2.75em; line-height: 2.75em; background-color: #f2f2f2 }
+.foot_banner span a { position: relative; font-size: .875em; color: #4d86d3; display: inline-block; width: 32%; text-align: center }
+.foot_banner span.current a { color: #9f9f9f }
+.foot_banner span a em { top: 3px; font-size: 12px; position: absolute; width: 20px; height: 12px; color: #fff; background-color: #f45a5a; line-height: 12px; border-radius: 2px }
+#slider { width: 100%; max-width: 640px; max-height: 310px; margin: 0 auto; overflow: hidden }
+#slider img { width: 100%; display: block }
+.list { font-size: 15px; max-width: 960px; margin: 0 auto }
+.image_wrap { position: relative; overflow: hidden }
+.image { display: table-cell; text-align: center; vertical-align: middle }
+.image img { vertical-align: middle }
+
+.list.list_experience .image img { width: 100%; max-width: 75px; max-height: 75px }
+.list_preferential { padding: 0 1.875% }
+.list_preferential li { border-bottom: 1px solid #dedede; padding: 6px 0; overflow: hidden }
+.list_preferential li .image_wrap { float: left; width: 84px; height: 84px; margin-right: 20px }
+.list_preferential li .image { width: 84px; height: 84px }
+.list_preferential li .image img { max-width: 84px; max-height: 84px ;height:84px;}
+.list_preferential li address { font-size: .9em; line-height: 1.2; height: 1.2em; overflow: hidden; color: #868b98; white-space: nowrap; text-overflow: ellipsis }
+.list_preferential li address>span { float: right; font-size: .8em; padding-top: 3px }
+.list_preferential li h2 { margin: 6px 0 12px; overflow: hidden ;    line-height: 22px;
+    height: 70px;
+    overflow: hidden;}
+.list_preferential li .tips_a em { float: left; color: #e6312a; width: 40%; height: 1.2em; overflow: hidden; text-overflow: ellipsis; white-space: nowrap }
+.list_preferential li .tips_a em.person { font-size: .8em; color: #868b98 }
+.list_preferential li .tips_a span { float: right; font-size: 12px; color: #868b98 }
+.list_preferential li .tips_a span .icon_comment { margin-right: 7px }
+.btn_getmore { border-radius: 2px; width: 116.5px; height: 29px; line-height: 29px; font-size: 14px; color: #868b98; text-align: center; border: 1px solid #d9d9d9; margin: 15px auto; background: #fff }
+.btn_getmore a { color: #868b98 }
+.btn_getmore img { display: inline-block; width: 50px; height: 10px }
+.list_show { max-width: 640px }
+.list_show li { border-bottom: 1px solid #e1e4e5; background: #f5f5f5; margin: 0 auto 17.5px }
+.list_show li .image_wrap, .list_show li .image { margin: 0 auto; width: 100%; max-width: 320px; max-height: 170px; display: block; overflow: hidden }
+.list_show li .image img { max-width: 320px; display: block; margin: 0 auto }
+.list_show li h2 { line-height: 1.36; height: 2.72em; overflow: hidden; margin: 10px 0 7.5px; padding: 0 40px 0 5px }
+.list_show li h2 span { float: right; margin-right: -35px; color: #868b98; font-size: .8em; text-align: center }
+.list_show li h2 span .icon_comment { display: block; margin: 8px auto 3px }
+.list_discovery { max-width: 320px; margin: 0 auto }
+.list_discovery li { width: 145px; border: 1px solid #ebebeb; overflow: hidden; margin: 9px 0 0 9px; background: #f5f5f5 }
+.list_discovery li .image { width: 145px; height: auto }
+.list_discovery li .image img { max-width: 145px; vertical-align: baseline; margin: 0 auto; padding: 0; display: block }
+.list_discovery li address { color: #868b98; font-size: .8em; padding: 10px }
+.list_discovery li h2 { line-height: 1.18; padding: 0 10px; font-size: 1em }
+.list_discovery li .tips_a { padding: 15px 10px 8px; overflow: hidden }
+.list_discovery li .tips_a em { float: left; color: #e6312a; width: 60%; height: 1.2em; overflow: hidden; text-overflow: ellipsis; white-space: nowrap }
+.list_discovery li .tips_a span { float: right; color: #868b98 }
+.list_discovery li .tips_a span .icon_comment { margin-right: 7px; margin-top: -1px }
+.list_experience { width: 100% }
+.list_experience li { border-bottom: 1px solid #dedede; padding: 0 1.875% 10px; overflow: hidden; height: 136px }
+.list_experience li h2 { margin: .8em 0; height: 2.4em; overflow: hidden; line-height: 2.4em }
+.list_experience li .image_wrap { float: left; margin-right: 1.25em; width: 110px }
+.list_experience li .image { display: block }
+.list_experience li p { font-size: .87em; line-height: 1.54; height: 3.08em; overflow: hidden; color: #868b98; margin-bottom: .9375em }
+.list_experience li .tips_a { padding-left: 128px }
+.list_experience li .tips_a em { color: #868b98; float: left; width: 40%; height: 1.2em; overflow: hidden; text-overflow: ellipsis; white-space: nowrap }
+.list_experience li .tips_a span { float: right; font-size: .8em; color: #868b98; padding-top: 5px }
+.list_experience li .tips_a span .icon_comment { margin-right: 7px }
+.list_experience.information li .tips_a em { font-size: .87em; color: #868b98 }
+.list_experience.information li h2 { height: 2.4em; overflow: hidden }
+.detail h1, .detail h2, .detail h3, .detail h4, .detail h5, .detail h6, .detail address, .detail_content p, .detail .userMsg, .list_experience li h2, .series_title { background: #fff }
+.detail h1 { font-size: 1.4em; line-height: 1.3333; padding: 15px 4.53125% }
+.detail .userMsg, .detail address { margin: 0 4.53125%; font-size: .93em }
+.detail address { padding-top: 15px }
+.detail .userMsg { margin-bottom: 30px; color: #bcbdc4 }
+.detail p { margin-bottom: 15px }
+.detail .special_tips_a { color: #e6312a; margin: 0 4.53125% 15px }
+.detail_content { padding: 0 4.53125% 15px; line-height: 1.6; overflow: hidden }
+.detail_content img { clear: both; display: block; max-width: 100%; height: auto; margin: 0 auto 15px }
+.detail_content img.face { display: inline; max-width: auto; width: auto; margin: 0 }
+.detail .img_small_wrap { float: right; width: 117.5px; margin: 0 4.53125% 22.5px 22.5px; text-align: center }
+.detail_content .img_small_wrap img { width: 100%; margin: 0 0 8.5px }
+.detail a { color: #5183c0 }
+a.direct_link { clear: both; display: block; width: 117.5px; height: 30px; font-size: 16px; text-align: center; line-height: 30px; color: #fff; background: #5e91d0; font-family: simsun; margin: 0 auto 10px }
+.worth_number { background: #f6f6f6; font-size: 13px; border-top: 1px solid #e1e4e5; border-bottom: 1px solid #e1e4e5; text-align: center; padding: 9px 0; margin-bottom: 15px }
+.worth_number b { color: #e6312a; margin: 0 10px }
+.worth_number .icon_logo42 { margin: -5px 10px 0 0 }
+.comments { font-size: .87em }
+.comments h4 { border-bottom: 1px solid #e1e4e5; padding: 17.5px 4.53125%; font-size: 13px }
+.comments_one { border-bottom: 1px solid #e1e4e5; padding: 17.5px 4.53125%; line-height: 1.46 }
+.comments_one .userInfo { font-size: 12px; color: #868b98; width: 100% }
+.comments_one .userInfo em { color: #5183c0; margin-right: 35px; display: inline }
+.comments_one p { margin: 0; line-height: 1.6; background: #fff }
+.list_quoteComment { border: 1px solid #e0e0e0; border-bottom: 0; background: #f5f5f5; margin: 10px 0 }
+.list_quoteComment li { border-bottom: 1px solid #e0e0e0; position: relative; padding: 7.5px 6.9% 7.5px 3.45%; color: #868b98 }
+.list_quoteComment li .order { position: absolute; top: 5px; right: 5px; font-size: 10px; color: #868b98 }
+.list_quoteComment li em { color: #3e474e }
+.list_quoteComment li p { overflow: hidden; background: #f5f5f5 }
+.list_quoteComment li p.more_words { text-align: right }
+.list_quoteComment li.show_comments { color: #3e474e; text-align: center }
+.detail a.button_share { border-radius: 2px; -webkit-border-radius: 2px; -moz-border-radius: 2px; -o-border-radius: 2px; -ms-border-radius: 2px; clear: both; display: block; background: 0; border: 1px solid #d9d9d9; width: 116.5px; height: 29px; line-height: 29px; margin: 0 auto 15px; text-align: center; font-size: 14px; color: #868b98 }
+.detail a.button_share .icon_share { margin: -6px 5px 0 0 }
+.load_comments { padding: 25px 0 50px; text-align: center; font-size: 12px; color: #868b98 }
+.load_comments .icon_arrow_down { margin-left: 5px }
+.series_block { margin-bottom: 30px }
+.series_title { padding: 5px 0 5px 35px; font-size: .93em }
+.series_title .icon_series { float: left; margin-left: -38px; color: #fff; margin-top: 3px }
+.series_block ul { padding-left: 35px }
+.series_block ul li { line-height: 1.3 }
+.series_block ul li a { font-size: .67em; color: #3e474e }
+.series_block ul li a:hover { color: #4e8dd1 }
+.series_block ul li a.current, .series_block ul li a.current:hover { color: #989898 }
+.recommend_link { display: inline-block; border: 1px solid #e1e4e5; border-radius: 2px; width: 111.5px; height: 17px; line-height: 17px; color: #5183c0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; vertical-align: middle; margin: -5px 5px 0 }
+.recommend_link .icon_recommendLink { float: left; margin-right: 8px }
+.recommend_block { margin-bottom: 15px; background: #f5f5f5; padding: 7.5px 7.5px 7.5px 5px; overflow: hidden; line-height: 18px }
+.recommend_block img { float: left; width: 67px; height: 67px; margin: 0 7.5px 0 0; max-height: 67px; max-width: 67px }
+.recommend_block p { line-height: 16px; max-height: 48px; overflow: hidden; margin: 0; font-size: .9em; background: #f5f5f5 }
+.recommend_block a { color: #3e474e }
+.recommend_block .price { color: #e6312a; white-space: nowrap; font-size: .9em }
+.recommend_block .price .icon_price { color: #fff; margin-top: -4px }
+.recommend_block address { display: inline-block; font-size: .67em; color: #868b98; margin: 0; padding: 0; background: #f5f5f5 }
+#share_block { position: absolute; text-align: center; z-index: 9999; width: 100%; padding: 20px 0 10px; display: none }
+#share_cover { position: absolute; left: 0; top: 0; width: 100%; height: 100%; background: #e7e7e7; opacity: .9; z-index: -1 }
+#share_block .icons { display: block; width: 56px; height: 55px; margin: 0 auto }
+#share_block a.target_platform { font-size: 13px; line-height: 2; color: #696969; display: inline-block; width: 80px; height: 90px }
+#share_block a.copy_url { display: inline-block; border: 2px solid #dbddde; background: #fff; color: #eb4d4d; font-size: 28px; line-height: 40px; padding: 0 10px; margin-top: 20px }
+#share_block .cancel { position: absolute; color: #9c9b9b; width: 40px; font-size: 14px; line-height: 20px; right: 5px; bottom: 5px }
+#error_404 img { display: block; width: 100%; max-width: 587px; max-height: 224px; margin: 20px auto 35px }
+#error_404 h1 { font-size: 52.5px; color: #bb2000; text-align: center; line-height: 1 }
+#error_404 h2 { font-size: 15px; color: #a9a9a9; text-align: center }
+#error_404 .home { display: block; width: 105px; height: 30px; line-height: 30px; text-align: center; border: 1px solid #bb2000; color: #bb2000; font-size: 17.5px; margin: 30px auto }
+.detail.detail_information h1 { font-size: 1.3em }
+.detail.detail_information .userMsg { color: #babdc4; font-size: .875em }
+.owl-carousel .owl-wrapper:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0 }
+.owl-carousel { display: none; position: relative; width: 100%; -ms-touch-action: pan-y }
+.owl-carousel .owl-wrapper { display: none; position: relative; -webkit-transform: translate3d(0, 0, 0) }
+.owl-carousel .owl-wrapper-outer { overflow: hidden; position: relative; width: 100% }
+.owl-carousel .owl-wrapper-outer.autoHeight { -webkit-transition: height 500ms ease-in-out; -moz-transition: height 500ms ease-in-out; -ms-transition: height 500ms ease-in-out; -o-transition: height 500ms ease-in-out; transition: height 500ms ease-in-out }
+.owl-carousel .owl-item { float: left }
+.owl-controls .owl-page, .owl-controls .owl-buttons div { cursor: pointer }
+.owl-controls { -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; -webkit-tap-highlight-color: rgba(0,0,0,0) }
+.grabbing { cursor: url(grabbing.png) 8 8, move }
+.owl-carousel .owl-wrapper, .owl-carousel .owl-item { -webkit-backface-visibility: hidden; -moz-backface-visibility: hidden; -ms-backface-visibility: hidden; -webkit-transform: translate3d(0, 0, 0); -moz-transform: translate3d(0, 0, 0); -ms-transform: translate3d(0, 0, 0) }
+.owl-theme .owl-controls { text-align: center; position: absolute; bottom: 0; left: 0; width: 100% }
+.owl-theme .owl-controls .owl-buttons div { color: #FFF; display: inline-block; zoom: 1; *display:inline;
+margin: 5px; padding: 3px 10px; font-size: 12px; -webkit-border-radius: 30px; -moz-border-radius: 30px; border-radius: 30px; background: #869791; filter: Alpha(Opacity=50); opacity: .5 }
+.owl-theme .owl-controls.clickable .owl-buttons div:hover { filter: Alpha(Opacity=100); opacity: 1; text-decoration: none }
+.owl-theme .owl-controls .owl-page { display: inline-block; zoom: 1; *display:inline
+}
+.owl-theme .owl-controls .owl-page span { display: block; width: 6px; height: 6px; margin: 2.5px 3.5px; filter: Alpha(Opacity=50); opacity: .5; -webkit-border-radius: 100%; -moz-border-radius: 100%; border-radius: 100%; background: #869791 }
+.owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span { filter: Alpha(Opacity=100); opacity: 1 }
+.owl-theme .owl-controls .owl-page span.owl-numbers { height: auto; width: auto; color: #FFF; padding: 2px 10px; font-size: 12px; -webkit-border-radius: 30px; -moz-border-radius: 30px; border-radius: 30px }
+.owl-item.loading { min-height: 150px; background: url(AjaxLoader.gif) no-repeat center center }
+@media screen and (max-width:719px) {
+nav a { margin-left: 10.5px; margin-right: 10.5px }
+}
+@media screen and (max-width:639px) {
+body { font-size: 12px }
+#app dl { margin-top: 15px }
+#app dl dt { font-size: 1em }
+#app dl dd { font-size: .7em }
+.icon_appclose { width: 17.5px; height: 17.5px; background-position: -40px -290px }
+.icon_applogo, .icon_applogo_wp { width: 38px; height: 38px; background-position: 0 -776px; background-size: 44px }
+.icon_applogo_wp { background-position: 0 -832px }
+#app { height: 57.5px }
+#app .icon_applogo, #app .icon_applogo_wp { margin: 12.5px 5px 0 15px }
+#app .btn_app { width: 31.5px; height: 16.5px; line-height: 16.5px; font-size: 10px }
+nav a { margin-left: 2.5px; margin-right: 2.5px; font-size: 12px }
+}
+@media screen and (max-width:479px) {
+body { min-width: 100% }
+nav a { margin-left: 1.5px; margin-right: 1.5px }
+}
+#advertisement_s { text-align: center }
+.site_wrap, .site_haitao_wrap { margin: 10px 0 26px; max-width: 500px; min-height: 87px; background-color: #fff; border: 1px solid #d6d6d6; clear: both }
+.site_box { width: 100%; overflow: hidden }
+.site_pic { width: 33.67%; float: left; display: block; overflow: hidden; height: 80px; margin-top: 7px }
+.site_haitao_wrap .site_pic { margin-top: 3px }
+.site_pic img { height: 80px; width: auto; margin: 0 auto }
+.site_info { width: 60.84%; float: left; padding: 7.5px }
+.site_title { font-size: 15px; line-height: 1.5em; color: #333; margin-bottom: 4px; display: block; height: 42px; overflow: hidden }
+.site_price { color: #999; font-size: .75em; margin-bottom: 4px }
+.site_price .red { font-size: 14px; padding-right: 10px; font-weight: bold }
+.site_info .grey { font-size: 13px; line-height: 1.4em }
+.red { color: #d62222 }
+.grey { color: #999 }
+
+
+
+
+@font-face {
+  font-family: 'iconfont';
+  src: url('//at.alicdn.com/t/font_1460861201_925595.eot'); /* IE9*/
+  src: url('//at.alicdn.com/t/font_1460861201_925595.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('//at.alicdn.com/t/font_1460861201_925595.woff') format('woff'), /* chrome、firefox */
+  url('//at.alicdn.com/t/font_1460861201_925595.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('//at.alicdn.com/t/font_1460861201_925595.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont{font-family:"iconfont";font-size:16px;font-style:normal;}
+
+
+.top_img img{width:100%;}
+.title{text-align:center;font-size:20px;color:#666;}
+.content_box{font-size: 14px;
+    padding: 10px;
+    line-height: 24px;
+    color: #666;}
+.content_top{font-size:12px;color:#666;width:100%;line-height:30px;border-bottom:1px solid #eee;margin:5px 0 15px 0;}
+.content_top .dingcai{float:right;}
+.content_top span{margin:0 5px;}
+.content_top i{ font-style:normal}
+
+
+
+/* 内容中的商品 */
+.item_box{margin:10px 0;}
+.item_box .item{margin:10px 0;padding:10px;background:#f7f7f7;text-decoration:none;*cursor:pointer;clear:none!important;*zoom:1}
+.item_box .item:after{content:"";clear:both;display:block!important;height:0}
+.item_box .item:visited .item_title{color:#818181}
+.item_box .item:hover{background:#eee}
+.item_box .item_pic{float:left;height:140px;width:140px;margin-right:20px;overflow:hidden}
+.item_box .item_pic img{width:140px;height:140px;}
+.item_box .item_info{height:140px;overflow:hidden;}
+.item_box .item_title{line-height:30px;color:#333;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;font-size:16px;height:30px;overflow:hidden;}
+.item_box .item_price{height:28px;line-height:28px;overflow:hidden;}
+.item_box .price_new{color:#f50;float:left;font-size:16px;margin-right:10px;}
+.item_box .price_new strong{font-size:24px;font-weight:400}
+.item_box .item_kw{width:100%;height:45px;line-height:20px;text-align:left;font-size:14px;overflow:hidden;}
+.item_box .item_kw a.item_kw_first{margin-right:10px;background: #666;display:none;}
+.item_box .item_kw a{background: #64AAED;  padding: 0 5px;  color: #fff;  border-radius: 4px;  font-size: 10px;margin-right: 6px;    margin-bottom: 3px;
+  height: 20px;  float: left;  line-height: 20px;}
+.item_box .item_kw a:hover{background:#337ABD;}
+.item_box .item_kw a.item_kw_first:hover{background: #666; }
+.item_box .price_old{margin-left:10px;color:#999;float:left; text-decoration: line-through;font-size:16px;}
+.item_box .item_btn{height:26px;width:100px;line-height:26px;margin-top:5px;border:1px solid #64AAED;border-radius:4px;color:#64AAED;text-align:center;font-size:16px;  background-color: #fff;}
+.item_box .item_btn a{display:block;width:100%;height:100%;}
+.item_box .item_btn a:hover{background:#64AAED;color:#FFF;border-color:#FFF;}
+.item_box .item_shop{margin-left:20px;font-size:16px;float:left;display:none;}
+.item_box .item_shop span{color:#999;}
+.item_box .item_shop a{color:#F00;}
+.content_box img{width:100%;margin:0 auto;display:block;}
+.tag_list a{color:#09F;margin:5px ;display:block;padding:2px 7px;float:left;border:1px solid #eee;border-radius:8px;}
+.tag_list .tag_title{font-size:16px;padding:0 5px;margin:5px 0;}
+
+.content .album-block{text-align:center; font-size:14px;}
+.content .album-block a{color:#666}
+.content .info .price{display:none;}
+
+.content .info .tilte{height:30px;line-height:30px;}
+.content .album-block-imgBox{display:block;margin:15px auto;}
+.content .album-block-title{font-size:16px;}
+.content .album-block .dot{display:none;}
+.content .icontip .iconfont{display:none;}
+.content .album-block-imglink{margin:10px 0; position:relative;}
+.icontip{ position:absolute;left:0;top:0;background: url(http://img.alicdn.com/tps/i3/T1LiJtFcddXXa9hgfr-5-5.png);; opacity:0.5;color:#fff;font-size:12px;padding:5px;}
+
+
+.content .item{position:relative;display:block;margin:10px 0;padding:5px;background:#f7f7f7;text-decoration:none;font-size:14px;}
+.content .item:after{content:"";clear:both;display:block!important;height:0}
+.content .item:visited .item-title{color:#818181}
+.content .item:hover{background:#eee}
+.content .item .item-pic{float:left;height:140px;width:140px;margin-right:20px;overflow:hidden}
+.content .item .item-info{position:relative;height:140px;overflow:hidden;*zoom:1}
+.content .item .item-title{line-height:1.5;color:#333;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.content .item .item-price{margin:5px;}
+.content .item .price-new{color:#f50;text-decoration:none;}
+.content .item .price-new strong{font-size:24px;}
+.content .item .price-old{margin-left:10px;color:#999}
+.content .item .item-btn{height:30px;width:100px;line-height:30px;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;color:#fff;text-align:center;float:left;margin:10px auto;display:block;background:#E32014;}
+
+
+
+
+
+

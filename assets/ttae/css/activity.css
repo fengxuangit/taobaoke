@@ -1,0 +1,92 @@
+.cxsaleban { width: 1080px; height: 140px; margin: 0 auto; margin-top: 20px; background-image: url(assets/ttae/images/cxhdban.png); }
+.cxsale_menu { width: 1080px; height: 30px; margin: 0 auto; margin-top: 20px; }
+.cxhd_menuul1 { float: left; }
+.cxhd_menuul1 li { float: left; }
+.cxhd_menuul1 li a { float: left; line-height: 24px; text-align: center; padding-left: 10px; padding-right: 10px; }
+.cxhd_menusele { background-color: #e32014; color: #fff; border-radius: 2px; }
+.cxsale_menus { line-height: 30px; padding-left: 5px; padding-right: 5px; font-family: tahoma; color: #666; float: right; }
+.cxhd_menuul2 { width: 80px; height: 78px; position: absolute; z-index: 10; margin-top: 30px; margin-left: 910px; *margin-left: 750px;
+background-color: #fff; border: 1px solid #eee; }
+.cxhd_menuul2 li { width: 80px; height: 26px; line-height: 26px; text-align: center; float: left; }
+.cxhd_menuul2 li:hover { background-color: #eee; }
+.cxhd_content { width: 1020px; margin: 0 auto; overflow: hidden; }
+.cxhd_d { width: 320px; height: 265px; float: left; margin-left: 15px; margin-top: 15px; border: 1px solid #eee; }
+.cxhd_d img { position: absolute; z-index: 1; }
+.cxhd_d span { width: 56px; height: 28px; position: absolute; z-index: 2; }
+.cxsalesico { background-position: 0px -272px; margin-top: 10px; margin-left: -5px; }
+.cxsalesico2 { background-position: -56px -272px; margin-top: 10px; margin-left: -5px; }
+.cxhd_d ul { width: 230px; height: 60px; position: absolute; z-index: 1; margin-top: 195px; margin-left: 5px; overflow: hidden; }
+.cxhd_d ul li { width: 230px; float: left; }
+.cxhd_d ul li a { width: 230px; height: 30px; color: #333; font-size: 14px; font-weight: bolder; line-height: 30px; }
+.cxhd_d ul li b { font-weight: normal; line-height: 20px; color: #666; }
+.cxsalebtn { width: 70px; height: 32px; position: absolute; z-index: 1; text-align: center; line-height: 32px; color: #fff; background-color: #e32014; margin-top: 212px; margin-left: 240px; border-radius: 2px; }
+/*活动页面样式*/
+
+.cxsale_fybaner { width: 1080px; height: 350px; margin: 0 auto; }
+.cxsale_fygoodsd { width: 970px; margin: 0 auto; overflow: hidden; }
+.cxsale_fytitd { width: 970px; float: left; height: 30px; background-color: #fff; overflow: hidden; }
+.cxsale_fytitd i { width: 40px; height: 30px; float: left; }
+.cxsale_fytitd span { height: 30px; font-size: 18px; font-family: "Microsoft YaHei"; line-height: 40px; }
+.cxsale_fygoodsd ul { width: 970px; padding-bottom: 10px; background-color: #fff; float: left; }
+.cxsale_fygoodsd ul li { float: left; width: 228px; height: 300px; border: 1px solid #eee; background-color: #fff; margin-left: 10px; margin-top: 10px; }
+.cxsale_fygoodsd ul li img { float: left; margin-left: 4px; margin-top: 4px; display: inline; }
+.cxsale_fytit { width: 210px; height: 46px; float: left; margin-left: 8px; line-height: 23px; overflow: hidden; }
+.cxsale_fyginfo { width: 150px; height: 30px; float: left; margin-left: 5px; }
+.cxsale_fyginfo b { font-weight: normal; font-family: "Microsoft YaHei"; color: #e32014; }
+.cxsale_fyginfo i { font-style: normal; font-size: 16px; margin-left: -7px; font-family: verdana; color: #e32014; }
+.cxsale_fyginfo del { color: #808080; font-family: "Microsoft YaHei"; }
+.cxhd_fyfxbtn { width: 57px; height: 22px; float: left; margin-left: 7px; background-image: url(assets/ttae/images/cxhdfyfx.png); }
+.cxsale_fy3tit { width: 980px; height: 50px; background-color: #fff; margin: 0 auto; }
+.cxsale_fy3tbk { width: 11px; height: 50px; float: left; background-image: url(assets/ttae/images/csfyico3.png); }
+.cxsale_fy3tit i { width: 14px; height: 14px; float: left; border-radius: 6px; margin-top: 18px; }
+.cxsale_fy3tit b { font-weight: normal; float: left; line-height: 50px; font-family: "Microsoft YaHei"; margin-left: 5px; font-size: 20px; }
+.cxsale_fy3gd { width: 1000px; margin: 0 auto; overflow: hidden; padding-bottom: 10px; }
+.cxsale_fy3gd ul { float: left; }
+.cxsale_fy3gd ul li { width: 320px; height: 300px; float: left; margin-left: 10px; margin-top: 10px; background-color: #fff; }
+.cxsale_fy3gd ul li img { float: left; margin-left: 15px; margin-top: 15px; }
+.cxsale_fy3at { width: 290px; height: 46px; float: left; margin-left: 15px; overflow: hidden; line-height: 23px; font-size: 14px; }
+.cxsale_fy3btn { width: 70px; height: 30px; float: left; line-height: 30px; background-color: #ff3366; color: #fff; text-align: center; border-radius: 2px; }
+.cxsale_fy3fx { width: 42px; height: 30px; float: left; background-color: #6dc8e6; text-align: center; line-height: 30px; color: #fff; border-radius: 2px; margin-left: 10px; }
+.cxsale_fyrightd { width: 110px; height: 362px; position: fixed; z-index: 10; left: 50%; margin-left: 500px; top: 250px; background-image: url(assets/ttae/images/cxfy3.png); }
+.cxsale_fyrightd ul { float: left; margin-top: 55px; }
+.cxsale_fyrightd ul li { width: 110px; height: 34px; float: left; text-align: center; line-height: 36px; font-family: SimHei; font-size: 16px; font-weight: bolder; }
+.cxsale_fyrightd ul li a { color: #fff; }
+/*改版的促销活动页面*/
+
+
+
+.activitycontent { width: 1080px; margin: 0 auto; overflow: hidden; }
+.actleftcontent { width: 753px; float: left; }
+.actrightcontent { width: 237px; float: left; }
+.actleftcontent h1 { width: 90px; height: 30px; float: left; font-size: 20px; font-family: "Microsoft YaHei"; margin-top: 20px; }
+.actleftcontent ul { width: 660px; height: 30px; margin-top: 22px; float: left; }
+.actleftcontent ul li { float: left; line-height: 24px; }
+.actleftcontent ul li a { float: left; padding-left: 15px; padding-right: 15px; border-radius: 4px; }
+.actleftcontent ul li a:hover { background-color: #eee; color: #333; }
+.actmeunselect { background-color: #e32014; color: #fff; }
+.act_hdimg { width: 740px; height: 200px; float: left; margin-top: 10px; border: 1px solid #fff; }
+.act_hdimg:hover { border: 1px solid #e32014; }
+.act_hdimg img { position: absolute; z-index: 1; }
+.act_hdimg i { width: 46px; height: 25px; position: absolute; z-index: 2; background-position: -215px -44px; margin-left: -4px; margin-top: 10px; }
+.actrightban { width: 235px; float: left; border: 1px solid #eee; margin-top: 62px; }
+.actrightban h1 { width: 225px; float: left; padding-left: 10px; font-size: 16px; margin-top: 10px; font-family: "Microsoft YaHei"; color: #666; }
+.actrightban h2 { float: left; height: 20px; line-height: 20px; width: 225px; padding-left: 10px; display: inline; color: #787878; padding-bottom: 8px; border-bottom: 1px solid #eee; }
+.actlfcontent { width: 235px; height: 480px; float: left;overflow: hidden; position: relative; }
+.actlfnav { width: 905px; height: 480px; position: absolute; z-index: 1; }
+.actlfnav li { width: 200px; height: 480px; float: left; margin-left: 15px; }
+.actlfnav li a { width: 100px; height: 90px; border-bottom: 1px dashed #eee; float: left; }
+.actlfnav img { margin-top: 12px; float: left; margin-left: 10px; }
+.actlfnav span { width: 100px; height: 30px; float: left; text-align: center; line-height: 30px; overflow: hidden; color: #666; }
+.actlfro { width: 50px; height: 15px; position: absolute; z-index: 2; margin-top: 462px; margin-left: 100px; }
+.actlfro li { float: left; width: 11px; height: 11px; margin-left: 3px; background-color: #ccc; border-radius: 5px; cursor: pointer; }
+.actlf_btn { width: 9px; height: 16px; position: absolute; z-index: 3; cursor: pointer; opacity: 0.2; }
+.actlf_btn:hover { opacity: 1; }
+.actlf_btn_r { margin-left: 3px; margin-top: 200px; background-position: -158px -50px; }
+.actlf_btn_l { margin-left: 222px; margin-top: 200px; background-position: -168px -50px; }
+.actindexlf { width: 1080px; height: 90px; margin: 0 auto; margin-top: 10px; }
+.actindexlfd { width: 1080px; height: 90px; float: left; position: relative; overflow: hidden; }
+.actilful1 { width: 1080px; height: 270px; position: absolute; z-index: 1; }
+.actilful1 li { width: 1080px; height: 90px; float: left; }
+.actilful2 { width: 46px; height: 15px; position: absolute; z-index: 2; background-position: -271px -175px; margin-top: 71px; margin-left: 475px; }
+.actilful2 li { width: 10px; height: 10px; border-radius: 5px; background-color: #ccc; float: left; margin-top: 3px; margin-left: 4px; cursor: pointer; }
+.indexiocns li.on{background: #f00}

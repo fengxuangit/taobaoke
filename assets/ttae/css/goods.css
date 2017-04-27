@@ -1,0 +1,174 @@
+.taeapp .bucuo_detail_tit { width: 1080px; height: 15px; margin: 0 auto; }
+.taeapp .bucuo_detail_tit span { float: left; line-height: 46px; margin-left: -115px; }
+.taeapp .bucuo_detail_tit ul { float: right; }
+.taeapp .bucuo_detail_tit ul li { float: left; line-height: 46px; margin-left: 10px; }
+.taeapp .bucuo_detail_tit ul li a { font-family: "宋体"; }
+.taeapp .bucuo_detail_tit ul li a:hover { color: #E32014; }
+.taeapp .bucuo_detail_con { width: 1080px; height: 313px;overflow:hidden; margin: 0 auto; border: 1px solid #EEE; background-color: #FFF; border-radius: 5px 5px 5px 5px; margin-top: 15px; }
+.taeapp .bucuo_detail_con i { width: 70px; height: 70px; position: absolute;  background-position: -347px -44px; }
+.bucuo_goods_img{float:left;padding-left:5px;padding-top:5px;}
+.taeapp .bucuo_de_bkico { background: url(assets/ttae/goods/TB22XySXVXXXXapXpXXXXXXXXXX-109248061.png) no-repeat; position:relative;}
+.taeapp .bucuo_icolabel0 { display: none; }
+.taeapp .bucuo_de_goodsd { width: 530px;   z-index: 1;float:left; margin-top:5px; margin-left:15px;}
+.taeapp .bucuo_de_goodsd ul li.li1 { height: 44px; overflow:hidden; }
+.taeapp .bucuo_de_goodsd ul li.li1 b { width: 24px; height: 18px; float: left;  margin-top: 15px; }
+.taeapp .bucuo_de_goodsd ul li.li1 b.bucuo_icosource2 { background-position: -42px -68px; }
+.taeapp .bucuo_de_goodsd ul li.li1 b.bucuo_icosource1 { background-position: -42px -40px; }
+.taeapp .bucuo_de_goodsd ul li.li1 span {  font-size: 16px; font-weight: bolder; margin-left: 5px; line-height: 50px;  }
+.taeapp .bucuo_de_goodsd ul li.li2 { height: 70px;}
+.taeapp .bucuo_de_goodsd ul li.lic1 { background-position: -22px -168px; position:relative;}
+.taeapp .bucuo_de_goodsd ul li.lic2 { background-position: -22px -314px; }
+.taeapp .bucuo_de_goodsd ul li.lic3 { background-position: -22px -387px; }
+.taeapp .bucuo_de_goodsd ul li.lic1:hover { background-position: -22px -241px; }
+.taeapp .bucuo_de_goodsd ul li.li2 b { font-family: "microsoft yahei"; font-weight: normal; color: #FFF; float: left; font-size: 26px; margin-left: 15px; margin-top: 19px; }
+.taeapp .bucuo_de_goodsd ul li.li2 span { font-size: 34px; color: #FFF; float: left; margin-top: 9px; margin-left: -1px; }
+.taeapp .bucuo_de_goodsd ul li.li2 span.del{font-size:16px;color: #eee;position: absolute;left:135px;top: 20px;}
+.taeapp .bucuo_de_goodsd ul li.li2 em { float: left; background-color: #FFB7B5; color: #E32014; padding: 3px 3px; margin-top: 26px; margin-left: 18px; border-radius: 2px; }
+.taeapp .bucuo_de_goodsd ul li.li2 .go_btn { width: 100px; height: 40px; float: right;  margin-right: 38px;     margin-top: 17px;}
+.taeapp .bucuo_de_goodsd ul li.li3 {  height: 58px;  border: 1px solid #EEE; border-top: none; border-right: none; }
+.taeapp .bucuo_de_goodsd ul li.li3 span { height: 58px; width: 111px; float: left; border-right: 1px solid #EEE; overflow: hidden; }
+.taeapp .bucuo_de_goodsd ul li.li3 span h1 { width: 111px; height: 26px; overflow: hidden; text-align: center; line-height: 30px; float: left; }
+.taeapp .bucuo_de_goodsd ul li.li3 span em { width: 111px; font-size: 14px; float: left; text-align: center; color: #E32014; font-weight: bolder; overflow: hidden; height: 25px; }
+.taeapp .bucuo_de_goodsd ul li.li4 {  height: 40px;  background-color: #FAFAFA; line-height: 40px; color: #999; padding-left: 10px; font-size: 12px;overflow: hidden; }
+.taeapp .bucuo_de_goodsd ul li.li4 i { width: 16px; height: 16px; float: left; margin-top: 14px; margin-left: 0px; }
+.taeapp .bucuo_de_goodsd ul li.li4 em { float: left; line-height: 40px;  color: #999; }
+.taeapp .bucuo_de_goodsd ul li.li4 em a{color:#900;}
+.taeapp .shijian_sprite { display: inline-block; background: url(assets/ttae/goods/TB2O0E6XXXXXXa.XFXXXXXXXXXX-109248061.gif) no-repeat left center; padding-left: 23px; }
+.taeapp .bucuo_de_goodsd ul li.li4 span { padding: 1px 3px 1px 3px; color: #FFF; float: right; margin-top: 7px; height: 24px; line-height: 24px; margin-right:3px;}
+.taeapp .bucuo_de_goodsd ul li.li5 {height: 26px;padding-top: 9px;}
+.taeapp .bucuo_de_goodsd ul li.li6 {height:60px;overflow:hidden;line-height:20px;}
+
+.taeapp .bucuo_de_fxd i { margin-left: 16px; width: 21px; height: 23px; margin-top: -4px; }
+.taeapp .bucuo_de_fxd a { margin-left: 43px; }
+.taeapp .bucuo_de_fxd em { width: 19px; height: 16px; float: left; margin-top: 4px; }
+.taeapp .bucuo_de_fxd b { float: left; font-weight: normal; font-family: "宋体"; margin-left: 3px; color: #999; cursor: pointer; }
+.taeapp .bucuo_detail_bmenu { width: 1080px; height: 48px; margin: 0 auto; margin-top: 10px; overflow: hidden; }
+.taeapp .bucuo_detail_bmenu ul { width: 1080px; height: 46px; float: left; border-bottom: 2px solid #EEE;background:#f9f9f9; }
+.taeapp .bucuo_detail_bmenu ul li { width:130px;text-align:center;border-right:1px solid #e2e2e2; height: 50px; overflow: hidden; font-size: 16px; float: left; line-height: 50px; }
+.taeapp .bucuo_detail_bmenu ul li a{width:100%;height:100%;display:block; text-decoration: none;color:#666;}
+.taeapp .bucuo_detail_bmenu ul li a:hover { background:#F05555;color:#FFF;}
+.taeapp .bucuo_detail_bmenu ul li  a:hover span{color:#FC0;}
+.taeapp .bucuo_detail_bmenu ul li.bucuo_current{background:#F05555;}
+.taeapp .bucuo_detail_bmenu ul li.bucuo_current a{color:#FFF}
+.taeapp .bucuo_detail_bmenu ul li.bucuo_current a span{color:#FC0;}
+.taeapp .bucuo_detail_gzd { position: absolute; z-index: 20; margin-left: 92px; cursor: pointer; margin-top: -20px; -ms-filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+opacity: 0; }
+.taeapp .bucuo_detail_bmenu ul li span{color:#F00;margin-left:5px;}
+
+
+
+
+.taeapp .bucuo_det_zpbzd { float: left; width: 170px; border-top: 1px solid #EEE;  }
+.taeapp .bucuo_det_zpbzd a { width: 170px; height: 57px; float: left; background-position: -45px -504px; margin-top: 5px; }
+.taeapp .bucuo_shop_info { width: 170px;   z-index: 1; padding-top: 5px; background-color: #FAFAFA; padding-right: 20px; padding-left: 20px; border-radius: 0px 5px 5px 0px; float:right;margin-top:50px;}
+.taeapp .bucuo_shop_info ul { float: left; }
+.taeapp .bucuo_shop_info ul li.li1 { width: 170px; height: 30px; float: left; overflow: hidden; }
+.taeapp .bucuo_shop_info ul li.li1 em { width: 24px; height: 18px; float: left; }
+.taeapp .bucuo_shop_info ul li.li1 em.bucuo_icosource1 { background-position: -42px -68px; }
+.taeapp .bucuo_shop_info ul li.li1 em.bucuo_icosource2 { background-position: -42px -40px; }
+.taeapp .bucuo_shop_info ul li.li1 span { font-weight: bolder; color: #666; float: left; margin-left: 5px; }
+.taeapp .bucuo_shop_info ul li.li2 { width: 170px; float: left; line-height: 24px; color: #666; }
+.taeapp .bucuo_shop_info ul li.li3 { width: 170px; float: left; }
+.taeapp .bucuo_shop_info ul li.li3 a { width: 100px; height: 30px; float: left; background-position: -223px -91px; margin-top: 10px; }
+.taeapp .bucuo_shop_info ul li.li3 a:hover { background-position: -223px -124px; }
+.taeapp .bucuo-notice { width: 1080px; height: 50px; background: url(assets/ttae/goods/TB2hie1XVXXXXXnXXXXXXXXXXXX-109248061.png) no-repeat; border-radius: 0px 0px 5px 5px; margin: 0 auto; background-color: #FFF; }
+
+
+
+
+.taeapp .index_bucuozhekou { width: 1080px; margin: 0 auto; overflow: hidden; }
+
+.taeapp .index_bucuozhekou .other_goods li { float: left;background: url(assets/ttae/goods/anim.gif) no-repeat; background-position: 134px 89px; margin:10px;}
+.taeapp .index_bucuozhekou .other_goods li img { position: absolute; z-index: 1; margin-left: 1px; margin-top: 0px; }
+.taeapp .index_bucuozhekou .other_goods li span.ai_goodsdp { width: 33px; height: 41px; position: absolute; z-index: 2; margin-top: 5px; margin-left: 5px; text-align: center; color: #FFF; font-family: "microsoft yahei"; font-weight: bold; line-height: 1.4; }
+.taeapp .index_bucuozhekou .other_goods li span.ai_goodsnew0 { display: none; }
+.taeapp .index_bucuozhekou .other_goods li span.ai_goodsnew1 { background-position: 0px -209px; display: block; }
+.taeapp .index_bucuozhekou .other_goods li span.ai_goodshot0 { display: none; }
+.taeapp .index_bucuozhekou .other_goods li span.ai_goodshot1 { background-position: 0px -250px; display: block; }
+.taeapp .index_bucuozhekou1 { width: 1020px; margin: 0 auto; overflow: hidden; }
+.taeapp .index_bucuozhekou1 ul { float: left; }
+.taeapp .index_bucuozhekou1 ul li { width: 320px; height: 435px; float: left; margin-left: 15px; background: url(assets/ttae/goods/anim.gif) no-repeat; background-position: 134px 89px; margin-top: 15px; position: relative; }
+.taeapp .index_bucuozhekou1 ul li:hover .others { display: block; position: absolute; top: 276px; z-index: 1000; background: #FFF; width: 300px; line-height: 35px; text-indent: 10px; filter:;
+opacity: 0.5; margin-left: 10px; }
+.taeapp .others { display: none; }
+.taeapp .index_bucuozhekou1 ul li img { position: absolute; z-index: 1; margin-left: 10px; margin-top: 10px; }
+.taeapp .index_bucuozhekou1 ul li span.ai_goodsdp { width: 33px; height: 41px; position: absolute; z-index: 2; margin-top: 10px; margin-left: 9px; text-align: center; color: #FFF; font-family: "microsoft yahei"; line-height: 1.4; }
+.taeapp .index_bucuozhekou1 ul li span.ai_goodsnew0 { display: none; }
+.taeapp .index_bucuozhekou1 ul li span.ai_goodsnew1 { background-position: 0px -209px; display: block; }
+.taeapp .index_bucuozhekou1 ul li span.ai_goodshot0 { display: none; }
+.taeapp .index_bucuozhekou1 ul li span.ai_goodshot1 { background-position: 0px -250px; display: block; }
+
+
+
+
+.taeapp .ai_sprite { background: url(assets/ttae/goods/TB2lF5kXFXXXXa6XpXXXXXXXXXX-109248061.png) no-repeat; }
+.taeapp .ai_bucuoinfo1 { width: 318px; height: 74px; position: absolute; z-index: 2; margin-top: 255px; border-bottom: 1px solid #EEE; background-color: #FFF; }
+.taeapp .ai_bucuoinfo11 { width: 245px; height: 74px; position: absolute; z-index: 2; margin-top: 255px; border-bottom: 1px solid #EEE; background-color: #FFF; }
+.taeapp .ai_bucuosginfol1 { width: 235px; height: 75px; float: left; }
+.taeapp .ai_bucuosginfol1 a { width: 230px; height: 30px; line-height: 40px; font-size: 12px; float: left; overflow: hidden; padding-left: 10px; margin-top: -15px; }
+.taeapp .ai_bucuosginfol1 a b { font-weight: bold; color: #666; }
+.taeapp .ai_bucuosginfol1 span { width: 150px; height: 40px; float: left; padding-left: 10px; font-family: "microsoft yahei"; font-size: 12px; color: #E32014; margin-top: 3px; }
+.taeapp .ai_bucuosginfol1 em { font-size: 20px; }
+.taeapp .ai_bucuosginfol1 del { color: #666666; padding-left: 10px; }
+.taeapp .ai_bucuosginfol { width: 235px; height: 75px; float: left; }
+.taeapp .ai_bucuosginfol a { width: 290px; height: 30px; line-height: 40px; font-size: 15px; float: left; overflow: hidden; padding-left: 10px; margin-top: -9px; }
+.taeapp .zhekou { background: url(assets/ttae/goods/TB29_T0XVXXXXXQXpXXXXXXXXXX-109248061.png) repeat scroll 0px 0px rgba(0,0,0,0); color: #FFFFFF; float: left; height: 16px; line-height: 14px; width: 40px; font-style: normal; font-size: 10px; text-align: center; margin-left: -155px; margin-top: 42px; position: absolute; }
+.taeapp .taojinbi { color: #F90A2C; float: left; height: 16px; line-height: 14px; width: 100px; font-style: normal; font-size: 13px; text-align: center; margin-left: -210px; margin-top: 25px; position: absolute; font-family: "微软雅黑"; }
+.taeapp .ai_bucuosginfol a b { font-weight: bold; color: #1A9408; }
+.taeapp .ai_bucuosginfol span { width: 230px; height: 30px; float: left; padding-left: 10px; font-family: "microsoft yahei"; font-size: 12px; color: #E32014; margin-top: 5px; }
+.taeapp .ai_bucuosginfol em { font-size: 26px; font-weight: bold; }
+.taeapp .ai_bucuosginfol del { color: #666666; padding-left: 10px; }
+.taeapp .ai_bucuowk { background-color: #FFF; width: 245px; height: 326px; float: left; overflow: hidden; border: 1px solid #EEE; position: relative; }
+.taeapp .ai_bucuowk1 { background-color: #FFF; width: 318px; height: 433px; float: left; overflow: hidden; border: 1px solid #FFF; position: relative; border-color: #FFFFFF #E2E2E2 #E2E2E2 #FFFFFF; }
+.taeapp .ai_bucuowk2 { background-color: #FFF; width: 318px; height: 433px; float: left; overflow: hidden; border: 1px solid #FFF; position: relative; border-color: #FFFFFF #E2E2E2 #E2E2E2 #FFFFFF; border-bottom-right-radius: 30px; }
+.taeapp .ai_bucuocond ul li img { position: absolute; z-index: 1; margin-left: -1px; margin-top: -1px; }
+.taeapp .ai_bucuowk:hover { overflow: hidden; border: 1px solid #F72862; box-shadow: 0 2px 4px rgba(0,0,0,0.15); }
+.taeapp .ai_bucuowk1:hover { overflow: hidden; border: 1px solid #BBB; box-shadow: 0 2px 4px rgba(0,0,0,0.15); }
+.taeapp .ai_bucuowk2:hover { overflow: hidden; border: 1px solid #BBB; box-shadow: 0 2px 4px rgba(0,0,0,0.15); }
+.taeapp .ai_bucuoinfo2 { width: 245px; height: 40px; position: absolute; z-index: 1; margin-top: 320px; }
+.taeapp .ai_bucuoinfo2 .tag_list { padding: 1px 3px 1px 3px; color: #0F7AF2;  margin-top: 11px; margin-left: 10px; height:20px;overflow:hidden;}
+.taeapp .ai_bucuoinfo2 .tag_list a{color:#17C4CC;}
+.taeapp .ai_bucuoinfo2 i { width: 16px; height: 16px; float: left; margin-top: 12px; margin-left: 0px; }
+.taeapp .ai_bucuoinfo2 em {  line-height: 40px; margin-left: 5px; color: #999; }
+.taeapp .ai_bucuobtw1 { background-color: #7DC473; margin-right: -5px; }
+.taeapp .ai_bucuobtw2 { background-color: #FF8784; margin-right: 1px; font-size: 12px; }
+.taeapp .ai_timeico00 { background-position: 0 -290px; }
+.taeapp .ai_timeico10 { background-position: 0 -312px; }
+
+.ai_bucuomsgbtn22{width: 72px;height: 32px;text-align: center;line-height: 32px;color: #fff;background-color: #e32014;
+font-size: 14px;border-radius: 2px;display:block;position: absolute;right: 10px;top: 25px;}
+
+
+.pl-box { height: 28px; border-top: 1px solid #e8e8e8; margin-top: 10px; }
+.pl-box p { background: url(assets/ttae/images/pinglun.gif) no-repeat; width: 279px; height: 27px; margin: 0 auto; text-align: center; line-height: 27px; color: #666; }
+
+.comment-title span { font-size: 12px; color: #999; }
+.com-big .user-info-r li{ padding: 17px 0; border-bottom:1px dotted #f1f1f1;}
+.rate-user .user-name{ font-family: "微软雅黑";}
+.rate-user-grade .tm-icon{ display: inline-block; vertical-align: -4px; background: url(assets/ttae/images/tmall-vip.gif) no-repeat; margin-right: 3px;}
+.rate-user-grade .t1{ width: 18px; height: 18px; background-position: 0 0;}
+.rate-user-grade .t2{ width: 18px; height: 18px; background-position: 0 -22px;}
+.rate-user-grade .t3{  width: 18px; height: 18px; background-position: 0 -44px;}
+.rate-user-grade .vip-icon{vertical-align: middle;height: 12px;}
+.rate-user-grade .red_1{ background-position: 0 -71px; width: 12px; }
+.rate-user-grade .red_2{background-position: 0 -88px;  width: 25px;}
+.rate-user-grade .red_3{ background-position: 0 -105px;  width: 38px; }
+.rate-user-grade .red_4{ background-position: 0 -121px;  width: 51px;}
+.rate-user-grade .red_5{background-position: 0 -139px;  width: 64px;}
+
+.rate-user-grade .blue_1{ background-position: 0 -157px; width: 12px; }
+.rate-user-grade .blue_2{background-position: 0 -171px;  width: 25px;}
+.rate-user-grade .blue_3{ background-position: 0 -188px;  width: 38px; }
+.rate-user-grade .blue_4{ background-position: 0 -204px;  width: 51px;}
+.rate-user-grade .blue_5{background-position: 0 -221px;  width: 64px;}
+._comment_list{padding:20px 30px;}
+
+.comment-dis { width: auto; }
+.comment-box { width: 100%; position: relative; }
+.comment-title { color: #666; font-size: 14px; font-family: "宋体"; overflow: hidden; }
+.comment-title b { color: #6db110; font-size: 22px; vertical-align: -2px; }
+.comment-title span { font-size: 12px; color: #999; }
+
+.more { font-family: "宋体"; font-size: 12px; font-weight: normal; float: right; display: inline; margin-right: 10px; padding: 0 6px; display: block; height: 20px; color: #08c; line-height: 23px; float: right }
+.goods_juan_url { height: 30px; background: #00BCD4; padding: 5px 10px; line-height: 30px; font-size: 16px; margin-top: 16px; border-radius: 6px; float: left; margin-left: 150px }
+.goods_juan_url a { color: #fff }

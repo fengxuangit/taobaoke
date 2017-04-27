@@ -1,0 +1,42 @@
+.add_ico { background: url(assets/ttae/images/"add_ico.png") no-repeat; }
+
+.index_mobwk { position: fixed; z-index: 4000; width: 100%; height: 120px; bottom: -120px; }
+
+.usr_mobtip1 { display: none; }
+
+.index_mobdd { width: 100%; height: 120px; position: absolute; z-index: 1; background-color: #000; opacity: 0.8; filter: alpha(opacity=80); }
+
+.index_mobd { position: absolute; z-index: 2; width: 1080px; height: 120px; left: 50%; margin-left: -495px; }
+
+.index_mobd ul.ul1 { width: 490px; height: 120px; float: left; margin-left: 80px; color: #fff; font-size: 16px; font-weight: bolder; margin-top: 20px; display: inline; }
+
+.index_mobd ul.ul1 li { width: 490px; }
+
+.index_mobd ul.ul1 li input { float: left; width: 160px; height: 30px; border: none; border-radius: 2px; padding-left: 5px; margin-top: 10px; color: #666; line-height: 30px; }
+
+.index_mobd ul.ul1 li a.mobdw1 { color: #fff; font-size: 12px; font-weight: normal; }
+
+.index_mobd ul.ul1 li a.mobdbtn1 { float: left; width: 70px; height: 30px; background-color: #E32014; color: #fff; text-align: center; line-height: 30px; margin-top: 10px; margin-left: 10px; font-size: 14px; border-radius: 2px; }
+
+.index_mobd ul.ul1 li span { float: left; line-height: 40px; font-size: 12px; font-weight: normal; }
+
+.index_mobd ul.ul1 li a.mbico { width: 17px; height: 17px; float: left; margin-top: 10px; margin-left: 8px; }
+
+.mobaico1 { background-position: -33px -5px; }
+
+.mobaico2 { background-position: -56px -5px; }
+
+.index_mobd ul.ul1 li a.mobdw2 { float: left; line-height: 38px; color: #fff; font-size: 12px; font-weight: normal; text-decoration: underline; }
+
+.index_mobd ul.ul1 li a.mobdw2:hover { color: #E32014; }
+
+.upanzhuobk { width: 240px; height: 100px; float: left; background-position: -3px -69px; margin-top: 10px; margin-left: 60px; display: inline; }
+
+.delmobfix { width: 26px; height: 26px; float: right; margin-top: 50px; cursor: pointer; margin-right: 20px; }
+
+.mobline { width: 2px; height: 86px; float: left; margin-top: 20px; background-image: url(assets/ttae/images/part-line.png); }
+
+.mobuserinfo { width: 190px; height: 30px; position: absolute; z-index: 10; background-color: #E32014; margin-top: -24px; background-image: url(assets/ttae/images/info.png);  *margin-left:-430px;
+
+display: none; }
+

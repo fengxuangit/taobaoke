@@ -1,0 +1,26 @@
+html, body, button, input, select, textarea { color: #3f484f; font-family: "Oxygen", Arial, "Hiragino Sans GB ", "Microsoft YaHei", "微软雅黑", "STHeiti", "WenQuanYi Micro Hei", SimSun, sans-serif; -webkit-font-smoothing: antialiased; }
+html, body { margin: 0; padding: 0; }
+body { font-size: 13px; line-height: 1.7; background: #fff;padding:0; }
+img { vertical-align: middle; }
+h1 { text-align: center; margin: 40px 0 20px; font-size: 22px; }
+h2 { font-size: 14px; }
+ol, li { margin: 0; padding: 0; }
+ol ol li { margin-left: 20px; list-style: decimal; }
+ol.sub li { list-style: none; margin: 0 0 10px 0; }
+li { list-style: none; margin-left: 0; }
+h3 { font-size: 13px; }
+
+
+.wrapper { width: 660px; margin: 0 auto; padding: 40px 0; }
+.float { float: right; margin-top: 30px; font-weight: bold; color: #1e1e1e; }
+.clear { clear: both; }
+a { color: #1c88cd; }
+@media (max-width:640px) {
+.wrapper { width: auto; margin: 0 15px; padding: 0; }
+.float { margin-top: 15px; }
+}
+
+@media (min-width:1920px) {
+	.wrapper { width: 1080px; margin: 0 auto; padding: 0; }
+	.float { margin-top: 15px; }
+}

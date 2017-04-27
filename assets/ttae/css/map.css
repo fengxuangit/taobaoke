@@ -1,0 +1,14 @@
+.map_tit{margin:10px auto;height:30px;font-size:14px;}
+.map .content { padding: 10px 15px 50px; width: 980px; background: #fff; margin:10px auto;}
+.map .content .map-web { width: 950px; height: auto; overflow: hidden; }
+.map .content .map-web a { margin: 4px; display: inline-block; }
+.map .content .map-web h2 { float: left; font-size: 12px; border-bottom: 1px dotted #ddd; margin-bottom: 10px; font-weight: normal; }
+.map .content .map-web div h3 { float: left; font-size: 14px; font-weight: bold; width: 70px; margin-bottom: 15px; line-height: 16px; }
+.map .content .map-web div h3 a { }
+.map .content .map-web div a:hover { color: #5e5e5e; text-decoration: underline; }
+.map .content .map-web div .tags-all { clear: both; }
+.map .content .map-web .clearfix { width: 950px; height: auto; overflow: hidden; }
+.map .content .map-web .tags-next { margin-top: 20px; }
+.map .content .map-web div .tags-all li { float: left; white-space: nowrap; width: auto; }
+.map .content .map-web div .tags-all li a { background: #fff; border: 1px solid #ccc; border-radius: 3px 3px 3px 3px; color: #666666; display: block; float: left; height: 20px; line-height: 20px; padding: 0 3px; }
+.map .content .map-web div .tags-all li a:hover { border: 1px solid #999; }

@@ -1,0 +1,35 @@
+﻿error_page:
+- status: 404
+  page: /404.html
+
+rewrite: 
+- url: ^(view|inc|top)/(.*)$
+  script: /index.php last
+  checkfile: false
+- url: ^/([a-zA-Z0-9_]+)\.txt$
+  script: /$1.txt last
+  checkfile: false  
+- url: ^([^web].*)\.(html|xml|txt)$
+  script: /index.php?rewrite=$1&file_type=$2 last
+  checkfile: false
+- url: ^(.*)/$
+  script: /index.php?rewrite=$1 last
+  checkfile: false 
+
+
+#文件或目录不存在
+tryuri:
+- path: /
+  script: /index.php
+
+deny:
+- /view/
+- /inc/
+- /top/
+- /web/templates_c/
+- /web/log/
+- /web/api/
+- /web/cache/
+- /web/smarty/
+
+

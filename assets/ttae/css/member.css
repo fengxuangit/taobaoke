@@ -1,0 +1,144 @@
+
+
+.hpz_index_icons { background: url(assets/ttae/images/icons.png) no-repeat; _background: url(assets/ttae/images/icons.gif) no-repeat; )
+}
+.login-wrap { min-height: 550px; }
+.login-wrap .login-form { background: url(assets/ttae/images/login-bg.png) no-repeat; height: 353px; width: 780px; margin: 80px auto 0px auto; padding-bottom: 200px; }
+.login-wrap .login-form .login { height: 290px; width: 460px; margin: 40px 0px 0px 60px; display: inline; float: left; border-right: 1px solid #e9e9e9 }
+.login-form h1 { width: 460px; font-size: 26px; height: 26px; line-height: 26px; font-family: "微软雅黑"; font-weight: normal; float: left; }
+.hpz_xq_icon { background: url(assets/ttae/images/uc_icon.png) no-repeat; width: 15px; height: 15px; float: left; margin-top: 8px; margin-left: 5px; display: inline; }
+.hpz_login_i1 { background-position: 0px 0px; }
+.hpz_login_i2 { background-position: -30px 0px; }
+.login-form ul li { width: 460px; float: left; }
+.login_li1 { height: 50px; }
+.login_li1 input { width: 256px; height: 26px; border: 1px solid #dddddd; float: left; margin-top: 15px; 
+padding-left: 5px; outline: none; font-size: 14px; color: #666666; }
+.footewm { width: 94px; height: 90px; background: url(assets/ttae/images/biankuang.png) no-repeat; background-position: -183px -5px; position: absolute; margin-top: 57px; margin-left: 725px; *margin-left: -410px;
+}
+.footewm img { float: left; display: inline; margin-top: 6px; margin-left: 9px; }
+.login_li1 .login_btn { width: 260px; height: 46px; border-radius: 2px; background-color: #d21010; float: left; color: #ffffff; font-size: 20px; text-align: center; line-height: 46px; font-family: "Microsoft YaHei"; font-weight: normal; letter-spacing: 10px; }
+.login_li1 b:hover { background-color: #e02828; cursor: pointer; }
+.hpz_top_gimg { float: left; margin-left: 800px; margin-top: 25px; display: inline; }
+.hpz_index_top3dd { width: 1190px; height: 50px; position: absolute; z-index: 1; }
+.hpz_index_top3lix { border-bottom: 3px solid #e02828; padding-bottom: 9px; color: #e02828; font-weight: bolder }
+.login_li1 a { width: 16px; height: 16px; float: left; margin-left: 5px; margin-top: 16px; }
+.login_li1 label { float: left; }
+.login_li2 { height: 20px; margin-top: 20px; line-height: 20px; }
+.login_li2 input { float: left; margin-top: 3px; _margin-top: -1px; }
+.login_li2 a { margin-left: 120px; float: left; color: #0066CC; }
+.login_li2 label { float: left; margin-left: 5px; color: #666666; }
+/*登录页面-右侧的注册*/
+
+.login-wrap .login-form .register { height: 260px; width: 165px; float: left; margin: 40px 0px 0px 40px; overflow: hidden; }
+.login-wrap .login-form .register dl dt { font-size: 26px; font-weight: 300; color: #333; font-family: '微软雅黑'; }
+.login-wrap .login-form .register dl dd { margin: 7px 0 0 0; }
+.login-wrap .login-form .register dl dd input.text { width: 260px; height: 38px; border: 1px solid #dddddd; }
+.login-wrap .login-form .register dl dd span { float: right; }
+.login-wrap .login-form .register dl dd.border { font-weight: bold; margin: 15px 0 10px 0; }
+.login-wrap .login-form .register dl dd i { color: red; }
+/*注册页面-右侧的登录*/
+
+.register-wrap { min-height: 700px; }
+.register-wrap .register-form { background: url(assets/ttae/images/register-bg.png) no-repeat; height: 573px; width: 780px; margin: 80px auto 0px auto; }
+.register-wrap .register-form .login { height: 500px; width: 165px; margin: 40px 0px 0px 40px; float: left; display: inline }
+.register-wrap .register-form .login dl dt { font-size: 26px; font-weight: 300; color: #333; font-family: '微软雅黑'; }
+.register-wrap .register-form .login dl dd { margin: 10px 0 0 0; color: #666666 }
+.register-wrap .register-form .login dl dd input.text { width: 260px; height: 38px; border: 1px solid #dddddd; }
+.register-wrap .register-form .login dl dd span { float: right; }
+.register-wrap .register-form .login dl dd.border { font-weight: bold; margin: 15px 0 10px 0; }
+.register-wrap .register-form .login dl dd i { color: red; }
+/*注册页面-左侧的注册*/
+
+.register-wrap .register-form .register { height: 490px; width: 480px; float: left; margin: 40px 0px 0px 40px; overflow: hidden; border-right: 1px solid #eeeeee; }
+.register-wrap .register-form .register dl dt { font-size: 26px; font-weight: 300; color: #333; font-family: '微软雅黑'; }
+.register-wrap .register-form .register dl dd { width: 480px;  float: left; margin-top: 5px; }
+.register-wrap .register-form .register dl dd label { display: inline-block; width: 63px; text-align: right; padding-right: 5px; color: #666666; font-size: 14px; margin-top:5px; float: left }
+.register-wrap .register-form .register dl dd input { float: left; margin-left: 5px; *line-height: 38px;
+outline: none }
+.register-wrap .register-form .register dl dd label { display: inline-block; width: 63px; text-align: right; padding-right: 5px; color: #666666; font-size: 14px; float: left }
+.register-wrap .register-form .register dl dd label { float: left }
+.register-wrap .register-form .register dl dd img { float: left; margin-top: 5px; margin-left: 10px; }
+.register-wrap .register-form .register dl dd a { margin-left: 10px; margin-top: 12px; color: #0066CC }
+.register-wrap .register-form .register dl dd a.refresh { float: left; }
+.register-wrap .register-form .register dl dd a:hover { color: #C00; }
+.register-wrap .register-form .register dl dd input.text { width: 240px; height: 26px; border: 1px solid #dddddd; text-indent: 5px;
+ }
+.register-wrap .register-form .register dl dd input.validcode { width: 98px; height: 38px; border: 1px solid #dddddd; text-indent: 5px; margin: 0 10px 0 5px; }
+.register-wrap .register-form .register dl dd input.validcode_err { border: 2px solid #e02828; margin: -1px 9px 0 4px; }
+.register-wrap .register-form .register dl .yd { background: url(assets/ttae/images/yd.png) no-repeat 60px 11px; height: 30px; clear: both; }
+.register-wrap .register-form .register dl .yd1 { background: url(assets/ttae/images/yd.png) no-repeat 60px -25px; height: 30px; margin-top: 40px; clear: both; }
+.register-wrap .register-form .register dl .yd2 { background: url(assets/ttae/images/yd.png) no-repeat 60px -66px; height: 30px; margin-top: 40px; clear: both; }
+.register-wrap .register-form .register dl dd .sty1 { width: 170px; margin-left: 30px; float: left; font-size: 14px; color: #666; clear: both; }
+.register-wrap .register-form .register dl dd .sty2 { width: 90px; float: left; font-size: 14px; color: #999; }
+.register-wrap .register-form .register dl dd .sty3 { width: 100px; float: left; font-size: 14px; color: #999; }
+.register-wrap .register-form .register dl dd .cls-agreement { color: #FF0000 }
+.register-wrap .register-form .register dl dd i { color: red; }
+.register-wrap .register-form .no-mail { width: 437px; height: 120px; margin-left: 5px; margin-top: 70px; _margin-top: 20px; background: #f5f5f5; float: left }
+.register-wrap .register-form .no-mail h1 { font-size: 14px; color: #333; margin: 20px 0 0 28px; padding-top: 15px }
+.register-wrap .register-form .no-mail ul { width: 400px; height: 71px; display: block; margin: 10px 0 0 28px; }
+.register-wrap .register-form .no-mail ul li { height: 20px; line-height: 20px; list-style-type: square; list-style-position: inside; }
+.register-wrap .register-form .active-ok { width: 60px; height: 40px; display: block; background: url(assets/ttae/images/active-ok.png) no-repeat; float: left; }
+.register-wrap .register-form .active-error { width: 60px; height: 40px; display: block; background: url(assets/ttae/images/mistake.png) no-repeat; float: left; }
+.register-wrap .register-form .congratulation-text { height: 40px; line-height: 35px; float: left; width: 210px; }
+.hpz_reg_info { width: 140px; height: 40px; padding-left: 10px; line-height: 40px; color: #999999; overflow: hidden; position: relative; display: block; text-align: left; }
+.muiltline { line-height: 20px; }
+.error { width: 120px; line-height: 43px; background: url(assets/ttae/images/tipbk.gif) no-repeat -2px -92px; color: #e02828; padding-left: 25px; }
+.notice { width: 140px; line-height: 43px; background: url(assets/ttae/images/8609_tipbk.gif) no-repeat -2px 6px; color: #ffd144; }
+.success { width: 140px; line-height: 43px; background: url(assets/ttae/images/8609_tipbk.gif) no-repeat -2px -44px; color: #62bc38; }
+/*忘记密码*/
+
+.forgetpwd-wrap .forgetpwd-form { background: url(assets/ttae/images/lost.png) no-repeat; height: 573px; width: 780px; margin: 80px auto 0px auto; }
+.forgetpwd-wrap .forgetpwd-form .find-password { height: 500px; width: 700px; margin: 40px 0px 0px 40px; float: left; display: inline }
+.forgetpwd-wrap .forgetpwd-form .find-password dl dt { font-size: 26px; font-weight: 300; color: #333; font-family: '微软雅黑'; }
+.forgetpwd-wrap .forgetpwd-form .find-password dl dd { width: 560px; height: 50px; float: left; margin-left: 150px; clear: both; margin-top: 20px; display: inline }
+.forgetpwd-wrap .forgetpwd-form .find-password dl dd input { float: left }
+.forgetpwd-wrap .forgetpwd-form .find-password dl dd input.text { width: 260px; height: 44px; border: 1px solid #dddddd; text-indent: 5px; float: left;
+}
+.forgetpwd-wrap .forgetpwd-form .find-password dl dd input.nextsetp { background: none; background: url(assets/ttae/images/next.png) no-repeat; text-indent: -9999px; cursor: pointer; }
+.forgetpwd-wrap .forgetpwd-form .find-password dl dd input.validcode { width: 98px; height: 38px; border: 1px solid #dddddd; text-indent: 5px; *line-height: 38px
+}
+.forgetpwd-wrap .forgetpwd-form .find-password dl dd input.validcode_err { border: 2px solid #e02828; margin-top: -1px; margin-left: -1px; }
+.forgetpwd-wrap .forgetpwd-form .find-password dl dd img { float: left; margin-left: 5px; margin-top: 5px; }
+.forgetpwd-wrap .forgetpwd-form .find-password dl dd a.submit { display: block; background: url(assets/ttae/images/mail-to-valid.png) no-repeat; width: 260px; height: 45px; }
+.forgetpwd-wrap .forgetpwd-form .find-password dl dd a.submitreset { display: block; margin-left: 65px; background: url(assets/ttae/images/reset-passwd.png) no-repeat; width: 260px; height: 45px; }
+.forgetpwd_a1 { float: left; margin-top: 10px; margin-left: 10px; color: #0066CC; }
+.forgetpwd-wrap .forgetpwd-form .find-password dl dd span { float: right; }
+.forgetpwd-wrap .forgetpwd-form .find-password dl dd.border { font-weight: bold; margin: 15px 0 10px 0; }
+.forgetpwd-wrap .forgetpwd-form .find-password dl dd i { color: red; }
+.forgetpwd-wrap .forgetpwd-form .find-password dl .lost-timeline { background-image: url(assets/ttae/images/lost-timeline.png); background-repeat: no-repeat; height: 30px; margin-top: 10px; clear: both; }
+.forgetpwd-wrap .forgetpwd-form .find-password dl .yd1 { background-position: 10px -20px; }
+.forgetpwd-wrap .forgetpwd-form .find-password dl .yd2 { background-position: 10px -78px; }
+.forgetpwd-wrap .forgetpwd-form .find-password dl .yd3 { background-position: 10px -140px; }
+.forgetpwd-wrap .forgetpwd-form .find-password dl .yd4 { background-position: 10px -205px; }
+.forgetpwd-wrap .forgetpwd-form .find-password dl dd span.yd-text { float: left; margin-right: 20px; font-size: 14px; color: #999; }
+.forgetpwd-wrap .forgetpwd-form .label { width: 80px; display: block; float: left; height: 38px; font-size: 14px; line-height: 38px; color: #666; }
+.forgetpwd-wrap .forgetpwd-form .active-ok { width: 60px; height: 40px; display: block; background: url(assets/ttae/images/active-ok.png) no-repeat; float: left; }
+.hpz_login_message { width: 220px; height: 50px; float: right; }
+.hpz_login_message span { width: 190px; height: 30px; float: left; border-radius: 2px; line-height: 30px; margin-top: 5px; margin-left: 5px; color: #666666; display: none }
+.login_message span { width: 170px; height: 30px; float: left; border-radius: 2px; line-height: 30px; margin-top: 18px; margin-left: 5px; color: #E02828; overflow: hidden; }
+.login_message span em { float: left; font-style: normal; margin-left: 5px; font-size: 12px }
+.hpz_login_mes1 { }
+.hpz_login_mes2 { }
+.hide { display: none; }
+.tip { display: block; }
+/*首页的icon定位样式*/
+
+.index_icon1 { width: 12px; height: 17px; margin-top: 15px; background-position: -23px -39px; padding-right: 5px; }
+.index_icon2 { width: 7px; height: 4px; margin-top: 22px; margin-left: 5px; background-position: -196px -46px; }
+.index_icon3 { width: 16px; height: 13px; margin-top: 17px; margin-left: 20px; background-position: -45px -41px; }
+.index_icon4 { width: 15px; height: 15px; margin-top: 17px; margin-left: 15px; background-position: -72px -40px; }
+.index_icon5 { width: 16px; height: 12px; margin-top: 7px; margin-left: 15px; background-position: -97px -42px; }
+.index_icon6 { width: 16px; height: 16px; margin-top: 6px; margin-left: 15px; background-position: -229px -40px; }
+.index_icon7 { width: 16px; height: 14px; margin-top: 6px; margin-left: 15px; background-position: -45px -41px; }
+.index_icon8 { width: 12px; height: 7px; float: left; margin-left: 10px; margin-top: 24px; background-position: -212px -44px; overflow: hidden; }
+.index_icon9 { width: 16px; height: 12px; margin-top: 9px; margin-right: 5px; background-position: -97px -42px; }
+.index_icon10 { width: 16px; height: 14px; margin-top: 9px; margin-right: 5px; background-position: -229px -40px; }
+.index_icon11 { width: 16px; height: 13px; margin-top: 9px; margin-right: 5px; background-position: -45px -41px; }
+.index_icon14 { background-position: -69px -134px; }
+.index_icon13 { background-position: -46px -134px; }
+.index_icon12 { background-position: -21px -133px; }
+.register dl dd { color: #666666; }
+
+.lost-timeabtn { width: 260px; height: 46px; float: left; background-color: #62bc38; background-image: none; text-align: center; line-height: 46px; font-family: 'Microsoft YaHei'; font-size: 20px; color: #fff; border-radius: 4px; }
+.lost_pwd { width: 100px; height: 40px; float: left; border: 1px solid #eee; margin-left: 5px; text-align: center; line-height: 40px; font-size: 14px; color: #666; }
+.reg_btn { margin-left: 66px; background: url(assets/ttae/images/relax-reg-big.png) no-repeat; border: none; width: 260px; height: 45px; text-indent: -9999px; cursor: pointer; display: block; }

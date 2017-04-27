@@ -1,0 +1,7 @@
+.edui-dialog-taoke .edui-taoke-wrapper { padding: 15px; }
+.edui-dialog-taoke .edui-taoke-wrapper .edui-tab-nav { height: auto;  *height: 31px;}
+.edui-dialog-taoke .edui-taoke-wrapper .edui-tab-text { font-size: 12px; }
+.edui-dialog-taoke .edui-taoke-wrapper .edui-taoke-clearboth { clear: both; width: 0; height: 0; }
+.edui-dialog-taoke .edui-taoke-wrapper .edui-tab-pane ul { margin: 0px; padding: 0px; }
+.edui-dialog-taoke .edui-taoke-wrapper .edui-tab-content { padding:0px; height:180px;}
+

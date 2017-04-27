@@ -1,0 +1,117 @@
+
+.login_box{position:relative;height:600px;clear:both;box-shadow: 0 4px 4px rgba(180, 180, 180, 0.2);width:100%;}
+.login_box a{ text-decoration:none;color:#333;}
+.login_box a:hover{ color:#f30;}
+
+.banner-show .cell{background-position:center top;display:none; background-repeat:no-repeat;}
+.banner-show .cell .con{position:relative;width:1000px;margin:0 auto;height:600px;background-position:left top;}
+.bns-01{background:#2de3bb url(assets/common/member/log-bg1.jpg) ;}
+.bns-02{background:#fe6d6a url(assets/common/member/log-bg2.jpg);}
+.bns-03{background:#ffc778 url(assets/common/member/log-bg3.jpg);}
+.bns-04{background:#cc94ef url(assets/common/member/log-bg4.jpg);}
+.bns-05{background:#ff5f68 url(assets/common/member/log-bg5.jpg);}
+
+.banner-link{position: absolute;top: 73px;left:40%;width: 600px;height: 400px;margin-left: -430px;}
+.banner-link i{display:none;}
+.banner-control{position:absolute;top:0;left:50%;width:980px;margin-left:-500px;display:--none;}
+
+.banner-control a{position:absolute;top:258px;width:30px;height:30px;line-height:10;overflow:hidden;background-image:url(assets/common/member/icon_control.png);background-repeat:no-repeat;background-repeat:no-repeat;}
+.banner-control a.onleft{left:-55px;background-position:0 0;}
+.banner-control a.onleft:hover{background-position:0 -30px;}
+.banner-control a.onright{right:-55px;background-position:-30px 0;}
+.banner-control a.onright:hover{background-position:-30px -30px;}
+
+.container{position:relative;z-index:2;width:1000px;height:0;margin:auto;}
+.Login-box{position:absolute;top:30px;right:30px;width:326px;padding:26px 35px 26px 35px;background:white;border-radius:3px;background:rgba(255, 255, 255, 0.95);border:1px solid #dfdfdf;border-top:0px solid #ff4200;box-shadow:3px 3px 0px #edeef0}
+.Login-title{position:relative;width:100%;height:30px;font:normal 24px/30px "Microsoft YaHei";padding-bottom:17px;}
+
+.Login-form{position:relative;width:100%;}
+.Login-form .cell{position:relative;height:50px;margin-bottom:18px;zoom:1;}
+.Login-form .cell label{position:absolute;top:0;left:0;z-index:1;padding:0 12px;font:normal 14px/48px "Microsoft YaHei";color:#6b6b6b;cursor:text;}
+.Login-form .cell input{position:absolute;top:0;left:0;width:99.5%;height:48px;line-height:48px;font-size:14px;background:#fff;border:1px solid #cececf;box-shadow:inset 0px 2px rgba(100,100,100,.10)}
+.Login-form .cell .icon-form{top:11px;right:10px;}
+.Login-form .bottom{width:100%;height:60px;}
+.Login-form .bottom .button{display:block;border-radius:3px;position:relative;width:100%;background:#ff840a;text-align:center;line-height:48px;color:#fff;font-size:20px;}
+.Login-form .bottom a.button:hover{background:#ed4200}
+.Login-form .cell .qiek,.Login-form .cell .next{float:left;height:14px;margin:1px 5px 0 0;line-height:14px;width:14px;display:inline;border:none;}
+.Login-form .cell .next{width:140px;margin-left:10px;font-size:12px}
+.Login-form .cell .f-fr{display:inline;font-size:12px;line-height:14px;}
+.Login-form .cell1{height:16px;margin-top:-5px;}
+.Login-form .cell2{height:40px;line-height:40px;text-align:right;border-bottom:1px solid #e6e6e6;padding-bottom:0px;color:#6d6d6d;}
+.Login-form .cell2 .f-fr{display:inline;line-height:40px;}
+.Login-form .cell2 .ms-btn{padding:2px 8px;border:1px solid #ddd;height:20px;line-height:20px;display:inline-block;background:#f4f4f4;color:#6d6d6d;margin-top:6px;margin-left:10px;border-radius:3px;}
+.Login-form .cell2 .ms-btn:hover{color:#f30;background:#fefefe}
+
+.Login-form .qita{position:relative;width:100%;margin-top:0px;}
+.Login-form .qita .qit{font-size:12px;}
+.Login-form .qita .login_other a{float:left;display:inline-block;width:135px;height:38px;text-align:left;border-radius:30px;font-size:12px;line-height:38px;color:#fff;margin:5px ;}
+.Login-form .qita .qq{ background-color:#75acd9}
+.Login-form .qita .weibo{ background-color:#A54B15}
+.Login-form .qita .weibo:hover{ background-color:#BE9881}
+.Login-form .qita .qq:hover{ background-color:#4a9aeb}
+.Login-form .qita .tb{background-color:#06DAE2}
+.Login-form .qita .tb:hover{ background-color:#65F0F5}
+
+
+.Login-form .qita .login_other a em{float:left;display:inline-block; width:26px;height:26px;font:normal 12px/26px Arial;margin-left:30px;margin-top:7px;margin-right:5px;}
+.Login-form .qita a em.qq_bg{ background:url(assets/common/member/login_qq.png) no-repeat 0 50%;}
+.Login-form .qita a em.wb_bg{ background:url(assets/common/member/login_weibo.png) no-repeat 0 50%;}
+.Login-form .qita a em.tb_bg{ background:url(assets/common/member/login_taobao.png) no-repeat 0 50%;}
+
+.Login-form p.error{ position:absolute;top:-28px;left:0px;width:87.8%;_width:87%;font-size:12px;background:none repeat scroll 0 0 #fff0d8;line-height:24px;padding:2px 10px 2px 30px;border:1px solid #ff895b;white-space:normal;word-wrap:break-word; z-index:9;box-shadow:0px 3px 0px #edeef0}
+
+.Login-form .cell input{position:relative;z-index:3;display:block;width:97%;padding-left:10px;background:transparent;border:1px solid #cececf;box-shadow:inset 0px 2px rgba(180,180,180,.10),0 2px rgba(255,255,255,.10);-moz-box-shadow:inset 0 2px rgba(180,180,180,.10),0 1px rgba(255,255,255,.10);-webkit-box-shadow:inset 0 2px rgba(180,180,180,.10),0 1px rgba(255,255,255,.10);-webkit-transition:all .08s ease-in-out;-moz-transition:all .08s ease-in-out;color:#444}
+.Login-form .cell input:focus{border-color:#f56400;padding-left:10px;box-shadow:inset 0 1px rgba(24,26,27,.10),0 1px rgba(255,255,255,.8),0 0 14px rgba(175,160,154,.35);-moz-box-shadow:inset 0 1px rgba(24,26,27,.10),0 1px rgba(255,255,255,.8),0 0 14px rgba(175,160,154,.35);-webkit-box-shadow:inset 0 1px rgba(24,26,27,.10),0 1px rgba(255,255,255,.8),0 0 14px rgba(175,160,154,.35)}
+.f-fl{ float:left; _display:inline;}
+.f-fr{ float:right; _display:inline;}
+
+.reg_box .Login-form .cell{height:48px;margin-bottom:0;}
+.reg_box .Login-form .cell label{}
+.reg_box .Login-form .cell input{height: 32px;line-height:32px;}
+.reg_box .Login-form .cell label{height:32px;line-height:32px;}
+.onusernumber{font-size:12px;color:#666;}
+.right_bar{display:none;}
+
+
+
+
+
+/*忘记密码*/
+.forgetpwd-wrap .forgetpwd-form_main{background:#fff;}
+.forgetpwd-wrap .forgetpwd-form { background: url(assets/common/member/lost.png) repeat;  width: 980px; margin: 40px auto 0px auto;padding:10px; }
+.forgetpwd-wrap .forgetpwd-form .find-password { height: 500px; width: 700px; margin: 40px 0px 0px 40px; float: left; display: inline }
+.forgetpwd-wrap .forgetpwd-form .find-password dl dt { font-size: 26px; font-weight: 300; color: #333; font-family:"微软雅黑"; text-align:center;}
+.forgetpwd-wrap .forgetpwd-form .find-password dl dd { width: 560px; height: 50px; float: left; margin-left: 150px; clear: both; margin-top: 20px; display: inline }
+.forgetpwd-wrap .forgetpwd-form .find-password dl dd input { float: left }
+.forgetpwd-wrap .forgetpwd-form .find-password dl dd input.text { width: 260px; height: 46px; border: 1px solid #dddddd; text-indent: 5px; float: left; *line-height: 38px
+}
+.forgetpwd-wrap .forgetpwd-form .find-password dl dd input.nextsetp { background: none; background: url(assets/common/member/next.png) no-repeat; text-indent: -9999px; cursor: pointer; }
+.forgetpwd-wrap .forgetpwd-form .find-password dl dd input.validcode { width: 98px; height: 38px; border: 1px solid #dddddd; text-indent: 5px; *line-height: 38px
+}
+.forgetpwd-wrap .forgetpwd-form .find-password dl dd input.validcode_err { border: 2px solid #e02828; margin-top: -1px; margin-left: -1px; }
+.forgetpwd-wrap .forgetpwd-form .find-password dl dd img { float: left; margin-left: 5px; margin-top: 5px; }
+.forgetpwd-wrap .forgetpwd-form .find-password dl dd a.submit { display: block; background: url(assets/common/member/mail-to-valid.png) no-repeat; width: 260px; height: 45px; }
+.forgetpwd-wrap .forgetpwd-form .find-password dl dd a.submitreset { display: block; margin-left: 65px; background: url(assets/common/member/reset-passwd.png) no-repeat; width: 260px; height: 45px; }
+.forgetpwd_a1 { float: left; margin-top: 10px; margin-left: 10px; color: #0066CC; }
+.forgetpwd-wrap .forgetpwd-form .find-password dl dd span { float: right; }
+.forgetpwd-wrap .forgetpwd-form .find-password dl dd.border { font-weight: bold; margin: 15px 0 10px 0; }
+.forgetpwd-wrap .forgetpwd-form .find-password dl dd i { color: red; }
+.forgetpwd-wrap .forgetpwd-form .find-password dl .lost-timeline { background-image: url(assets/common/member/lost-timeline.png); background-repeat: no-repeat; height: 30px; margin-top: 10px; clear: both; }
+.forgetpwd-wrap .forgetpwd-form .find-password dl .yd1 { background-position: 10px -20px; }
+.forgetpwd-wrap .forgetpwd-form .find-password dl .yd2 { background-position: 10px -78px; }
+.forgetpwd-wrap .forgetpwd-form .find-password dl .yd3 { background-position: 10px -140px; }
+.forgetpwd-wrap .forgetpwd-form .find-password dl .yd4 { background-position: 10px -205px; }
+.forgetpwd-wrap .forgetpwd-form .find-password dl dd span.yd-text { float: left; margin-right: 20px; font-size: 14px; color: #999; }
+.forgetpwd-wrap .forgetpwd-form .label { width: 80px; display: block; float: left; height: 38px; font-size: 14px; line-height: 38px; color: #666; }
+.forgetpwd-wrap .forgetpwd-form .active-ok { width: 60px; height: 40px; display: block; background: url(assets/common/member/active-ok.png) no-repeat; float: left; }
+.hpz_login_message { width: 220px; height: 50px; float: right; }
+.hpz_login_message span { width: 190px; height: 30px; float: left; border-radius: 2px; line-height: 30px; margin-top: 5px; margin-left: 5px; color: #666666; display: none }
+.login_message span { width: 170px; height: 30px; float: left; border-radius: 2px; line-height: 30px; margin-top: 18px; margin-left: 5px; color: #E02828; overflow: hidden; }
+.login_message span em { float: left; font-style: normal; margin-left: 5px; font-size: 12px }
+.hpz_login_mes1 { }
+.hpz_login_mes2 { }
+.hide { display: none; }
+.tip { display: block; }
+
+
+

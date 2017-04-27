@@ -1,0 +1,15 @@
+# robots.txt at http://www.uz-system.com
+User-agent: *
+Crawl-delay: 5
+
+Disallow: /*.php
+Disallow: /web/*
+Disallow: /view/*
+Disallow: /inc/*
+Disallow: /top/*
+Disallow: /fetch/*
+
+Allow: /index.php*
+Allow: /*.html*
+
+

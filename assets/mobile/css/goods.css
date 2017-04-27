@@ -1,0 +1,52 @@
+
+
+.guide { width: 100%; padding-top: 30%; background: url(../images/top.jpg) top left no-repeat; background-size: contain; background-color: #F5F5F5; text-align: center ;display: none;}
+.guide-platform-1 { background-image: url(//img.alicdn.com/tps/i2/TB1tF6yHFXXXXX7aXXXnxLj2pXX-750-224.png) }
+.share-list { // margin-top: 38px; margin: 20px 24px 0; text-align: center; background-color: #fff; position: relative; padding-bottom: 16px; border-radius: 6px; overflow: hidden }
+.share-list .middle-img { width: 100%; vertical-align: top }
+.share-banner { position: relative; padding-top: 24%; background: url(//gw.alicdn.com/tps/TB1nnrUJpXXXXbEXFXXXXXXXXXX-714-170.png); background-repeat: no-repeat; background-size: 100% 100%; display: none }
+.share-banner .banner-logo { display: none }
+.share-banner .banner-slogan { font-size: 16px; color: #fff; line-height: 18px; left: 50%; position: absolute; top: 50%; margin-top: -18px }
+.share-banner .banner-shop { font-size: 16px; color: #fff; line-height: 18px; left: 50%; position: absolute; top: 0; height: 100%; text-align: left; right: 10%; display: -webkit-box; -webkit-box-align: center; -webkit-box-pack: center }
+.text-info { font-size: 14px; line-height: 40px; text-align: left; margin-left: 12px; display: none }
+.text-info .info { color: #EE0A3B; font-size: 14px }
+.text-info .text-info-first { margin-right: 10px }
+.share-list .items { font-size: 0; overflow: hidden }
+.share-list .batchItemImg { width: 50%; padding-top: 50%; position: relative; display: inline-block; overflow: hidden; float: left }
+.share-list .batchItemImg .img { position: absolute; width: 100%; left: 0; top: 0; box-sizing: border-box; padding-bottom: 1.5px }
+.share-list .batchItemImg:nth-child(2n+1) .img { padding-right: 1.5px }
+.share-list .batchItemImg:nth-child(2n) .img { padding-left: 1.5px }
+.share-list .batchItemImg:nth-child(n+3) .img { padding-top: 1.5px }
+.share-list .batch-item-mask { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, .4); text-align: center }
+.share-list .batch-item-mask .item-count { font-size: 40px; color: #FFF; margin-top: 48px; line-height: 46px }
+.share-list .batch-item-mask .info { font-size: 16px; color: #FFF; line-height: 22px }
+.batchInfo { font-size: 14px; color: #051B28; line-height: 20px; margin-top: 17px; text-align: left; padding: 0 20px 6px 50px; background: url(//img.alicdn.com/tps/i2/TB1.v6yMpXXXXXGXFXXpQsyGpXX-40-32.png) 22px 2px no-repeat; background-size: 17px auto }
+.share-list .goods { font-size: 0 }
+.share-list .goodsItemImg { width: 100%; padding-top: 100%; position: relative; overflow: hidden }
+.share-list .goodsItemImg .img { position: absolute; width: 100%; left: 0; top: 0 }
+.share-list .goods-title { font-size: 19px; color: #051B28; line-height: 24px; text-align: center; margin: 25px 18px 10px; overflow: hidden; max-height: 48px }
+.share-list .goods-content { font-size: 14px; color: #000; line-height: 21px; padding: 10px 0; text-align: left }
+.share-list .goods-price { font-size: 24px; color: #DD2727; line-height: 24px; padding: 10px 0 0 0; text-align: left }
+.share-list .goods-price span { font-size: 14px; padding-right: 6px }
+.share-list .award { overflow: hidden }
+.share-list .award-img-wrapper { width: 100%; padding-top: 100%; position: relative }
+.share-list .award-img { position: absolute; width: 100%; height: 100%; top: 0; left: 0 }
+.share-list .award-card { // width: 285px; height: 100px; margin: 15px 21px 0 }
+.share-list .award-icon { background-image: url(//img.alicdn.com/tps/i2/TB1IJgVMpXXXXXEXpXX07tlTXXX-200-200.png); background-repeat: no-repeat; background-position: top left; background-size: 100%; width: 100px; height: 100px; float: left }
+.share-list .award-physical-img { width: 100px; height: 100px; float: left; position: relative }
+.share-list .award-physical-img:after { position: absolute; content: ''; left: 0; bottom: 0; width: 100%; height: 23px; background: url(//img.alicdn.com/tps/i3/TB1P2z6MpXXXXXZXFXXJZxgHXXX-200-46.png) bottom left no-repeat; background-size: 100% }
+.share-list .award-physical-img img { width: 80px; height: 80px; margin: 10px }
+.share-list .award-icon.award-icon-coupon { background-image: url(//img.alicdn.com/tps/i2/TB1rQv0MpXXXXcfXFXX07tlTXXX-200-200.png) }
+.share-list .award-icon.award-icon-hongbao { background-image: url(//img.alicdn.com/tps/i4/TB1ZUz4MpXXXXauXFXX07tlTXXX-200-200.png) }
+.share-list .award-icon.award-icon-gift { }
+.share-list .award-icon.award-icon-liuliang { background-image: url(//gtms04.alicdn.com/tps/i4/TB15eOdMFXXXXbtXpXX07tlTXXX-200-200.png) }
+.share-list .award-text { margin-left: 110px; text-align: left; padding-top: 20px }
+.share-list .face { font-size: 14px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; color: #666 }
+.share-list .face b { font-size: 40px; font-weight: 400; line-height: 40px; padding-left: 4px }
+.share-list .condition { color: #DD2727; font-size: 14px; margin-top: 4px; line-height: 18px; max-height: 36px; overflow: hidden }
+.share-list .shop { background: url(//img.alicdn.com/tps/i1/TB1s8LoMpXXXXXCXVXXsybe7pXX-654-654.png); background-repeat: no-repeat; background-size: 100%; padding-top: 100%; position: relative }
+.share-list .shop-name { font-size: 19px; color: #051B28; line-height: 26px; padding-top: 22px; padding-bottom: 10px; text-align: center }
+.share-list .shop-logo { width: 92px; height: 92px; line-height: 92px; // border-radius: 50%; background: #fff; padding: 4px 4px 0; left: 50%; bottom: 0; position: absolute; margin-left: -50px; // margin-top: -60px; text-align: center; overflow: hidden }
+.share-list .shop-img { height: 100%; width: 100%; vertical-align: top }
+.weixin .index2_head,.weixin .index2_menud,.weixin .i2_botd,.weixin .bottom,.weixin .botmlogind{display: none;}
+.weixin .guide{display: block;}

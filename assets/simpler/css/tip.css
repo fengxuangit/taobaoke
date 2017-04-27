@@ -1,0 +1,6 @@
+.tip {cursor:pointer; position:relative; }
+.tip svg {height:18px; width:18px; padding-right:0.5rem; }
+.tip::before {position:absolute; top:-80px; left:-80px; background-color:#2b222a; border-radius:5px; color:#ffffff; content:attr(data-msg); padding:1rem; text-transform:none; -webkit-transition:all 0.5s ease; transition:all 0.5s ease; width:160px; }
+.tip::after {position:absolute; top:-12px; left:9px; border-left:5px solid transparent; border-right:5px solid transparent; border-top:5px solid #2b222a; content:' '; font-size:0; line-height:0; margin-left:-5px; width:0; }
+.tip::before,.tip::after {color:#efefef; font-family:monospace; font-size:16px; opacity:0; pointer-events:none; text-align:center; }
+.tip:hover::before,.tip:hover::after {opacity:1; -webkit-transition:all 0.75s ease; transition:all 0.75s ease; }

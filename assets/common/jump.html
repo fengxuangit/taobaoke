@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>请在浏览器中打开→</title>
+   <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script type="text/javascript" src="//g.alicdn.com/mtb/lib-ada/0.1.1/ada.js"></script>
+</head>
+<body>
+    <style>
+blockquote,body,dd,dir,dl,fieldset,figure,form,h1,h2,h3,h4,h5,h6,hr,input,legend,menu,ol,optgroup,p,pre,tbody,td,textarea,tfoot,th,thead,ul{margin:0;padding:0}
+ol,ul{list-style-type:none;list-style-image:none}
+body,button,input,select,textarea{-ms-text-autospace:ideograph-alpha ideograph-numeric ideograph-parenthesis;text-autospace:ideograph-alpha ideograph-numeric ideograph-parenthesis}
+h1,h2,h3,h4,h5,h6{font-weight:400}
+*{-webkit-tap-highlight-color:rgba(0,0,0,0)}
+body{background:#F6F5F7;}
+.hide{display: none;}
+.beatHeader{background:#494A4D;height:120px;width:100%;position:relative;z-index:1px;overflow:hidden;display: none;}
+.beatHeader{height:120px;width:100%;position:relative;z-index:1;overflow:hidden;}
+.ios{background:url(http://gw.alicdn.com/tps/TB1PzXWKVXXXXaaaXXXXXXXXXXX-640-242.png) no-repeat #494A4D;background-size:contain;background-position:50% 50%;}
+.android{background:url(http://gw.alicdn.com/tps/TB1Fb00KVXXXXcKXVXXXXXXXXXX-720-242.png) no-repeat #494A4D;background-size:contain;background-position:50% 50%;}
+.beatMain{padding:0 16px;position:relative;z-index:2;display: none;}
+.beatMain .imgContainer{padding:0 16px;text-align:center;margin-bottom:16px;}
+.beatMain .imgContainer img{width:100%;height:auto;margin-top:-16px;box-shadow:0px 3px 12px rgba(21,0,71,0.16);}
+.beatMain .moonTitleContainer{font-size:14px;color:rgba(0,0,0,0.4);margin-bottom:16px;}
+.beatMain .moonTitleContainer span{color:#FF5500;margin-right:16px;}
+.beatMain .itemContent{font-size:14px;color:rgba(0,0,0,0.80);line-height:21px;text-align:left;margin-bottom:16px;}
+.beatMain .itemPrice{font-family:STHeitiSC-Light;font-size:16px;color:#FF5500;line-height:16.5px;text-align:right;margin-bottom:16px;}
+    </style>
+   
+    <div class="beatHeader" id="landingHeader"></div>
+    <div class="beatMain" id="landingBody">
+        <div class="imgContainer"><img src="http://img.alicdn.com/imgextra/i2/410113425/TB2u209abOJ.eBjy1XaXXbNupXa_!!410113425.jpg"></div>
+        <p class="itemContent">请点右上角按钮 然后选择在浏览器中打开，如有提示 是否打开“手机淘宝” 请点击 允许。</p>
+        <p class="itemPrice"></p>
+        <p style="font-size:12px;color:rgba(0,0,0,.4);text-align:center;">点右上角选择在浏览器中打开即可进入下单 </p>
+    </div>
+
+<script type="text/javascript">
+    function getUrlParam(url){
+       url = url || location.search; //获取url中"?"符后的字串
+       var theRequest ={};
+       if (url.indexOf("?") != -1) {
+          var str = sub_str(url,'?',-1);
+          var strs = str.split("&");
+          for(var i = 0; i < strs.length; i ++) {
+             theRequest[strs[i].split("=")[0]]=(strs[i].split("=")[1]);
+          }
+       }
+       return theRequest;
+    }
+
+
+     function app_open(){
+        var param = location.search.split('&');
+       
+        var query = {};
+        for(var i in param){
+            var sp = param[i].split('=');
+            var key = sp[0].replace('?','');
+            var val = sp[1];
+            query[key]=val;
+        }
+
+        if(!('open_app' in query)) return ;
+        if(query.open_app == 'taobao'){
+            
+             if('key' in query){
+                var appkey = query.key;
+                window.BC_SDK = TBSDK_ADA.init({
+                      "appkey" : appkey, //输入百川应用的appkey
+                      "openAPP": true,   //SDK中默认为true，可以不设置，设置false，只会拉起H5。
+                      "backURL": "", //applink的tips的回跳url， 设置能在手机淘宝里面调回你自己应用的url。
+                      "params":{isv_code:'mobile_url',pid:''}
+                });
+                var url = location.search.replace('?jumpurl=','').replace(/&open_app(.*$)/ig,'');
+                url = decodeURIComponent(url);
+                if(url.indexOf('s.click.taobao')>-1){
+                    window.BC_SDK.openPage({tkUrl : url});   
+                }else{
+                    window.BC_SDK.openPage({ url :url});
+                }
+
+            }else{
+                 var url = 'taobao://?';
+                 location.href = url;
+            }
+
+        }else{
+            var url = query.open_app+'://?';
+            if('num_iid' in query) url+='&num_iid='+query.num_iid;
+            if('a' in query) url+='&a='+query.a;
+            if('jumpurl' in query) url+='&jumpurl='+query.jumpurl;
+            location.href = url;
+
+            setTimeout(function(){
+               show()
+            },1000);
+          
+            // setTimeout(function(){
+            //   if(!document.hidden) location = '/index.php?m=apps';
+            // },1500);
+
+        }
+
+    }
+
+    var ua = navigator.userAgent.toLowerCase();
+    if(ua.indexOf('iphone') > -1){
+        document.getElementById('landingHeader').className = 'beatHeader ios';
+    }else {
+        document.getElementById('landingHeader').className = 'beatHeader android';
+    }
+
+    if(ua.indexOf('micromessenger') > -1){
+       //是微信就不管
+       show()
+    
+    }else if(location.href.indexOf('&open_app=')>-1){
+
+        app_open();
+    }else{
+        //不是微信就跳转
+         var url = location.search.replace('?jumpurl=','');
+         url = decodeURIComponent(url);
+         location.href = url;
+    }
+
+
+    function show(){
+         document.getElementById('landingHeader').style.display = 'block';
+        document.getElementById('landingBody').style.display = 'block';
+    }
+
+
+</script>
+</body>
+</html>

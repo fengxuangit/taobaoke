@@ -1,0 +1,166 @@
+.style-detail-recommend .mate-box.taeapp { color: #777; background: #f5f5f5; font-family: tahoma, arial, 'Hiragino Sans GB', '\5fae\8f6f\96c5\9ed1', sans-serif!important; -webkit-backface-visibility: visible!important }
+.comment_comments .comment_msg{display:none;}
+
+
+.con-wrap {   margin: 0 auto ;width:1200px;}
+.lis-page .list-tag-des { font-size: 16px; color: #C68948; margin-left: 30px }
+.list-channel-nav { position: fixed; top: 230px; left: 0; background: #fff; text-align: center; width: 65px; z-index: 500; display: none; border: 1px solid #E8E8E8; border-top: 2px solid #D1AD95; color: #777; padding-top: 4px }
+.list-channel-nav a { display: block; height: 30px; line-height: 30px; position: relative }
+.list-channel-nav a:hover, .list-channel-nav .current { color: #fff; background: #E22C37 }
+.list-crumbs { background: #FAFAFA; height: 28px; line-height: 28px; font-size: 14px; padding-left: 15px; border-bottom: 1px solid #E8E8E8 }
+.list-crumbs .step { font-weight: 700 }
+.list-crumbs .split { margin: 0 10px; vertical-align: middle; font-size: 10px; position: relative; top: -1px; color: #777; -webkit-text-size-adjust: none }
+.list-main { margin-top: 20px; overflow: hidden }
+.list-main .list-title { line-height: 22px; height: 24px; overflow: hidden; border-left: 5px solid #C68948; font-size: 14px; padding-left: 10px; margin-bottom: 10px; position: relative; border-left: 4px solid #c68948 }
+.list-main .list-title h3 { font-size: 22px; display: inline; font-weight: 700; color: #895F51 }
+.list-main .list-title h3 a { cursor: default; outline: 0; color: #895F51 }
+.list-main .list-title h3 a:hover { color: #895F51 }
+.list-main .list-title .sort-action { position: absolute; right: 0; bottom: 0 }
+.list-main .list-title .sort-action a { float: left; font-size: 12px; font-weight: 400; display: inline-block; text-align: center; height: 21px; line-height: 21px; width: 48px; border: 1px solid #E8E8E8; background: #fff }
+.list-main .list-title .sort-action .current { width: 50px; height: 23px; overflow: hidden; border: 0 none; color: #fff; background: url(http://gtms01.alicdn.com/tps/i1/T1ZLYNFgVbXXbt3c_h-50-23.gif) no-repeat }
+.list-main .list-con { overflow: hidden; padding-top: 5px }
+/* 左边标签 */
+.style-listpage { position: relative }
+.dapei-listnav { position: absolute; top: 0; left: 0; z-index: 50 }
+.dapei-listnav .nav-tags { padding: 20px; padding-bottom: 5px }
+.dapei-listnav .nav-tags a { border-radius: 11px; border: 1px solid #E8E8E8; background: #F5F5F5; padding: 0 10px; display: inline-block; line-height: 22px; margin-right: 13px; color: #777; margin-bottom: 15px }
+.dapei-listnav .nav-tags .no-mg { margin-right: 0 }
+.dapei-listnav .nav-tags a:hover { color: #333 }
+.dapei-listnav .nav-tags .current { background: #FF6065; color: #fff }
+.dapei-listnav .nav-tags .current:hover { color: #fff }
+.style-waterfall .no-data { display: inline-block; padding: 20px }
+.mate-box .share-action { margin-top: 10px ;height:20px;}
+.mate-box .share-action { margin-top: 10px }
+.mate-wrap { margin-top: 20px; overflow: hidden }
+.mate-wrap .mate-tags { width: 190px; padding: 24px 18px; background: #fff; border: 1px solid #e9e9e9; border-radius: 5px }
+.mate-tags ul { overflow: hidden; *zoom:1;
+margin-left: -10px; margin-top: -18px }
+.mate-tags ul li { float: left; margin-left: 8px; margin-top: 18px }
+.mate-tags a { display: inline-block; padding: 0 15px; height: 21px; line-height: 21px; border: 1px solid #e8e8e8; border-radius: 15px; font-family: 'Microsoft YaHei'; font-size: 12px; color: #777 }
+.mate-tags a:hover { background: #ff6065; border: 1px solid #ff6065; color: #fff }
+.mate-list { float: left }
+.mate-box { border: 0; width: 228px; background: #fff; display: inline-block; _display: inline; _zoom: 1; margin-right: 12px; vertical-align: top; margin-bottom: 15px; border-radius: 4px; -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.2); box-shadow: 0 1px 3px rgba(0,0,0,.2); -moz-box-shadow: 0 1px 3px rgba(0,0,0,.2); overflow: hidden; transition: box-shadow .3s; border: 1px solid #e8e8e8\9 }
+.mate-box:hover { box-shadow: 0 0 8px 5px #e7e7e7 }
+.mate-box .info-wrap { padding: 0; text-align: center; position: relative }
+.mate-box .info-wrap .info-img { width: 228px; overflow: hidden; position: relative }
+.mate-box .info-wrap .info-img img { display: block }
+.mate-box .info-detail { width: 212px; text-align: left; position: absolute; bottom: 0; left: 0; line-height: 14px; padding: 8px; color: #fff; background: url(http://gtms01.alicdn.com/tps/i1/T1053dFeJgXXaaD1Dr-3-3.png) repeat; background: rgba(0,0,0,.3); overflow: hidden }
+.mate-box .add-tocollect { position: absolute; width: 91px; height: 24px; line-height: 24px; border-radius: 12px; background: #e22c37; top: 10px; right: 10px; color: #fff; display: none; _display: block }
+.mate-box:hover .add-tocollect { display: block }
+.mate-box .share-action .favorite { float: left; background: url(http://gtms01.alicdn.com/tps/i1/T1TmpxFzXlXXaw1kDa-19-17.png) no-repeat 0 2px; padding: 0 26px; font-weight: 700; color: #e22c37; padding-bottom: 2px }
+.mate-box .share-action .favorite:hover { background: url(http://gtms01.alicdn.com/tps/i1/T1UI8CFE0gXXaw1kDa-19-17.png) no-repeat 0 2px }
+.mate-box .share-action .hasFavorite { background: url(http://gtms01.alicdn.com/tps/i1/T1UI8CFE0gXXaw1kDa-19-17.png) no-repeat 0 2px }
+.mate-box .thumb-goods { display: none; width: 220px ;height:53px;overflow:hidden;}
+.mate-box .thumb-goods a { margin-right: 4px; float: left }
+.mate-box .thumb-goods .last { margin-right: 0 }
+.mate-box .thumb-goods a img { width: 50px; height: 50px }
+.mate-box .share-user { padding: 10px 0; border-top: 1px solid #E8E8E8; background: #fafafa; text-align: left ;display:none;}
+.mate-box .user-line { padding: 0 10px 0 55px; position: relative; line-height: 20px; min-height: 30px }
+.mate-box .user-line .uname { margin-right: 5px; font-weight: 700; word-break: break-all; position: relative; top: 3px }
+.mate-box .user-line .uname a { font-family: Tahoma; color: #95877c; font-weight: 700; margin-top: 4px }
+.mate-box .user-line .uname a:hover { color: #f40 }
+.mate-box .user-line .user-img { position: absolute; top: 0; left: 14px }
+.mate-box .user-line .user-img img { width: 30px; height: 30px; display: block; border-radius: 30px }
+.mate-box .share-action { margin-bottom: 10px; padding-left: 7px }
+.mate-box .share-action { padding-left: 15px }
+.mate-box .goods-txt { text-align: left;  line-height: 21px; padding: 10px 15px; word-break: break-all }
+.mate-box .daren-icon { display: inline-block; width: 52px; height: 22px; background: url(http://gtms01.alicdn.com/tps/i1/T1abNAFqBfXXa6KD_h-52-22.png) no-repeat; vertical-align: middle; margin-top: -4px }
+.mate-box .btn-action { background: #fafafa; border-top: 1px solid #e8e8e8; text-align: center; margin-top: 10px }
+.mate-box .btn-action .box-btn { text-align: center; line-height: 30px; display: inline-block }
+.mate-box .isPeople { position: absolute; top: -1px; left: 10px; background: #CB3100; padding: 5px; color: #fff; width: 30px }
+.mate-box .box-ico { position: absolute; top: 0; right: 10px; width: 34px; height: 34px; z-index: 50; background: url(http://gtms04.alicdn.com/tps/i4/T1.MGeFCXeXXX15Rfm-72-36.png) no-repeat 0 0 }
+.style-waterfall { position: relative; overflow: hidden; min-height: 400px ;font:12px/1.5 tahoma,"microsoft yahei","\5FAE\8F6F\96C5\9ED1";color:#666;}
+.style-waterfall a{color:#AAA;}
+.ks-waterfall { position: static; top: auto; left: auto; margin-right: 0 }
+.ks-waterfall-col {width: 234px; margin-left: 0px; display: inline-block; vertical-align: top;margin-left:2px;}
+
+
+/* 详情页 */
+
+
+
+
+
+.dapei-list-detail {position: relative }
+.dapei-list-detail .detail-left-wrap { width: 100%; float: left }
+.dapei-list-detail .dapei-detail-con { border: 1px solid #E9E9E9; border-top: 0 none; box-shadow: 1px 1px 1px 0 #E7E7E7; background: #fafafa }
+.dapei-list-detail .detail-left { margin-right: 390px; border-right: 1px solid #dbdbdb; padding: 20px; background: #fff }
+.dapei-list-detail .detail-con { text-align: right; position: relative; padding-right: 100px; background: url(http://gtms01.alicdn.com/tps/i1/T18HxBFAFhXXaYd3fr-5-5.gif) repeat }
+.dapei-list-detail .detail-con img { margin-top: 20px; float: right }
+.dapei-list-detail .detail-con .first { margin-top: 0 }
+.dapei-list-detail .detail-con .bottom-space { clear: both; height: 20px; margin-top: -24px; background: #fff }
+.dapei-list-detail .detail-nav { position: absolute; top: 0; left: 0; background: #fff; background: rgba(255,255,255,.7); padding: 10px; border: 1px solid #ccc }
+.dapei-list-detail .detail-nav img { display: block; width: 70px; opacity: .6; margin: 0; filter: alpha(opacity=60) }
+.dapei-list-detail .detail-nav a { display: block; background: #ccc; margin-bottom: 15px; width: 70px; overflow: hidden; padding:2px;}
+/* .dapei-list-detail .detail-nav .pic-border { border: 3px solid #FF6065; top: 0; left: 0; position: absolute; display: none } */
+.dapei-list-detail .detail-nav a:hover, .dapei-list-detail .detail-nav .active { position: relative;background:#FF6065; }
+.dapei-list-detail .detail-nav a:hover img, .dapei-list-detail .detail-nav .active img { opacity: 1; filter: alpha(opacity=100) }
+/* .dapei-list-detail .detail-nav a:hover .pic-border, .dapei-list-detail .detail-nav .active .pic-border { display: block } */
+.dapei-list-detail .detail-right-wrap { float: left; width: 390px; margin-left: -390px }
+.dapei-list-detail .detail-right { width: 390px }
+.dapei-list-detail .detail-right-box { border: 1px solid #E9E9E9; background: #fff }
+.dapei-list-detail .detail-right-box .btns a { display: inline-block; height: 30px; line-height: 30px; width: 90px; text-align: center; color: #fff; margin-right: 20px; border-radius: 5px }
+.dapei-list-detail .detail-right-box .btns .bg-blue { background: #1ea2ff }
+.dapei-list-detail .detail-right-box .btns .bg-green { background: #76b900 }
+.dapei-list-detail .detail-right-box .des { padding: 25px 0; color: #aaa }
+.dapei-list-detail .con1, .dapei-list-detail .con2 { padding: 24px }
+.dapei-list-detail .con1 { border-bottom: 1px dashed #ccc }
+.dapei-list-detail .comment-box { background: #fff; margin-top: 15px }
+.dapei-list-detail .daren-info { border-bottom: 1px solid #e8e8e8; padding: 20px; position: relative }
+.dapei-list-detail .daren-info .daren-logo { float: left; margin-right: 15px; margin-top: 5px }
+.dapei-list-detail .daren-info .daren-logo img { width: 80px; height: 80px; border-radius: 40px }
+.dapei-list-detail .daren-info .daren-desc {  width: 250px; overflow: hidden }
+.dapei-list-detail .daren-info .name-line { font-size: 14px; font-weight: 700; color: #333 }
+.dapei-list-detail .daren-info .name-line a { color: #333; vertical-align: middle }
+.dapei-list-detail .daren-info .sing-line { margin: 5px 0; line-height: 30px;}
+.dapei-list-detail .daren-info .count-line { overflow: hidden; margin-left: -15px; margin-top: 10px }
+.dapei-list-detail .daren-info .count-line a { float: left; padding: 0 15px; border-left: 1px solid #CCC; margin-left: -1px }
+.dapei-list-detail .daren-info .count-line em { font-size: 14px; line-height: 15px; color: #0FB7B3; font-weight: 700; display: block; margin-bottom: 2px }
+.dapei-list-detail .daren-info .follow-btn { position: absolute; right: 20px; bottom: 24px; width: 60px; text-align: center }
+.dapei-list-detail .mate-model-comment { background: 0 0; border: 0; border-bottom: 1px solid #e8e8e8 }
+.dapei-list-detail .mate-model-comment .comment-widget .act .btn a { border: 0; background: #e22c37; color: #fff; border-radius: 2px }
+.dapei-list-detail .mate-model-comment .detail-favorbtn { display: inline-block; margin-bottom: 10px; cursor: pointer; border: 1px solid #d61c29; border-radius: 2px; line-height: 20px; color: #d61c29; padding: 0 }
+.dapei-list-detail .mate-model-comment .detail-favorbtn span { font-size: 16px; margin-right: 5px }
+
+
+
+
+
+.dp-detail-buyimgs { padding: 20px 0; background: #fafafa; border-bottom: 1px solid #e8e8e8 }
+.dp-detail-buyimgs h3 { margin-bottom: 5px; font-size: 16px; font-weight: 700; color: #333; padding-left: 20px }
+.dp-detail-buyimgs ul li { padding: 10px 20px }
+.dp-detail-buyimgs ul li:hover { background: #f0f0f0 }
+.dp-detail-buyimgs ul li:hover .img { border-color: #FF6065 }
+.dp-detail-buyimgs ul li:hover .txt-detail { display: block }
+.dp-detail-buyimgs ul li:hover .img-tag { display: none }
+.dp-detail-buyimgs ul li a { display: block; color: #a3a3a3; position: relative }
+.dp-detail-buyimgs ul li img { width: 86px; height: 86px; float: left }
+.dp-detail-buyimgs ul li .txt-detail { position: absolute; top: 20px; color: #fff; left: 20px; background: rgba(0,0,0,.2); height: 40px; line-height: 20px; width: 30px; padding: 0 5px; text-align: center; display: none }
+.dp-detail-buyimgs ul li .img { border-radius: 4px; overflow: hidden; display: block; float: left; width: 86px; height: 86px; position: relative; margin-right: 15px; border: 1px solid transparent }
+.dp-detail-buyimgs ul li .img-tag { position: absolute; bottom: 0; color: #fff; left: 0; background: url(http://gtms01.alicdn.com/tps/i1/T1053dFeJgXXaaD1Dr-3-3.png) repeat; background: rgba(0,0,0,.4); height: 20px; line-height: 20px; width: 86px; text-align: center }
+.dp-detail-buyimgs ul li .title { display: block; line-height: 22px; overflow: hidden; height: 22px; color: #333; font-size: 14px }
+.dp-detail-buyimgs ul li .price-del { display: block }
+.dp-detail-buyimgs ul li .price-del i { text-decoration: line-through; font-style: normal }
+.dp-detail-buyimgs ul li .price-current { display: block }
+.dp-detail-buyimgs ul li .price-current .em { font-size: 16px; color: #e22c38; font-weight: 700 }
+.dp-detail-buyimgs ul li .tag { display: inline-block; border-radius: 2px; color: #fff; background: #76ba01; padding: 0 5px; line-height: 20px }
+.dp-detail-buyimgs ul li .gobuy { position: absolute; right: 0; top: 28px; width: 60px; background: #e22c38; color: #fff; border-radius: 2px; line-height: 26px; text-align: center }
+
+
+.style-detail-recommend { clear: both }
+.style-detail-recommend .recommend-title { font-size: 16px; border-left: 5px solid #C68948; padding-left: 8px; margin-top: 20px; margin-bottom: 10px }
+/* .style-detail-recommend .mate-box { float: left } */
+.dapei-list-detail .fixed_nav{position: fixed; top: 0; }
+.taeapp .dapei-list-detail{width:1200px;}
+
+.fixed_right{  position: fixed;
+    width: 390px;
+    top: 0;
+    z-index: 9999}
+
+
+.fixed_right2{  position: absolute;
+    width: 390px;
+    bottom: 0;
+    z-index: 9999}
+

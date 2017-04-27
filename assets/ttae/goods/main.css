@@ -1,0 +1,146 @@
+
+
+.taeapp .mianbaoxie { padding: 5px 0;  margin: 10px auto 0 auto; text-align: left; background-color: white; }
+.taeapp .mianbaoxie p { margin-left: 30px; }
+
+.taeapp .suncates { font-size: 12px;  border: 1px solid #DBDBDB; list-style-type: none; background-color: white; margin: 10px auto; overflow: hidden; text-align: center; padding: 0 0 10px 0; }
+
+.taeapp .suncates li { text-decoration: none; margin-top: 10px; margin-right: 5px; margin-left: 10px; position: relative; float: left; overflow: hidden; width: 80px; height: 20px; }
+.taeapp .suncates li a { margin: 0 5px; padding: 5px 5px; color: #333; text-decoration: none; }
+
+.taeapp .item_top { height: 43px;margin-top: 10px; margin-bottom: 12px; border: 1px solid #D6D6D6; background-color: white; }
+.taeapp .item_top .on { background-color: white; color: #38B5C2; }
+.taeapp .item_top .sort { height: 40px; width: 80px; text-align: center; float: left; font-size: 14px; line-height: 40px; border-right-width: 1px; border-right-style: solid; border-right-color: #D6D6D6; }
+.taeapp .item_top .sort i { background-image: url(down.gif); height: 9px; width: 7px; margin-top: 17px; margin-right: 20px; margin-bottom: 14px; float: right; margin-left: -20px; }
+.taeapp .item_top .sort em { background-image: url(up.gif); height: 9px; width: 7px; margin-top: 17px; margin-right: 20px; margin-bottom: 14px; float: right; margin-left: -20px; }
+.taeapp .item_top a { color: black; }
+.taeapp .item_top span { float: left; line-height: 40px; margin-right: 10px; margin-left: 10px; font-size: 12px; }
+.taeapp .item_top .price { font-size: 12px; line-height: 20px; text-align: center; float: left; height: 20px; width: 45px; margin-top: 10px; border: 1px solid #D6D6D6; }
+.taeapp .item_top .keys { font-size: 12px; line-height: 20px; text-align: center; float: left; height: 20px; width: 120px; margin-top: 10px; border: 1px solid #D6D6D6; }
+.taeapp .item_top .post { font-size: 14px; line-height: 20px; text-align: center; float: left; height: 25px; width: 45px; margin-top: 8px; border: 1px solid #D6D6D6; color: #6B6B6B; background-color: #F3F3F3; cursor: pointer; }
+.taeapp .item_top .paging { float: right; height: 40px; width: 115px; }
+.taeapp .item_top .paging .num { font-size: 12px; line-height: 40px; color: black; float: left; height: 40px; width: 45px; margin-right: 10px; }
+.taeapp .item_top .paging .last { background-image: url(last.gif); background-repeat: no-repeat; float: none; height: 23px; width: 23px; border: 1px solid #DBDBDB; margin-top: 8px; float: left; margin-left: -5px; }
+.taeapp .item_top .paging .next { background-image: url(next.gif); background-repeat: no-repeat; float: right; height: 23px; width: 23px; border: 1px solid #DBDBDB; margin-right: 10px; margin-top: 8px; margin-left: 5px; }
+.taeapp .for_top { -moz-box-shadow: 0px 0px 10px #CFCFCF; box-shadow: 0px 0px 5px #CFCFCF; position: fixed; top: 0; z-index: 999; margin-top: 0px; }
+.taeapp .item_list { zoom: 1; }
+.taeapp .item_list ul { zoom: 1; margin-right: -10px; *padding-bottom:10px;
+_padding-bottom: 0; }
+.taeapp .item_list:after, .taeapp .item_list ul:after { display: table; clear: both; content: ""; }
+.taeapp .item_list li { display: inline; overflow: hidden; float: left; width: 250px; height: 330px; margin:5px; padding: 5px; border: 1px solid #E5E5E5; background: #FFF; }
+.taeapp .item_list .item { zoom: 1; position: relative; width: 100%; height: 100%; }
+.taeapp .item_list .item:before, .taeapp .item_list .item:after { display: table; clear: both; content: ""; }
+.taeapp .item_list .pic { display: block; overflow: hidden; width: 250px; height: 250px; margin-bottom: 5px; font-size: 0; line-height: 220px; text-align: center; }
+.taeapp .item_list .pic:hover { opacity: 0.8; }
+.taeapp .item_list .pic img { width: 250px; height: 250px; }
+.taeapp .item_list .tit { overflow: hidden; width: 100%; height: 33px; margin: 0 -10px; padding: 0 10px; border-top: 1px solid #EEE; font-size: 14px; line-height: 33px; }
+.taeapp .item_list .price { position: absolute; left: 5px; bottom: -4px; height: 56px; font-family: arial; }
+.taeapp .item_list .price .p1 { display: block; height: 40px; line-height: 40px; color: #E73121; }
+.taeapp .item_list .price .p1 s { font-style: normal; font-size: 20px; text-decoration: none; }
+.taeapp .item_list .price .p1 strong { font-weight: 500; font-size: 24px; font-family: tahoma; }
+.taeapp .item_list .price .p2 { display: block; height: 16px; line-height: 16px; color: #AAA; }
+.taeapp .item_list .btn { display: block; overflow: hidden; position: absolute; right: 5px; bottom: 0; width: 68px; height: 32px; padding: 0; background: #E73121; font-size: 14px; text-align: center; line-height: 32px; color: #FFF; transition: color 0.2s ease-in-out; }
+.taeapp .item_list .btn:hover { background-color: #FF6254; color: #FFF; }
+.taeapp .item_list .by { position: absolute; right: 10px; bottom: 8px; height: 16px; line-height: 16px; color: #49AF3C; }
+.taeapp .item_list .zhe { display: block; overflow: hidden; position: absolute; z-index: 1; right: 0; top: 0; width: 68px; height: 34px; background: url(promotion.png); text-align: center; color: #FFF; }
+.taeapp .item_list .sold-out { display: none; position: absolute; left: 0; top: 0; width: 100%; height: 220px; background: url(soldout.png); }
+.taeapp .item_list .sold-out i { display: block; width: 100%; height: 100%; background: url(soldout.png); _background-image: url(soldout.png); }
+.taeapp .item_list .item-sold_out .sold-out { display: block; }
+.taeapp .item_list .item-sold_out .price .p1, .taeapp .item_list .item-sold_out .price .p2, .taeapp .item_list .item-sold_out .by { color: #888; }
+.taeapp .item_list .item-sold_out .btn, .taeapp .item_list .item-sold_out .btn:hover { background-color: #CCC; background-position: -68px -32px; color: #FFF; }
+
+
+.goods-overview-cnt{width:610px;margin-left:30px;float:left;}
+.taeapp .goods-overview { zoom: 1; margin-bottom: 20px;  }
+.taeapp .goods-overview:after { display: table; clear: both; content: ""; }
+.taeapp .goods-overview-pic { display: inline; overflow: hidden; position: relative; float: left; width: 310px; height: 310px; padding: 0px; background: url(gray_large.png) no-repeat; }
+.taeapp .goods-overview-pic-crop { overflow: hidden; width: 100%; height: 100%; font-size: 0; text-align: center; line-height: 210px; }
+.taeapp .goods-overview-pic img { border-radius: 5px; box-shadow: 0 0 5px rgba(0,0,0,0.1); background: #C6C6C6; vertical-align: middle; }
+.taeapp .goods-overview-pic b { display: inline-block; }
+
+.taeapp .goods-overview-cnt h1 { overflow: hidden; width: 100%; height: 30px; padding: 10px 0 30px; font: 500 20px/30px arial, 微软雅黑; white-space: nowrap; text-overflow: ellipsis; color: #171717; }
+.taeapp .goods-overview-cnt .c-a { width: 300px; }
+.taeapp .goods-overview-cnt .c-a ul { margin-bottom: 20px; line-height: 30px; color: #333; }
+.taeapp .goods-overview-cnt .c-a span { font-family: arial; }
+.taeapp .goods-overview-cnt .c-a strong { font-weight: 500; font-size: 20px; color: #E73121; }
+.taeapp .goods-overview-cnt .act .btn-shop { float: left; width: 205px; height: 60px; margin-right: 30px; border-bottom: 3px solid #E73121; background: #FF3D3D; font: 20px/60px arial, 微软雅黑; *font-weight:700;
+text-align: center; cursor: pointer; color: #FFF; }
+.taeapp .goods-overview-cnt .act .btn-shop:hover { border-color: #FF6254; background: #E73121; }
+.taeapp .goods-overview-cnt .act .btn-comm { float: left; margin-top: 15px; padding: 5px 10px; border: 1px solid #E5E5E5; background: #F8F8F8; color: #666; }
+.taeapp .goods-overview-cnt .act .btn-comm:hover { border-color: #DC5684; background: #FFF; color: #DC5684; }
+
+
+
+
+.taeapp .listContainer {  margin-left: auto; margin-right: auto; }
+.taeapp .item_top { height: 43px;  margin-top: 10px; margin-bottom: 12px; border: 1px solid #D6D6D6; background-color: white; }
+.taeapp .item_top .on { background-color: white; color: #38B5C2; }
+.taeapp .item_top .sort { height: 40px; width: 80px; text-align: center; float: left; font-size: 14px; line-height: 40px; border-right-width: 1px; border-right-style: solid; border-right-color: #D6D6D6; }
+.taeapp .item_top .sort i { background-image: url(down.gif); height: 9px; width: 7px; margin-top: 17px; margin-right: 20px; margin-bottom: 14px; float: right; margin-left: -20px; }
+.taeapp .item_top .sort em { background-image: url(up.gif); height: 9px; width: 7px; margin-top: 17px; margin-right: 20px; margin-bottom: 14px; float: right; margin-left: -20px; }
+.taeapp .item_top a { color: black; }
+.taeapp .item_top span { float: left; line-height: 40px; margin-right: 10px; margin-left: 10px; font-size: 12px; }
+.taeapp .item_top .price { font-size: 12px; line-height: 20px; text-align: center; float: left; height: 20px; width: 45px; margin-top: 10px; border: 1px solid #D6D6D6; }
+.taeapp .item_top .keys { font-size: 12px; line-height: 20px; text-align: center; float: left; height: 20px; width: 120px; margin-top: 10px; border: 1px solid #D6D6D6; }
+.taeapp .item_top .post { font-size: 14px; line-height: 20px; text-align: center; float: left; height: 25px; width: 45px; margin-top: 8px; border: 1px solid #D6D6D6; color: #6B6B6B; background-color: #F3F3F3; cursor: pointer; }
+.taeapp .item_top .paging { float: right; height: 40px; width: 115px; }
+.taeapp .item_top .paging .num { font-size: 12px; line-height: 40px; color: black; float: left; height: 40px; width: 45px; margin-right: 10px; }
+.taeapp .item_top .paging .last { background-image: url(last.gif); background-repeat: no-repeat; float: none; height: 23px; width: 23px; border: 1px solid #DBDBDB; margin-top: 8px; float: left; margin-left: -5px; }
+.taeapp .item_top .paging .next { background-image: url(next.gif); background-repeat: no-repeat; float: right; height: 23px; width: 23px; border: 1px solid #DBDBDB; margin-right: 10px; margin-top: 8px; margin-left: 5px; }
+.taeapp .for_top { -moz-box-shadow: 0px 0px 10px #CFCFCF; box-shadow: 0px 0px 5px #CFCFCF; position: fixed; top: 0; z-index: 999; margin-top: 0px; }
+
+
+
+.taeapp .contain_block { width: 100%; background-color: #F0F0F0; }
+.taeapp .comments_form { width: 720px; float: left; padding: 0 20px; }
+.taeapp .comments_form p { font-size: 14px; line-height: 35px; float: left; width: 235px; }
+.taeapp .comments_form .comment_content { width: 342px; float: left; }
+.taeapp .comments_form .post_comment { font-size: 14px; line-height: 35px; text-align: center; float: left; width: 45px; border: 1px solid #D6D6D6; color: #6B6B6B; background-color: #F3F3F3; cursor: pointer; }
+.taeapp .recommend_title { color: #000; }
+.taeapp .recommend_title strong { color: blue; }
+
+
+.taeapp .ui-titlebar { zoom: 1; margin: 0 0 10px; padding: 10px 0 10px 15px; border-top: 3px solid #E73121; background: #FFF; line-height: 32px; font-family: arial, 微软雅黑; }
+.taeapp .ui-titlebar:after { display: table; clear: both; content: ""; }
+.taeapp .ui-titlebar-main { float: left; }
+.taeapp .ui-titlebar-sub { float: right; }
+.taeapp .ui-titlebar i.icon { overflow: hidden; float: left; width: 32px; height: 32px; background: url(zhe.png) no-repeat; }
+.taeapp .ui-titlebar i.icon-1 { background-position: 0 0; }
+.taeapp .ui-titlebar i.icon-2 { background-position: -32px 0; }
+.taeapp .ui-titlebar i.icon-3 { background-position: -64px 0; }
+
+.taeapp .ui-titlebar h2 { display: inline; float: left; margin: 0 0 0 10px; font-weight: 700; font-size: 16px; color: #333; }
+.taeapp .ui-titlebar .more { display: inline-block; *display:inline;
+*zoom:1;
+overflow: hidden; position: relative; margin-top: -10px; padding: 0 10px; height: 40px; background: #E73121; font-size: 16px; line-height: 36px; font-family: arial, 微软雅黑; vertical-align: top; color: #FFF; cursor: pointer; }
+.taeapp .ui-titlebar .more:hover { background: #5BD8E5; color: #FFF; }
+.taeapp .ui-titlebar .more em { float: left; }
+.taeapp .ui-titlebar .more b { overflow: hidden; float: left; width: 0; height: 0; margin: 13px 0 0 5px; border: 5px solid #E73121; border-left: 5px solid #FFF; border-right: 0; }
+.taeapp .ui-titlebar .more:hover b { border-color: #5BD8E5; border-left-color: #FFF; }
+.taeapp .ui-titlebar .text { display: inline-block; *display:inline;
+*zoom:1;
+font: 14px/32px arial, 微软雅黑; margin-right: 15px; vertical-align: top; color: #666; }
+.taeapp .ui-titlebar .timeleft { float: left; margin-left: 20px; }
+
+
+.taeapp .view-goods { zoom: 1; background: #F0F0F0 url(gray.png); }
+.taeapp .view-goods:before, .taeapp .view-goods:after { display: table; clear: both; content: ""; }
+.taeapp .view-goods-detail { zoom: 1; margin-bottom: 10px; padding: 25px; border-radius: 3px; box-shadow: 0 0 10px rgba(0,0,0,0.05); background: #FFF; }
+
+.taeapp .view-goods-commnents { font-family: arial, 微软雅黑; }
+.taeapp .view-goods-commnents ul { overflow: hidden; zoom: 1; }
+.taeapp .view-goods-commnents li { zoom: 1; margin-top: -1px; padding: 25px 0 25px 140px; border-top: 1px solid #E5E5E5; }
+.taeapp .view-goods-commnents li:after { display: table; clear: both; content: ""; }
+.taeapp .view-goods-commnents .meta { display: inline; overflow: hidden; position: relative; float: left; width: 100px; margin-top: 5px; margin-left: -140px; padding-right: 20px; border-right: 1px solid #E6E6E6; text-align: right; color: #CCC; }
+.taeapp .view-goods-commnents .u { height: 20px; padding-left: 2px; font-size: 12px; line-height: 20px; }
+.taeapp .view-goods-commnents .s { display: block; height: 35px; font-size: 20px; line-height: 30px; }
+.taeapp .view-goods-commnents .t { height: 16px; white-space: normal; line-height: 16px; }
+.taeapp .view-goods-commnents .cnt { float: left; width: 100%; font-size: 14px; line-height: 1.8; color: #333; }
+
+
+.item_bar{background: #FFF;font-size: 14px;padding: 0;}
+.item_bar ul li {height: 30px;line-height: 30px;color: #666;text-align: center;border-right: 1px solid #ccc;float: left;width: 140px;padding: 5px 0;}
+.item_bar ul li:hover{background: #FF3D3D;color: #fff;}
+.item_bar ul li:hover a{color: #fff;}
+.item_bar ul li a{width: 100%;height: 100%;}
+.taeapp .item_list{margin-left: -5px;}
