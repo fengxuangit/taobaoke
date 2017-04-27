@@ -1,6 +1,7 @@
 <?php
 if(!defined('IN_TTAE')) exit('Access Denied');
 
+include 'inc/class/cache/fileServer_cache.php';
 
 function getuserpic($user){
 
