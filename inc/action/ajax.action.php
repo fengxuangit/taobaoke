@@ -237,7 +237,7 @@ class ajax extends app{
 
 					$arr['title'] = $data['title'];
 					$arr['picurl'] = $data['picurl'];
-					$arr['url'] = '/index.php?m='.$type.'&'.$id_name.'='.$id;
+					$arr['url'] = 'index.php?m='.$type.'&'.$id_name.'='.$id;
 					$arr['dateline']= TIMESTAMP;
 					if($arr['jf']>0) {
 						update_member(array('jf'=>$_G[member][jf]+$jf),$_G[uid]);
@@ -360,7 +360,7 @@ class ajax extends app{
 
 					$arr['title'] = $data['title'];
 					$arr['picurl'] = $data['picurl'];
-					$arr['url'] = '/index.php?m='.$table.'&'.$id_name.'='.$id;
+					$arr['url'] = 'index.php?m='.$table.'&'.$id_name.'='.$id;
 					$arr['dateline']= TIMESTAMP;
 
 
@@ -506,7 +506,7 @@ class ajax extends app{
 
 					$arr['title'] = $data['title'];
 					$arr['picurl'] = $data['picurl'];
-					$arr['url'] = '/index.php?m='.$table.'&'.$id_name.'='.$id;
+					$arr['url'] = 'index.php?m='.$table.'&'.$id_name.'='.$id;
 					$arr['dateline']= TIMESTAMP;
 
 

@@ -12,7 +12,7 @@ class parse {
 					$goods['brand_name'] 	=	$goods['brand_id']	?	$_G['brand'][$goods['brand_id']]['name']	:	'';
 
 					$goods['h'] = 0;
-					//$goods['tags']= make_tags($goods['keywords'],'/index.php?a=all&tag=');
+					//$goods['tags']= make_tags($goods['keywords'],'index.php?a=all&tag=');
 					if($goods['images']){
 						$goods['images']	=	explode(',',$goods['images']);
 						$goods['images'] = array_filter($goods['images']);
@@ -86,9 +86,9 @@ class parse {
 					if( strpos($goods['url'],'itemid=') !== false ||  strpos($goods['url'],'item.htm') !== false) $goods['url']='';
 
 					if(!$goods['url']) {
-						$goods['url'] ='/index.php?a=go_pay&num_iid='.$goods['num_iid'];
+						$goods['url'] ='index.php?a=go_pay&num_iid='.$goods['num_iid'];
 					}
-					$goods['id_url'] = '/index.php?itemid='.$goods['num_iid'];
+					$goods['id_url'] = 'index.php?itemid='.$goods['num_iid'];
 
 					if(defined('IN_ADMIN') && $goods['bili'] >0 ){
 						$goods['yongjin'] = fix(($goods['yh_price'] - $goods['juan_price']) * $goods['bili'] / 100,2);
@@ -102,8 +102,8 @@ class parse {
 					if(!$goods[url]) $goods[url]="http://item.taobao.com/item.htm?id=".$goods[num_iid];
 					$goods['org_url'] = $goods['url'];
 
-					$goods['id_url'] = '/index.php?itemid='.$goods['num_iid'];
-					$goods['jump_url'] ='/index.php?a=go_pay&num_iid='.$goods[num_iid];
+					$goods['id_url'] = 'index.php?itemid='.$goods['num_iid'];
+					$goods['jump_url'] ='index.php?a=go_pay&num_iid='.$goods[num_iid];
 
 					//淘点金1.0  则跳到站内详情页
 					//淘点金2.0  则跳到爱淘宝
@@ -129,7 +129,7 @@ class parse {
 
 			public function shop($shop){
 				global $_G;
-				$shop[id_url]  ='/index.php?m=shop&id='.$shop[id];
+				$shop[id_url]  ='index.php?m=shop&id='.$shop[id];
 				//if(!$shop[url])		$shop[url]	 =  'https://shop'. $shop['sid'].'.taobao.com';
 
 				return $shop;
@@ -140,12 +140,12 @@ class parse {
 				if(!$article) return false;
 				if(!$article[url]){
 					$article['target'] = '';
-					$article[url]  = '/index.php?m=article&id='.$article[id];
+					$article[url]  = 'index.php?m=article&id='.$article[id];
 
 				}else{
 					$article['target'] = "target='_blank'";
 				}
-				$article[id_url]  = '/index.php?m=article&id='.$article[id];
+				$article[id_url]  = 'index.php?m=article&id='.$article[id];
 				$article[tag_name] = $_G[setting][article_tag][$article[tag]];
 
 				if(!$article['picurl'])		$article['picurl'] = 'http://img03.taobaocdn.com/imgextra/i3/1905489005/T2sui3XrVXXXXXXXXX_!!1905489005-1-dgshop.gif';
@@ -186,7 +186,7 @@ class parse {
 							$kw = make_tags($rs[tags]);
 							$str.='<div class="goods_tags"><span>标<br/>签</span>';
 							foreach($kw as $k1=>$v1){
-								$str.='<a href="/index.php?m=img&a=list&tag='.$k1.'" target="_blank">'.$v1.'</a>';
+								$str.='<a href="index.php?m=img&a=list&tag='.$k1.'" target="_blank">'.$v1.'</a>';
 							}
 							$str.='</div>';
 						}
@@ -199,10 +199,10 @@ class parse {
 			public function img($img){
 				global $_G;
 				if(!$img) return false;
-				$img[id_url]  = '/index.php?m=img&id='.$img[id];
+				$img[id_url]  = 'index.php?m=img&id='.$img[id];
 
 				if(!defined('IN_ADMIN')){
-					if(!$img[url]) $img[url]  = '/index.php?m=img&id='.$img[id];
+					if(!$img[url]) $img[url]  = 'index.php?m=img&id='.$img[id];
 						$today = TODAY;
 						if($img[dateline]>$today){
 							$img['new'] = 1;
@@ -230,11 +230,11 @@ class parse {
 				$theme[count] = getcount('danpin','dp_id='.$theme[id]);
 
 				$theme[url] = 'http://item.taobao.com/item.htm?id='.$theme[num_iid];
-				$theme['url'] ='/index.php?a=go_pay&num_iid='.$theme[num_iid];
+				$theme['url'] ='index.php?a=go_pay&num_iid='.$theme[num_iid];
 
 
 
-				$theme[id_url] = '/index.php?m=dapei&a=theme&id='.$theme[id];
+				$theme[id_url] = 'index.php?m=dapei&a=theme&id='.$theme[id];
 				if($_G[dapei][$fid]){
 					$dapei = $_G[dapei][$fid];
 				}else{
@@ -352,12 +352,12 @@ class parse {
 
 					// if($dp[num_iid]){
 					// 	$dp['url'] ='http://item.taobao.com/item.htm?id='.($dp[num_iid]);
-					// 	$dp['url'] ='/index.php?a=go_pay&num_iid='.$dp[num_iid];
+					// 	$dp['url'] ='index.php?a=go_pay&num_iid='.$dp[num_iid];
 					// }else{
 					// 	$dp['url'] = '';
 					// }
 			
-					 $dp['id_url'] ='/index.php?m=duihuan&id='.($dp[id]);
+					 $dp['id_url'] ='index.php?m=duihuan&id='.($dp[id]);
 					//$dp[shop] = $dp[shopid] && $_G[shop][$dp[shopid]] ? $_G[shop][$dp[shopid]] :array();
 
 					return $dp;
@@ -384,9 +384,9 @@ class parse {
 					global $_G;
 
 					$dp['url'] ='http://item.taobao.com/item.htm?id='.($dp[num_iid]);
-					$dp['url'] ='/index.php?a=go_pay&num_iid='.$dp[num_iid];
+					$dp['url'] ='index.php?a=go_pay&num_iid='.$dp[num_iid];
 
-					$dp['id_url'] ='/index.php?m=addfavorite';
+					$dp['id_url'] ='index.php?m=addfavorite';
 					if($_G[uid] && !defined('IN_ADMIN')){
 						$dp[is_apply] = getcount('addfavorite_apply'," addfavorite_id=".$dp[id] ." AND uid=".$_G[uid]);
 					}else{
@@ -426,7 +426,7 @@ class parse {
 			}
 
 			public function cate($dp){
-				$dp[url] = '/index.php?a=cate&id='.$dp[id];
+				$dp[url] = 'index.php?a=cate&id='.$dp[id];
 				$dp[count] = getcount('goods'," AND cate = ".$dp[id]);
 				return $dp;
 			}
@@ -458,14 +458,14 @@ class parse {
 					$dp['content'] =trim_html($dp[content],1);
 				}
 				$dp['cate_name'] = $_G[style_cate][$dp[cate]]['name'];
-				$dp['tags'] = make_tags($dp[keywords],'/index.php?m=style&a=list&tag=');
+				$dp['tags'] = make_tags($dp[keywords],'index.php?m=style&a=list&tag=');
 				if($dp[images]){
 					$dp[images] = explode(',',$dp[images]);
 				}else{
 					$dp[images] =array($dp['picurl']);
 				}
 
-				$dp[id_url] =$dp[url] = '/index.php?m=style&id='.$dp[id];
+				$dp[id_url] =$dp[url] = 'index.php?m=style&id='.$dp[id];
 				$check_text = array('待审核','已通过','未通过');
 				$dp[check_text] = $check_text[$dp[check]];
 
@@ -492,9 +492,9 @@ class parse {
 
 							if($goods && count($goods)>0){
 								foreach($goods as $k=>$v){
-									$v['id_url']  = '/index.php?itemid='.$v[num_iid];
+									$v['id_url']  = 'index.php?itemid='.$v[num_iid];
 									if(!$v['url']){
-										$v['url']  = '/index.php?a=go_pay&num_iid='.$v[num_iid];
+										$v['url']  = 'index.php?a=go_pay&num_iid='.$v[num_iid];
 									}
 									$style_goods[] = $v;
 								}
@@ -535,7 +535,7 @@ class parse {
 						$dp['picurl'] = 'http://img03.taobaocdn.com/imgextra/i3/1905489005/T2sui3XrVXXXXXXXXX_!!1905489005-1-dgshop.gif';
 						$dp[img] = 0;
 					}
-					$dp[url] = '/index.php?m=movie&id='.$dp[id];
+					$dp[url] = 'index.php?m=movie&id='.$dp[id];
 
 					//if(defined('IN_ADMIN'))$dp[user] = getuser($dp[uid],'uid');
 					$dp[flag_name] = $_G[setting][flag][$dp[flag]];
@@ -564,10 +564,10 @@ class parse {
 					$dp['content'] =trim_html($dp[content],1);
 				}
 				$dp['tag_name'] = $_G[setting][zj_cate][$dp[tag]];
-				$dp['tags'] = make_tags($dp[keywords],'/index.php?m=zj&a=list&tag=');
+				$dp['tags'] = make_tags($dp[keywords],'index.php?m=zj&a=list&tag=');
 
 
-				$dp[id_url] =$dp[url] = '/index.php?m=zj&id='.$dp[id];
+				$dp[id_url] =$dp[url] = 'index.php?m=zj&id='.$dp[id];
 				$check_text = array('待审核','已通过','未通过');
 				$dp[check_text] = $check_text[$dp[check]];
 
@@ -577,7 +577,7 @@ class parse {
 				} else {
 					$dp['new'] = 0;
 				}
-				$dp['user_url2'] = '/index.php?m=zj&a=list&u='.$dp['uid'];
+				$dp['user_url2'] = 'index.php?m=zj&a=list&u='.$dp['uid'];
 				if (!$dp['user_pic']) {
 					$dp['user_url2'].='&c=1';
 					$dp['user_pic'] = avatar($dp['username'], $dp['uid']);
@@ -605,11 +605,11 @@ class parse {
                                // $url = "http://item.taobao.com/item.htm?id=".$v[num_iid];
 
 							   if(CURACTION=='goods'){
-							 	 $url = '/index.php?a=go_pay&id=0&num_iid='.$v[num_iid];
+							 	 $url = 'index.php?a=go_pay&id=0&num_iid='.$v[num_iid];
 							   }else{
-								 $url = '/index.php?m=zj&a=goods&id='.$dp['id'].'&num_iid='.$v[num_iid];
+								 $url = 'index.php?m=zj&a=goods&id='.$dp['id'].'&num_iid='.$v[num_iid];
 							  }
-							   $url = '/index.php?a=go_pay&id=0&num_iid='.$v[num_iid];
+							   $url = 'index.php?a=go_pay&id=0&num_iid='.$v[num_iid];
                                $v[url]  =$url;
                             }
 							if($v[content]) $v[content]=trim_html($v[content],1);
@@ -638,7 +638,7 @@ class parse {
 					global $_G;
 					if($get_count !== false)$dp['comment_count'] = getcount('comment'," type_id = ".$dp[id]." AND type = 'movie' AND `check`=1 ");
 					$dp['tags']	=	make_tags($dp[keywords]);
-					$dp[url] = '/index.php?m=shishang&id='.$dp[id];
+					$dp[url] = 'index.php?m=shishang&id='.$dp[id];
 					$dp[flag_name] = $_G[setting][flag][$dp[flag]];
 					$today = TODAY;
 					if($dp[dateline]>$today){
@@ -675,7 +675,7 @@ class parse {
 					if(!$dp['picurl'])		{
 						$dp['picurl'] = 'http://img03.taobaocdn.com/imgextra/i3/1905489005/T2sui3XrVXXXXXXXXX_!!1905489005-1-dgshop.gif';
 					}
-					$dp[id_url] = '/index.php?m=youhui&id='.$dp[id];
+					$dp[id_url] = 'index.php?m=youhui&id='.$dp[id];
 					if($get_count !== false)$dp['comment_count'] = getcount('comment'," type_id = ".$dp[id]." AND type = 'youhui' AND `check`=1 ");
 					//if(defined('IN_ADMIN'))$dp[user] = getuser($dp[uid],'uid');
 					return $dp;
@@ -742,10 +742,10 @@ class parse {
 				}
 
 
-				$dp['tags'] = make_tags($dp[keywords],'/index.php?m=gift&a=list&tag=');
+				$dp['tags'] = make_tags($dp[keywords],'index.php?m=gift&a=list&tag=');
 				$dp[images] = explode(',',$dp[images]);
 
-				$dp[id_url] =$dp[url] = '/index.php?m=gift&id='.$dp[id];
+				$dp[id_url] =$dp[url] = 'index.php?m=gift&id='.$dp[id];
 				$check_text = array('待审核','已通过','未通过');
 				$dp[check_text] = $check_text[$dp[check]];
 
@@ -765,7 +765,7 @@ class parse {
 						foreach($dp[goods] as $k=>$v){
 							if($v['num_iid']){
                                // $url = "http://item.taobao.com/item.htm?id=".$v[num_iid];
-                               $url = '/index.php?a=go_pay&num_iid='.$v[num_iid];
+                               $url = 'index.php?a=go_pay&num_iid='.$v[num_iid];
                                $v[url]  =$url;
                             }
 							if($v[content]) $v[content]=trim_html($v[content],1);

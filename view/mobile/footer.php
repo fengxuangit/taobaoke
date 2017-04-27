@@ -26,7 +26,7 @@ copyright @2016 {$_G.host}
         	<p class="client-name">客户端购物更方便！</p>
         </div>
         <div class="open_now">
-        	<a href="/index.php?m=apps">
+        	<a href="index.php?m=apps">
             	<span class="open_btn">立刻下载</span>
             </a>
         </div>

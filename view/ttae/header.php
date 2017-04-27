@@ -18,25 +18,25 @@
 	            <div id="user_login_state">
                         
             <h1>您好，欢迎来到{$_G.setting.title}！
-            {if !$_G.uid}请  <a href="/index.php?m=member&a=login" style="color: #e32014;">登录</a>{/if}</h1>
+            {if !$_G.uid}请  <a href="index.php?m=member&a=login" style="color: #e32014;">登录</a>{/if}</h1>
             <ul>
             {if !$_G.uid}
            
                 <li>|</li>
-                <li><a href="/index.php?m=member&a=reg" style="color: #e32014;">免费注册</a></li> <li>|</li>
+                <li><a href="index.php?m=member&a=reg" style="color: #e32014;">免费注册</a></li> <li>|</li>
               
            
             {else}
            
-             <li><a href="/index.php?m=home">{$_G.username}</a></li>
+             <li><a href="index.php?m=home">{$_G.username}</a></li>
                 <li>|</li>
-                <li><a href="/index.php?m=home">会员中心</a></li>
+                <li><a href="index.php?m=home">会员中心</a></li>
                 <li>|</li>
-                <li><a href="/index.php?m=member&a=logout" class="a_logout">退出</a></li> <li>|</li>
+                <li><a href="index.php?m=member&a=logout" class="a_logout">退出</a></li> <li>|</li>
           
             {/if}
             
-<!--             <li> <a href="/index.php?m=apps">app下载</a></li> -->
+<!--             <li> <a href="index.php?m=apps">app下载</a></li> -->
               </ul>
            
                         </div>
@@ -47,8 +47,8 @@
                 <li>|</li>
                 <li class="headsharebox"><i class="indexiocns headmenuicon4"></i><a href="#" class="show_share_box">分享</a></li>
                 <li>|</li>
-                <li><i class="indexiocns headmenuicon5"></i><a href="/index.php?a=desktop">收藏到桌面</a></li>
-                <li><a href="/index.php?m=apply&a=info">商家报名</a></li>
+                <li><i class="indexiocns headmenuicon5"></i><a href="index.php?a=desktop">收藏到桌面</a></li>
+                <li><a href="index.php?m=apply&a=info">商家报名</a></li>
             </ul>
            <div class="guanzhuobjd">
                  <img class="wxword" style="display:block" src="{$IMGDIR}/wt.png">

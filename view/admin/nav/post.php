@@ -3,7 +3,7 @@
 
 <!--{if $_GET.id}-->
 <div class="table_top">
-<a href="/index.php?m=nav&id={$_GET.id}" target="_blank">前台查看</a>&nbsp;&nbsp;
+<a href="index.php?m=nav&id={$_GET.id}" target="_blank">前台查看</a>&nbsp;&nbsp;
  <a href="{$URL}m=goods&a=post&id={$_GET.id}">发布商品</a>
  </div>
 <!--{/if}-->
@@ -19,7 +19,7 @@
         <tr class="noborder" >
           <td class="td_l">导航链接</td>
           <td class="vtop rowform"><input name="postdb[url]" value="{$nav.url}" type="text" class="txt"></td>
-          <td class="vtop tips2" >站内地址以/index.php开头或是以?开头(如:/index.php?m=img&a=list ,?m=img&a=list)</td>
+          <td class="vtop tips2" >站内地址以index.php开头或是以?开头(如:index.php?m=img&a=list ,?m=img&a=list)</td>
         </tr>
 
         <tr class="noborder" >

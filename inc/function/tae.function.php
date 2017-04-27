@@ -361,7 +361,7 @@ function get_share($arr){
 
 	if($arr[num_iid]){
 
-		if(!preg_match("/^http:/is",$arr[url]))$arr[url] = $_G[siteurl].str_replace('/index.php','/index.php',$arr[url]);
+		if(!preg_match("/^http:/is",$arr[url]))$arr[url] = $_G[siteurl].str_replace('index.php','index.php',$arr[url]);
 		$url = $arr[url];
 		$content=$arr[ly] ? $arr[ly]:$arr[title];
 		$content.='-'.$arr[channel][name].'-'.$_G[setting][title];
@@ -377,7 +377,7 @@ function get_share($arr){
 	$picurl = urlencode_utf8($picurl);
 	$share[qzone] =$share[qqzone] = 'http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url='.$url.'&title='.$title.'&summary='.$content.'&pic='.$picurl."&site=";
 	$share[weibo] = 'http://service.weibo.com/share/share.php?url='.$url.'&title='.$title.'&pic='.$picurl;
-	$share[t] = 'http://share.v.t.qq.com/index.php?c=share&a=index&url='.$url.'&title='.$title.'&pic='.$picurl;
+	$share[t] = 'http://share.v.t.qq.comindex.php?c=share&a=index&url='.$url.'&title='.$title.'&pic='.$picurl;
 	$share[renren] = 'http://widget.renren.com/dialog/share?resourceUrl='.$url.'&title='.$title.'&pic='.$picurl.'&description='.$content;
 	$share[kaixin] = 'http://www.kaixin001.com/rest/records.php?url='.$url.'&content='.$content.'&pic='.$picurl.'&style=11&stime=&sig=';
 	$share[douban] = 'http://www.douban.com/share/service?bm=&image=&href='.$url.'name='.$title.'&text='.$content;
@@ -467,17 +467,17 @@ function send_email($touser,$type){
 
 		if($type == 'email_check'){
 			$title = "来自【".$_G[setting][title]."】的email绑定验证邮件";
-			$url .= "/index.php?m=member&a=email_check";
+			$url .= "index.php?m=member&a=email_check";
 			$key = 'email_check';
 			$content_title = "绑定验证";
 		}else if($type == 'reg'){
 			$title = "来自【".$_G[setting][title]."】的注册验证邮件";
-			$url .= "/index.php?m=member&a=email_check";
+			$url .= "index.php?m=member&a=email_check";
 			$key = 'email_check';
 			$content_title = "注册验证";
 		}else if($type == 'get_password'){
 			$title = "来自【".$_G[setting][title].'】重置密码邮件';
-			$url .= "/index.php?m=member&a=get_password";
+			$url .= "index.php?m=member&a=get_password";
 			$key = 'get_password';
 				$content_title = "重置密码验证";
 		}else{

@@ -270,7 +270,7 @@ class member extends app{
 					msg('抱歉,系统未开启淘宝登录组件','error','m=member&a=login');
 				}
 
-				$callbak_url=$_G[siteurl]."/index.php?m=member&a=taobao_login";
+				$callbak_url=$_G[siteurl]."index.php?m=member&a=taobao_login";
 
 				//Web对应PC端（淘宝logo）浏览器页面样式；Tmall对应天猫的浏览器页面样式；Wap对应无线端的浏览器页面样式。
 				$wiew = 'web';
@@ -347,7 +347,7 @@ class member extends app{
 			}else{
 				update_member(array('email_check'=>1),$_G[uid]);
 				unset($_SESSION['verify']);
-				msg('邮箱验证成功,您现在可以正常浏览站点','success','/index.php');
+				msg('邮箱验证成功,您现在可以正常浏览站点','success','index.php');
 			}
 		}else{
 			msg('验证失败,验证地址不对');

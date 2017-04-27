@@ -47,7 +47,7 @@
           <td class="td_l">sitemap关键字:</td>
           <td class="vtop rowform"><textarea rows="3"  name="postdb[sitemap_kw]"  cols="50" class="tarea">{$_G.setting.sitemap_kw}</textarea></td>
           <td class="vtop tips2" >在使用全程API方式时,sitemap可自动生成随机关键字.多个用英文,号格开,每次是随机5个,每个获取50条商品,并缓存一个小时,sitemap地址为
-          <a href="/index.php?m=sitemap" target="_blank" class="red">点击查看</a>,留空或0则不生成
+          <a href="index.php?m=sitemap" target="_blank" class="red">点击查看</a>,留空或0则不生成
           </td>
         </tr>
 {/if}
@@ -58,7 +58,7 @@
           <td class="vtop tips2">
           qq邮箱订阅, <a href="http://open.mail.qq.com/cgi-bin/loginpage?t=loginpage_dy"  class="red" target="_blank">查看申请地址</a>.如有开通,请埴官订阅的链接.
           如果未开通请留空
-          <p>站内订阅页面 <a href="{$_G.siteurl}/index.php?a=rss_task" class="red" target="_blank">{$_G.siteurl}/index.php?a=rss_task</a></p>
+          <p>站内订阅页面 <a href="{$_G.siteurl}index.php?a=rss_task" class="red" target="_blank">{$_G.siteurl}index.php?a=rss_task</a></p>
           </td>
         </tr>   
   <tr class="noborder">

@@ -105,7 +105,7 @@ class cache {
 									$tmp  = array();
 									foreach($all_channel as $k=>$v){
 										$v[org_url] = $v[url];
-										$v[url] = '/index.php?fid='.$v[fid];
+										$v[url] = 'index.php?fid='.$v[fid];
 										$tmp['k'.$k]	 = $v;
 									}
 									$cache_data  = $tmp;
@@ -120,7 +120,7 @@ class cache {
 
 											//$v[count] = getcount('goods'," AND fid = ".$v[fid]);
 											$v[org_url] = $v[url];
-											$v[url] = '/index.php?fid='.$v[fid];
+											$v[url] = 'index.php?fid='.$v[fid];
 											$channel[$k] = $v;
 										}
 									}
@@ -136,7 +136,7 @@ class cache {
 															//$vv[count] = getcount('goods'," AND fid = ".$vv[fid]);
 
 															$vv[org_url] = $vv[url];
-															$vv[url] = '/index.php?fid='.$vv[fid];
+															$vv[url] = 'index.php?fid='.$vv[fid];
 
 															$sub[$kk]  = $vv;	//二级栏目
 															$fid_in2 = array();
@@ -145,7 +145,7 @@ class cache {
 																		if($v3['fup'] == $kk){
 																			$v3[org_url] = $v3[url];
 
-																			$v3[url] = '/index.php?fid='.$v3[fid];
+																			$v3[url] = 'index.php?fid='.$v3[fid];
 																			//$v3[count] = getcount('goods'," AND fid = ".$v3[fid]);
 																			unset($tmps[$v3[fid]]);
 																			$sub[$kk]['sub'][$k3] = $v3;	//三级栏目

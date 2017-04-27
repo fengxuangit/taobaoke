@@ -32,7 +32,7 @@ abstract class appBase {
 
               //  $this->initRequest();
 
-                define("URL",'http://'.$_SERVER['HTTP_HOST'].'/');
+                define("URL",'http://'.$_SERVER['HTTP_HOST'] . dirname($_SERVER['REQUEST_URI']).'/');
                 if(!isset($_GET['a']) || !$_GET['a']){
                     if(method_exists($this,'main')){
                         $this->main();

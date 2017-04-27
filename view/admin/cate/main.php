@@ -27,7 +27,7 @@
       <tr class="hover" >
         <td class="td25"><a href="{$URL}m={$CM}&a=main&cate={$v.id}">{$v.id}</a>&nbsp;
 
-        <a href="/index.php?{if $CM=='goods'}a=cate&id={$v.id}{else}m={$CM}&a=list&cate={$v.id}{/if}" target="_blank" title="前台查看">
+        <a href="index.php?{if $CM=='goods'}a=cate&id={$v.id}{else}m={$CM}&a=list&cate={$v.id}{/if}" target="_blank" title="前台查看">
         <img src="{$IMGDIR}/open.gif" ></a>
           <input type="hidden" name="ids[{$v.id}]" value="{$v.id}"></td>
         <td class="td25"><input type="text" name="sort[{$v.id}]" value="{$v.sort}" class="w40"></td>
@@ -73,7 +73,7 @@
          <tbody>
         <tr class="hover" >
           <td class="td28"><a href="{$URL}m={$CM}&a=main&cate={$v1.id}">{$v1.id}</a>&nbsp;&nbsp;
-           <a href="/index.php?m={$CM}&id={$v1.id}" target="_blank" title="前台查看"><img src="{$IMGDIR}/open.gif" ></a>
+           <a href="index.php?m={$CM}&id={$v1.id}" target="_blank" title="前台查看"><img src="{$IMGDIR}/open.gif" ></a>
             <input type="hidden" name="ids[{$v1.id}]" value="{$v1.id}"></td>
           <td class="td25" >
           <div class="board">
@@ -128,7 +128,7 @@
         <!--{foreach from=$v1.sub item=a1}-->
         <tr class="hover" >
           <td class="td28"><a href="{$URL}m={$CM}&a=main&cate={$a1.id}">{$a1.id}</a>&nbsp;&nbsp;
-           <a href="/index.php?m={$CM}&id={$va.id}" target="_blank" title="前台查看"><img src="{$IMGDIR}/open.gif" ></a>
+           <a href="index.php?m={$CM}&id={$va.id}" target="_blank" title="前台查看"><img src="{$IMGDIR}/open.gif" ></a>
             <input type="hidden" name="ids[{$a1.id}]" value="{$a1.id}"></td>
           <td class="td25" >
           <div class="board"  style="margin-left: 30px;">

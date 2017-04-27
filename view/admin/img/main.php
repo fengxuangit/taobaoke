@@ -42,9 +42,9 @@
       <tr class="hover">
         <td class="td25"><input type="checkbox" name="del[{$v.id}]" value="1" class="_del" />
           <input type="hidden" name="ids[{$v.id}]" value="{$v.id}" /></td>
-               <td><a href="/index.php?m=img&id={$v.id}" target="_blank">{$v.id}</a></td>
+               <td><a href="index.php?m=img&id={$v.id}" target="_blank">{$v.id}</a></td>
         <td><input type="text" name="sort[{$v.id}]" value="{$v.sort}"  class="w40"/></td>
-        <td class="goods_title _hover_img"><a href="/index.php?m=img&id={$v.id}" target="_blank">{$v.title}</a>
+        <td class="goods_title _hover_img"><a href="index.php?m=img&id={$v.id}" target="_blank">{$v.title}</a>
         <a href="{$v.picurl}" target="_blank"><img src="{$v.picurl}"  /></a>
         </td>
 

@@ -212,19 +212,19 @@ class api_dataoke  {
 
     public function get_web(){
     	$this->type = 'web';
-        $this->url = 'http://api.dataoke.com/index.php?r=goodsLink/www&type=www_quan';
+        $this->url = 'http://api.dataoke.comindex.php?r=goodsLink/www&type=www_quan';
     	return   $this->get();
        
     }
 
 	public function get_android(){
-        $this->url = 'http://api.dataoke.com/index.php?r=goodsLink/android&type=android_quan';
+        $this->url = 'http://api.dataoke.comindex.php?r=goodsLink/android&type=android_quan';
 		$this->type = 'android';
 		return   $this->get();
 	}
 
 	public function get_ios(){
-          $this->url = 'http://api.dataoke.com/index.php?r=goodsLink/ios&type=ios_quan';
+          $this->url = 'http://api.dataoke.comindex.php?r=goodsLink/ios&type=ios_quan';
 		$this->type = 'ios';
 		return   $this->get();
     }
@@ -235,7 +235,7 @@ class api_dataoke  {
      */
 	public function get_all(){
 		$this->type = 'all';
-        $this->url = 'http://api.dataoke.com/index.php?r=Port/index&type=total';
+        $this->url = 'http://api.dataoke.comindex.php?r=Port/index&type=total';
         return   $this->get();
     }
 
@@ -245,7 +245,7 @@ class api_dataoke  {
      */
 	public function get_hot(){
 		$this->type = 'hot';
-        $this->url = 'http://api.dataoke.com/index.php?r=Port/index&type=paoliang';
+        $this->url = 'http://api.dataoke.comindex.php?r=Port/index&type=paoliang';
 		return   $this->get();
     }
 
@@ -255,7 +255,7 @@ class api_dataoke  {
      */
 	public function get_top(){
 		$this->type = 'top';
-        $this->url = 'http://api.dataoke.com/index.php?r=Port/index&type=top100';
+        $this->url = 'http://api.dataoke.comindex.php?r=Port/index&type=top100';
 		return   $this->get();
     }
 

@@ -138,7 +138,7 @@ $text ='<?xml version="1.0" encoding="utf-8"?>
 		if($_G['setting']['rewrite']){
 			$url= $_G[siteurl].rewrite_url($url);
 		}else{
-			$url= $_G[siteurl].'/index.php?'.($url);
+			$url= $_G[siteurl].'index.php?'.($url);
 			$url = str_replace('&','&amp;',$url);
 		}
 		

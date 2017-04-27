@@ -454,6 +454,7 @@ function D($arr,$page){
 		if($limit>100) $limit = 100;
 	}
 	if($page){
+
 					if($page[url]){
 						$url =  URL.preg_replace("/.*?\?/is",'',$page[url]);
 					}else{
@@ -474,6 +475,7 @@ function D($arr,$page){
 	$sql = "SELECT $field FROM ".DB::table($table)." $and $order LIMIT $limit";
 	$goods=DB::fetch_all($sql);
 
+    
 	if($goods){
 		foreach($goods as $k=>$v){
 			if(isset($arr['cut'])|| isset($arr['cutstr'])){
@@ -507,6 +509,7 @@ function D($arr,$page){
 		$ok = memory('set',$key,$result,$time);
 		if(isset($goods['aid'])) memory('set','goods_'.$goods['num_iid'],$result,$time);
 	}
+	
 	return $result;
 
 }

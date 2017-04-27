@@ -7,7 +7,7 @@
         <tr class="noborder" >
           <td class="td_l">标题:</td>
           <td class="vtop rowform"><input name="postdb[title]" value="{$article.title}" type="text" class="txt _keywords"></td>
-          <td class="vtop tips2" >必填 {if $_GET.id} <a href="/index.php?m=article&id={$article.id}" target="_blank">前台查看当前文章</a> {/if}</td>
+          <td class="vtop tips2" >必填 {if $_GET.id} <a href="index.php?m=article&id={$article.id}" target="_blank">前台查看当前文章</a> {/if}</td>
         </tr>
         
         <tr class="noborder" >

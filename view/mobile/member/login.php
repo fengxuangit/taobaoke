@@ -27,15 +27,15 @@
               <li><span class="mbloginw1">其他账号登录:</span></li>
                 <li>
                    {if $_G.setting.qq_appkey} 
-                   <a href="/index.php?m=member&a=qq_login" class="otlogin qq external"><i></i>QQ账号登录</a>
+                   <a href="index.php?m=member&a=qq_login" class="otlogin qq external"><i></i>QQ账号登录</a>
                    {/if}
                     
                      {if $_G.setting.weibo_appkey}
-                    <a href="/index.php?m=member&a=weibo_login" class="otlogin wb external" style="background-color: #E32014"><i></i>微博账号登录</a>
+                    <a href="index.php?m=member&a=weibo_login" class="otlogin wb external" style="background-color: #E32014"><i></i>微博账号登录</a>
                     {/if}
                   
                    {if $_G.setting.taobao_appkey}
-                   <a href="/index.php?m=member&a=taobao_login" class="otlogin tb external" style="background-color: #E32014"><i></i>淘宝账号登录</a>
+                   <a href="index.php?m=member&a=taobao_login" class="otlogin tb external" style="background-color: #E32014"><i></i>淘宝账号登录</a>
                    {/if}
 
 {/if}

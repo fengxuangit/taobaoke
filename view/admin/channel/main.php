@@ -27,7 +27,7 @@
      <tbody>
       <tr class="hover" >
         <td class="td25"><a href="{$URL}m=goods&a=main&fid={$v.fid}">{$v.fid}</a>&nbsp;
-        <a href="/index.php?&fid={$v.fid}" target="_blank" title="前台查看"><img src="{$IMGDIR}/open.gif" ></a>
+        <a href="index.php?&fid={$v.fid}" target="_blank" title="前台查看"><img src="{$IMGDIR}/open.gif" ></a>
           <input type="hidden" name="fid[{$v.fid}]" value="{$v.fid}"></td>
         <td class="td25"><input type="text" name="sort[{$v.fid}]" value="{$v.sort}" class="w40"></td>
         <td class="td28">
@@ -77,7 +77,7 @@
          <tbody>
         <tr class="hover" >
           <td class="td28"><a href="{$URL}m=goods&a=main&fid={$v1.fid}">{$v1.fid}</a>&nbsp;&nbsp;
-           <a href="/index.php?&fid={$v1.fid}" target="_blank" title="前台查看"><img src="{$IMGDIR}/open.gif" ></a>
+           <a href="index.php?&fid={$v1.fid}" target="_blank" title="前台查看"><img src="{$IMGDIR}/open.gif" ></a>
             <input type="hidden" name="fid[{$v1.fid}]" value="{$v1.fid}"></td>
           <td class="td25" >
           <div class="board">
@@ -135,7 +135,7 @@
         <!--{foreach from=$v1.sub item=a1}-->
         <tr class="hover" >
           <td class="td28"><a href="{$URL}m=goods&a=main&fid={$a1.fid}">{$a1.fid}</a>&nbsp;&nbsp;
-           <a href="/index.php?&fid={$va.fid}" target="_blank" title="前台查看"><img src="{$IMGDIR}/open.gif" ></a>
+           <a href="index.php?&fid={$va.fid}" target="_blank" title="前台查看"><img src="{$IMGDIR}/open.gif" ></a>
             <input type="hidden" name="fid[{$a1.fid}]" value="{$a1.fid}"></td>
           <td class="td25" >
           <div class="board"  style="margin-left: 30px;">

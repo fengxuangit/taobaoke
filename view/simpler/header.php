@@ -1,5 +1,5 @@
 {include file="../common/header.php"}
-<link rel="stylesheet" href="//at.alicdn.com/t/font_noeq7zjgb0ggb9.css">
+<link rel="stylesheet" href="assets/global/css/alicdn1.css">
 <link rel="stylesheet" type="text/css" href="{$CSSDIR}/materialize.css" media="all" />
 
 <link rel="stylesheet" type="text/css" href="assets/global/css/hover.css" media="all" />
@@ -12,7 +12,8 @@
 <script src="{$JSDIR}/materialize.js"></script>
 <style>
 .wp{
-    width:{$width}px;
+    /*width:{$width}px;*/
+    width: 1080px;
 }
 </style>
 
@@ -52,6 +53,7 @@
  <!-- <li ><a class="grey-text text-darken-3" data-activates='dropdown1' ><i class="iconfont icon-xiangxia right grey-text"></i>分类导航</a></li> -->
 
 {foreach from=$_G.nav item=v}
+    { $v.url }
     {if $v.type =="1"}
     <li class="hvr-float {$v.classname}"><a href="{$v.url}" class="grey-text text-darken-3" {if $v.target=="1"} target="_blank"{/if}>{$v.name}</a></li>
     {/if}

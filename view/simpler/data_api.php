@@ -11,7 +11,7 @@ class data_api {
 					global $_G;
 
 					$size = $_G['setting']['cate_page']  ? intval($_G['setting']['cate_page']):120;
-					$index = D(array('and'=>'','key'=>'index'),array('size'=>$size,'url'=>'/index.php?a=all'));
+					$index = D(array('and'=>'','key'=>'index'),array('size'=>$size,'url'=>'index.php?a=all'));
 					$today = TODAY;
 					$index['today_count'] = getcount('goods','dateline>'.$today);
 

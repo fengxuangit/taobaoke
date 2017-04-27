@@ -42,7 +42,7 @@
           <input type="hidden" name="ids[{$v.id}]" value="{$v.id}" />
            <input type="hidden" name="duihuan_id[{$v.id}]" value="{$v.goods.id}" />
           </td>
-        <td><a href="/index.php?m=duihuan&id={$v.id}" target="_blank" title="前台查看">{$v.id}</a></td>
+        <td><a href="index.php?m=duihuan&id={$v.id}" target="_blank" title="前台查看">{$v.id}</a></td>
         <td  style="width:400px;overflow:hidden;"><a href="{$URL}m=duihuan&a=apply&id={$v.duihuan_id}" title="{$v.goods.title}"  >{$v.goods.title}</a></td>
         <td><a href="{$URL}m=duihuan&a=apply&uid={$v.uid}">{$v.username}</a></td>
         <td><a href="#" target="_blank" class="_wangwang" data-nick="{$v.wangwang}"></a></td>

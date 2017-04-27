@@ -10,7 +10,7 @@
 
 
 <!--{if $_GET.fid}-->
-<li><a href="/index.php?m=channel&fid={$_GET.fid}" target="_blank">前台查看</a></li>
+<li><a href="index.php?m=channel&fid={$_GET.fid}" target="_blank">前台查看</a></li>
 <li  style="display:none"><a href="{$URL}m=channel&a=post&fid={$_GET.fid}">编辑栏目</a></li>
 <li  style="display:none"><a href="{$URL}m=goods&a=post&fid={$_GET.fid}">立即发布</a> </li>
 <li>&nbsp;&nbsp;</li>

@@ -2,7 +2,7 @@
 
 <!--{if $_GET.aid && $CURMODULE == 'goods'}-->
 <div class="table_top">
-<a href="/index.php?{if $_G.setting.link_type ==1}itemid={$goods.num_iid}{else}aid={$_GET.aid}{/if}" target="_blank">前台查看</a>&nbsp;&nbsp;
+<a href="index.php?{if $_G.setting.link_type ==1}itemid={$goods.num_iid}{else}aid={$_GET.aid}{/if}" target="_blank">前台查看</a>&nbsp;&nbsp;
 <a href="{$URL}m=channel&a=main&fid={$goods.fid}">查看本栏目商品</a>&nbsp;&nbsp;
 <a href="{$URL}m=channel&a=post&fid={$goods.fid}">编辑栏目信息</a>&nbsp;&nbsp;
 

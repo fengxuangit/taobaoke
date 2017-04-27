@@ -57,21 +57,21 @@ class nav extends app{
 						if(!$nav['url']){
 								$nav['url'] = '#';
 						}else if( $nav['url'][0] =="?"){
-								$nav['url'] = '/index.php'.$nav['url'];
+								$nav['url'] = 'index.php'.$nav['url'];
 						}
 						
 						/*else if(strpos($nav['url'],'http') !== false){
 						
 						}else if( $nav['url'][0] =="?"){
-								$nav['url'] = '/index.php'.$nav['url'];
+								$nav['url'] = 'index.php'.$nav['url'];
 						}else if( substr($nav['url'],0,2) == 'm=' ||  substr($nav['url'],0,2)=='a='){
-								$nav['url'] = '/index.php?'.$nav['url'];
+								$nav['url'] = 'index.php?'.$nav['url'];
 						}else if( $nav['url'][0] =="/" &&  strpos($nav['url'],'=') === false &&  strpos($nav['url'],'&') === false  &&  substr($nav['url'],-1) !== "/" ){
 								 $nav['url'] .= "/";
 						}else if(strpos($nav['url'],'?') === false && strpos($nav['url'],'=') !== false){
-								$nav['url'] = '/index.php?'.$nav['url'];						
+								$nav['url'] = 'index.php?'.$nav['url'];						
 						}else if(strpos($nav['url'],'?') === false && strpos($nav['url'],'/') === false && strpos($nav['url'],'=') === false){
-								$nav['url'] = '/index.php?'.$nav['url'];
+								$nav['url'] = 'index.php?'.$nav['url'];
 						}*/
 						
 						
@@ -150,7 +150,7 @@ class nav extends app{
 								if(!$arr['url']){
 									$arr['url'] = '#';
 								}else if( $arr['url'][0] =="?"){
-									$arr['url'] = '/index.php'.$arr['url'];
+									$arr['url'] = 'index.php'.$arr['url'];
 								}
 								
 								$arr['dateline'] = TIMESTAMP;

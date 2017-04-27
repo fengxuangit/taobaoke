@@ -1097,7 +1097,7 @@ function rewrite_check_file($detail){
 
 		  if(is_dir(ROOT_PATH.$detail[0])){
 			  if(in_array($detail[0],array('inc','view','top'))){
-				 // _header("Location:/index.php");
+				 // _header("Location:index.php");
 				 _404();
 			  }
 

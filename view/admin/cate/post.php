@@ -3,7 +3,7 @@
 
 <!--{if $_GET.id}--> 
 <div class="table_top">
-<a href="/index.php?m=cate&id={$_GET.id}" target="_blank">前台查看</a>&nbsp;&nbsp;
+<a href="index.php?m=cate&id={$_GET.id}" target="_blank">前台查看</a>&nbsp;&nbsp;
  <a href="{$URL}m=goods&a=post&id={$_GET.id}">发布商品</a> 
  </div>
 <!--{/if}--> 

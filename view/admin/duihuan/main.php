@@ -45,7 +45,7 @@
             &nbsp;
             <input type="hidden" name="ids[{$v.id}]" value="{$v.id}" />
             <a href="{$v.id_url}" target="_blank" title="新窗口打开"> <img src="{$IMGDIR}/open.gif" ></a></td>
-          <td><a href="/index.php?m=duihuan&a=apply&id={$v.id}" target="_blank">{$v.id}</a></td>
+          <td><a href="index.php?m=duihuan&a=apply&id={$v.id}" target="_blank">{$v.id}</a></td>
           <td class="_hover_img goods_title"><a href="{$v.id_url}" target="_blank">{$v.title}</a> <span class="red">({$v.count}人申请)</span>
            {if $v.picurl}<a href="{$v.picurl}" target="_blank"><img src="{$v.picurl}" alt="" /></a>{/if}
           </td>

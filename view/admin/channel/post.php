@@ -3,7 +3,7 @@
 
 <!--{if $_GET.fid}--> 
 <div class="table_top">
-<a href="/index.php?m=channel&fid={$_GET.fid}" target="_blank">前台查看</a>&nbsp;&nbsp;
+<a href="index.php?m=channel&fid={$_GET.fid}" target="_blank">前台查看</a>&nbsp;&nbsp;
  <a href="{$URL}m=goods&a=post&fid={$_GET.fid}">发布商品</a> 
  </div>
 <!--{/if}--> 
@@ -21,7 +21,7 @@
 <div class="upload_img" data-name="postdb[picurl]">
 <input name="postdb[picurl]" value="{$channel.picurl}" type="text" class="txt pic_upload" >
 {if $channel.picurl}
-<a href="/index.php?m=ajax&a=del_img&img_url={$channel.picurl}"  class="ajax_del" >删除</a>&nbsp;&nbsp;
+<a href="index.php?m=ajax&a=del_img&img_url={$channel.picurl}"  class="ajax_del" >删除</a>&nbsp;&nbsp;
 {/if}
 </div> 
 <a href="{$channel.picurl}" target="_blank" ><img src="{$channel.picurl}"  /></a>

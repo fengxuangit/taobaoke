@@ -57,7 +57,7 @@ class cate extends app{
 										if($v[fup] ==0) {
 											$v['count'] = getcount($this->table," AND cate = ".$v[id]);
 
-											$v[url] = '/index.php?m='.$v['type'].'&a=list&cid='.$v[id];
+											$v[url] = 'index.php?m='.$v['type'].'&a=list&cid='.$v[id];
 											$cate[$k] = $v;
 										}
 									}
@@ -73,7 +73,7 @@ class cate extends app{
 															$vv[count] = getcount($this->table," AND cate = ".$vv[id]);
 
 
-															$vv[url] =  '/index.php?m='.$v['type'].'&a=list&cid='.$vv[id];
+															$vv[url] =  'index.php?m='.$v['type'].'&a=list&cid='.$vv[id];
 
 															$sub[$kk]  = $vv;	//二级分类
 															$id_in2 = array();
@@ -82,7 +82,7 @@ class cate extends app{
 																		if($v3['fup'] == $kk){
 
 
-																			$v3[url] = '/index.php?m='.$v['type'].'&a=list&cid='.$v3[id];
+																			$v3[url] = 'index.php?m='.$v['type'].'&a=list&cid='.$v3[id];
 																			$v3[count] = getcount($this->table," AND cate = ".$v3[id]);
 																			unset($tmps[$v3[id]]);
 																			$sub[$kk]['sub'][$k3] = $v3;	//三级分类

@@ -29,7 +29,7 @@
           <td class="td_l">新浪微博appkey:</td>
           <td class="vtop rowform"><input class="txt" type="text" name="postdb[weibo_appkey]" value="{$_G.setting.weibo_appkey}" /></td>
           <td class="vtop tips2">新浪微博appkey,不填写则不开启微博登录,开启前请确保你已在新浪申请了新浪微博登录组件
-          <p>授权回调页：{$_G.siteurl}/index.php?m=member&a=weibo_login</p>
+          <p>授权回调页：{$_G.siteurl}index.php?m=member&a=weibo_login</p>
           </td>
         </tr>
 
@@ -38,7 +38,7 @@
           <td class="vtop rowform"><input class="txt" type="text" name="postdb[weibo_appsecret]" value="{$_G.setting.weibo_appsecret}" /></td>
           <td class="vtop tips2">新浪微博appsecret
           <a href="http://open.weibo.com/" class="red" target="_blank">点击申请微博登录组件</a>
-<p>取消授权回调页：{$_G.siteurl}/index.php?m=member&a=login</p>
+<p>取消授权回调页：{$_G.siteurl}index.php?m=member&a=login</p>
           </td>
         </tr>
 
