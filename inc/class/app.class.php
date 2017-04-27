@@ -42,8 +42,6 @@ class app{
 	}
 	 function show($tpl='',$dir=''){
 					global $_G,$assign;
-					var_dump($_G);
-					exit();
 					if($_G['is_show']) return ;
 					$_G['is_show'] = true;
 

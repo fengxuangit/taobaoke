@@ -17,7 +17,8 @@ class application {
 						exit;
 					}
 
-					if(!defined('URL'))define('URL','/'.CURSCRIPT.'.php?');
+// 					if(!defined('URL'))define('URL','/'.CURSCRIPT.'.php?');
+					if(!defined('URL'))define('URL',''.CURSCRIPT.'.php?');
 					header('Content-Type: text/html; charset='.CHARSET);
 					if(CURSCRIPT == 'index'){
 						if(isset($_SERVER['QUERY_STRING']) || (isset($_SERVER['REDIRECT_URL']) &&  $_SERVER['REDIRECT_URL'] =='index.html'  )){
