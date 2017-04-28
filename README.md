@@ -16,14 +16,7 @@
 	8.	集成百川速鱼短信功能,4分钱1条(详情http://baichuan.taobao.com/portal/detail.php?name=suyusms)
 	9.	提供免费商品批量采集插件(更多站点采集升级中)
 
-#### 
-   相关下载
 
-    淘客导购APP下载 	http://www.818zhekou.com/m-apps.html
-	程序演示 			http://ttae.wx.jaeapp.com/
-	程序下载 			http://www.uz-system.com/fid-4.html
-	安装教程 			http://www.uz-system.com/fid-2.html
-	公司网址 			http://www.hbkfz.cn/
 
 #### 
 	什么是百川
@@ -32,6 +25,3 @@
 	快速搭建App和提供卓越用户体验，开拓广告、商品、生活服务等无线新商业,提供免费云服务器及数据库等
 
 
-> 提供各种淘客网站订制,功能模板开发,APP定制,导购APP出售
-> 在线客服QQ 85914984,2076814361
-> 优淘TAE系统qq(1)群 83149887
